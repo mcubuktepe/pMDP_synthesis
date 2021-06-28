@@ -16,4 +16,6 @@ Specifically, we tested the code with Gurobi 9.1.2, and Stormpy with commit id c
 
 ## Reproducibility Instructions
 
-We provide the command in order to reproduce the results in the paper. Note that the directory 
+We provide the command in order to reproduce the results in the paper. Note that the directory expected_results/ contains the results for different models using different approaches. The first line of each file also gives the command for running the code.
+
+For example, in the file "expected_results/pMC/brp/brp_16_2_pm_delta_2_0_gamma_1_5_affine_0_1", the command "python3 parameter_synthesis.py load-problem prism/brp/brp_16_2.pm prism/brp/brp.prctl set-threshold 0.1 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below affine"  runs the SCP approach on the benchmark model "brp_16_2.pm" with specification "brp.prctl" and threshold 0.1.
