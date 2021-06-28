@@ -9,7 +9,7 @@ We have implemented convex-optimization-based methods for convex optimization us
 
 This manual has been tested on a clean Ubuntu 20.04 LTS installation.
 
-- The packages has been tested on Python 3.8 with numpy, [gurobipy](https://www.gurobi.com/downloads/gurobi-software/), [stormpy](https://moves-rwth.github.io/stormpy/) [prophesy](https://github.com/mcubuktepe/prophesy) installed.
+- The packages has been tested on Python 3.8 with numpy, [gurobipy](https://www.gurobi.com/downloads/gurobi-software/), [stormpy](https://moves-rwth.github.io/stormpy/), and [prophesy](https://github.com/mcubuktepe/prophesy) installed.
 
 Specifically, we tested the code with Gurobi 9.1.2, and Stormpy with commit id commit 0f9aa3af2de7540eb051fcfcab7a5eac1bef495a.
 
