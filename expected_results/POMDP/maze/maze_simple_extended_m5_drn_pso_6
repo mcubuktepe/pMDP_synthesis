@@ -1,0 +1,700 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp$ python3 parameter_synthesis.py load-problem maze_simple_extended_m5.drn cost.pctl set-threshold 6 find-feasible-instantiation --qcqp-mc full --qcqp-incremental below pso
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+maze_simple_extended_m5.drn
+cost.pctl
+set-threshold
+6
+find-feasible-instantiation
+--qcqp-mc
+full
+--qcqp-incremental
+below
+pso
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 590
+Parsing R=? [F "goal"]
+Parse formula R=? [F "goal"] without a program.
+Call stormpy for constraints
+Build model
+ WARN (DirectEncodingParser.cpp:120): No. of actions has to be declared. We may continue now, but future versions might not support this.
+Built a model with 1303 states and 2658 transitions
+Bisimulation yields model with 1303 states, 1303 actions and 2658 transitions
+Stormpy finished collecting constraints
+Push [1]
+Call Z3 cli tool with timeout 10.0
+SMT result:	unsat
+Parse formula R=? [F "goal"] without a program.
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 32.355757433078054 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 28.82560655275076 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 26.361107795956517 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 23.453313890562885 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 21.876876487425097 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 20.30571781892445 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 18.72360024868473 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 17.341146368361752 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 16.888526711947826 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 16.44388112467309 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 16.28037228408881 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 16.07365872440544 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 15.848436400101301 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 15.705316221906006 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 15.554954881382665 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 15.455073192200373 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 15.320716843936518 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 15.238517380541564 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 15.137858089022453 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 15.056892872582914 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 15.00392768482241 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.960243883351291 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.931345725503016 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.905241524856075 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.88062209990178 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.862614888599685 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.841212451532703 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.816991339608474 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.802872348291057 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.777982557022167 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.76169675507952 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.750702352372068 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.73929434429181 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.728703639081052 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.715294362093271 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.706939138483168 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.696846592022457 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.688021205540881 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.682788485844009 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.674422119235732 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.66889968443252 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.662984299752468 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.65840946355025 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.653889777146528 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.650196924483254 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.646125239198417 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.642120651469988 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.637838304923465 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.634851518290917 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.63163102680977 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.627713049389168 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.625753370961775 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.623837898608333 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.620748816419214 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.618361279324297 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.617168372076193 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.61568484623675 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.614476455503844 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.61295855776578 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.611657884044456 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.611007804651063 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.610088696189589 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.609156077237243 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.608110245184411 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.607467959471444 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.607106979619003 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60631225552504 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.605675589281176 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60523850691778 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60487925600544 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.604431498684457 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.604194396413567 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.603886144114979 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.603449488655162 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60318448812145 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.602989520905005 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60275919474341 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.602555608323161 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.602430012523866 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.602258921868883 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60213326907666 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60203477579789 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.601898978976077 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.601745555865387 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60166791001138 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60155695925085 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.601464853160731 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.601394669559886 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60133478969052 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.601236777360015 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.601185664810545 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.601116436256074 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.601070703814555 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.601019767441379 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600978233488114 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60093919862771 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600890391823455 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600863743421868 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60082647655298 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600802002443007 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600773386823375 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600748899188007 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600733867042242 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600715295715432 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600699899495245 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600680286954585 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600670480743428 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600658665253057 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600649024055597 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600634713750377 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600622016644863 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600615668116896 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600608781569079 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600600402716951 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60059218543531 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600586104954598 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60058235177342 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600575967464671 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600571562479043 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600568450527502 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600563898973089 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60056035489411 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600556420914 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600554453926312 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600551483074572 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60054911231988 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600546558880128 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60054456674666 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60054313099992 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600541308172023 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600539785238906 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600538688636567 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600537276823673 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600536013013498 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600535078028173 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600534064479183 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600533020961679 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600532438274577 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600531325301413 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600530488781308 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600530070521355 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600529467282351 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600528906326476 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600528515856508 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60052805122338 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600527586624843 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600527320917768 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60052686622096 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600526529471033 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600526095339387 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.60052586511909 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600525590351413 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600525383587183 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600525110453304 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600524952721104 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600524737996071 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600524590749794 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600524474903738 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600524306187943 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600524162497331 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600524039911587 with 6
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.600523973813933 with 6
+Time out has elapsed after 1200 seconds:
+Traceback (most recent call last):
+  File "parameter_synthesis.py", line 733, in <module>
+    state = parameter_synthesis.main(standalone_mode=False)[0]
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1699, in invoke
+    rv.append(sub_ctx.command.invoke(sub_ctx))
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "parameter_synthesis.py", line 510, in find_feasible_instantiation
+    raise ValueError("Result does not match threshold")
+ValueError: Result does not match threshold

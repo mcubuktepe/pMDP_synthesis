@@ -1,0 +1,259 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp$ python3 parameter_synthesis.py load-problem pomdp_fsc_new_/network/network2K-20_T-8_extended-simple_full.drn pomdp_fsc_new_/network/performance.pctl  set-threshold 5 find-feasible-instantiation --qcqp-mc full --qcqp-incremental below noncvx
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+pomdp_fsc_new_/network/network2K-20_T-8_extended-simple_full.drn
+pomdp_fsc_new_/network/performance.pctl
+set-threshold
+5
+find-feasible-instantiation
+--qcqp-mc
+full
+--qcqp-incremental
+below
+noncvx
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 596
+Parsing R{"dropped_packets"}=? [F "goal"]
+Parse formula R=? [F "goal"] without a program.
+Build model
+ WARN (DirectEncodingParser.cpp:120): No. of actions has to be declared. We may continue now, but future versions might not support this.
+Built a model with 5040 states and 13327 transitions
+Bisimulation yields model with 5040 states, 5040 actions and 13327 transitions
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Parameter OutputFlag unchanged
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+   Value: 1  Min: 0  Max: 1  Default: 1
+Changed value of parameter BarHomogeneous to 1
+Changed value of parameter BarHomogeneous to 1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+Changed value of parameter Method to 2
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Crossover to 0
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter CrossoverBasis to 1
+Changed value of parameter CrossoverBasis to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Changed value of parameter NonConvex to 2
+Changed value of parameter NonConvex to 2
+   Prev: -1  Min: -1  Max: 2  Default: -1
+   Prev: -1  Min: -1  Max: 2  Default: -1
+Changed value of parameter TimeLimit to 1200.0
+Changed value of parameter TimeLimit to 1200.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Solving...
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 29064 rows, 3875 columns and 30370 nonzeros
+Optimize a model with 29064 rows, 3875 columns and 30370 nonzeros
+Model fingerprint: 0xd0d3fd7a
+Model fingerprint: 0xd0d3fd7a
+Model has 1340 quadratic constraints
+Model has 1340 quadratic constraints
+Coefficient statistics:
+Coefficient statistics:
+  Matrix range     [2e-04, 1e+00]
+  Matrix range     [2e-04, 1e+00]
+  QMatrix range    [2e-04, 1e+00]
+  QMatrix range    [2e-04, 1e+00]
+  QLMatrix range   [5e-03, 2e+00]
+  QLMatrix range   [5e-03, 2e+00]
+  Objective range  [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e-05, 1e+00]
+  Bounds range     [1e-05, 1e+00]
+  RHS range        [1e-06, 5e+00]
+  RHS range        [1e-06, 5e+00]
+  QRHS range       [5e-02, 8e-01]
+  QRHS range       [5e-02, 8e-01]
+Presolve removed 28769 rows and 1682 columns
+Presolve removed 28769 rows and 1682 columns
+
+
+Continuous model is non-convex -- solving as a MIP.
+Continuous model is non-convex -- solving as a MIP.
+
+
+Presolve removed 28770 rows and 1683 columns
+Presolve removed 28770 rows and 1683 columns
+Presolve time: 0.06s
+Presolve time: 0.06s
+Presolved: 17576 rows, 9074 columns, 58895 nonzeros
+Presolved: 17576 rows, 9074 columns, 58895 nonzeros
+Presolved model has 6885 bilinear constraint(s)
+Presolved model has 6885 bilinear constraint(s)
+Variable types: 9074 continuous, 0 integer (0 binary)
+Variable types: 9074 continuous, 0 integer (0 binary)
+Root barrier log...
+Root barrier log...
+
+
+Ordering time: 0.01s
+Ordering time: 0.01s
+
+
+Barrier statistics:
+Barrier statistics:
+ Dense cols : 12
+ Dense cols : 12
+ AA' NZ     : 1.086e+05
+ AA' NZ     : 1.086e+05
+ Factor NZ  : 1.926e+05 (roughly 6 MBytes of memory)
+ Factor NZ  : 1.926e+05 (roughly 6 MBytes of memory)
+ Factor Ops : 1.012e+07 (less than 1 second per iteration)
+ Factor Ops : 1.012e+07 (less than 1 second per iteration)
+ Threads    : 1
+ Threads    : 1
+
+
+                  Objective                Residual
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   0.00000000e+00 -5.17334448e+22  4.00e+10 0.00e+00  9.76e+08     0s
+   0   0.00000000e+00 -5.17334448e+22  4.00e+10 0.00e+00  9.76e+08     0s
+   1   0.00000000e+00 -5.17334448e+22  4.00e+10 0.00e+00  9.76e+08     0s
+   1   0.00000000e+00 -5.17334448e+22  4.00e+10 0.00e+00  9.76e+08     0s
+   2   0.00000000e+00 -5.17334448e+22  4.00e+10 0.00e+00  9.76e+08     0s
+   2   0.00000000e+00 -5.17334448e+22  4.00e+10 0.00e+00  9.76e+08     0s
+
+
+Barrier performed 2 iterations in 0.34 seconds
+Barrier performed 2 iterations in 0.34 seconds
+Numerical trouble encountered
+Numerical trouble encountered
+
+
+Warning: loading a model with small (< 1e-13) coefficients, ignored
+Warning: loading a model with small (< 1e-13) coefficients, ignored
+
+
+Root relaxation: objective 0.000000e+00, 1733 iterations, 0.24 seconds
+Root relaxation: objective 0.000000e+00, 1733 iterations, 0.24 seconds
+
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+
+     0     0    0.00000    0 1940          -    0.00000      -     -    0s
+     0     0    0.00000    0 1940          -    0.00000      -     -    0s
+     0     0    0.00000    0 1911          -    0.00000      -     -    0s
+     0     0    0.00000    0 1911          -    0.00000      -     -    0s
+     0     0    0.00000    0 1900          -    0.00000      -     -    0s
+     0     0    0.00000    0 1900          -    0.00000      -     -    0s
+     0     0    0.00000    0 1900          -    0.00000      -     -    0s
+     0     0    0.00000    0 1900          -    0.00000      -     -    0s
+     0     0    0.00000    0 1900          -    0.00000      -     -    1s
+     0     0    0.00000    0 1900          -    0.00000      -     -    1s
+     0     2    0.00000    0 1901          -    0.00000      -     -    7s
+     0     2    0.00000    0 1901          -    0.00000      -     -    7s
+   293   655    0.00000   25 1925          -    0.00000      -   9.4   10s
+   293   655    0.00000   25 1925          -    0.00000      -   9.4   10s
+  1582  1990    0.00000  109 1939          -    0.00000      -   3.4   15s
+  1582  1990    0.00000  109 1939          -    0.00000      -   3.4   15s
+  2983  3423    0.00000  207 1552          -    0.00000      -   3.7   21s
+  2983  3423    0.00000  207 1552          -    0.00000      -   3.7   21s
+  3953  4312    0.00000  289 1562          -    0.00000      -   4.2   25s
+  3953  4312    0.00000  289 1562          -    0.00000      -   4.2   25s
+  4711  4911    0.00000  327 1572          -    0.00000      -   6.8   30s
+  4711  4911    0.00000  327 1572          -    0.00000      -   6.8   30s
+  5984  6140    0.00000  359 1567          -    0.00000      -  10.3   37s
+  5984  6140    0.00000  359 1567          -    0.00000      -  10.3   37s
+  6510  6141    0.00000  349    0          -    0.00000      -  11.0   53s
+  6510  6141    0.00000  349    0          -    0.00000      -  11.0   53s
+  6512  6142    0.00000  305    0          -    0.00000      -  11.0   58s
+  6512  6142    0.00000  305    0          -    0.00000      -  11.0   58s
+  6516  6145    0.00000  249    0          -    0.00000      -  11.0   60s
+  6516  6145    0.00000  249    0          -    0.00000      -  11.0   60s
+  6518  6146    0.00000  325    0          -    0.00000      -  11.0   72s
+  6518  6146    0.00000  325    0          -    0.00000      -  11.0   72s
+  6761  6499    0.00000   35 1756          -    0.00000      -  11.0   75s
+  6761  6499    0.00000   35 1756          -    0.00000      -  11.0   75s
+  7252  6995    0.00000   82 1754          -    0.00000      -  12.5   84s
+  7252  6995    0.00000   82 1754          -    0.00000      -  12.5   84s
+  7610  7632    0.00000  120 1712          -    0.00000      -  13.4   88s
+  7610  7632    0.00000  120 1712          -    0.00000      -  13.4   88s
+  8367  7976    0.00000  130 1691          -    0.00000      -  12.6  125s
+  8367  7976    0.00000  130 1691          -    0.00000      -  12.6  125s
+  8963  8768    0.00000  133 1660          -    0.00000      -  12.9  151s
+  8963  8768    0.00000  133 1660          -    0.00000      -  12.9  151s
+  9954  9713    0.00000  142 1683          -    0.00000      -  13.5  195s
+  9954  9713    0.00000  142 1683          -    0.00000      -  13.5  195s
+ 11229 10845    0.00000  147 1627          -    0.00000      -  13.1  217s
+ 11229 10845    0.00000  147 1627          -    0.00000      -  13.1  217s
+ 12786 11942    0.00000  157 1647          -    0.00000      -  14.4  281s
+ 12786 11942    0.00000  157 1647          -    0.00000      -  14.4  281s
+ 14404 12932    0.00000  160 1618          -    0.00000      -  16.2  396s
+ 14404 12932    0.00000  160 1618          -    0.00000      -  16.2  396s
+ 15943 14770    0.00000  288 1487          -    0.00000      -  20.3  410s
+ 15943 14770    0.00000  288 1487          -    0.00000      -  20.3  410s
+ 18328 16202    0.00000  367 1326          -    0.00000      -  22.5  433s
+ 18328 16202    0.00000  367 1326          -    0.00000      -  22.5  433s
+ 20579 17042    0.00000  398 1341          -    0.00000      -  23.0  565s
+ 20579 17042    0.00000  398 1341          -    0.00000      -  23.0  565s
+ 22256 17712    0.00000  478 1309          -    0.00000      -  24.4  593s
+ 22256 17712    0.00000  478 1309          -    0.00000      -  24.4  593s
+ 23593 18883    0.00000  496 1280          -    0.00000      -  27.7  640s
+ 23593 18883    0.00000  496 1280          -    0.00000      -  27.7  640s
+ 25217 19866    0.00000  516 1277          -    0.00000      -  32.1  677s
+ 25217 19866    0.00000  516 1277          -    0.00000      -  32.1  677s
+ 26817 20951    0.00000  527 1297          -    0.00000      -  34.4  725s
+ 26817 20951    0.00000  527 1297          -    0.00000      -  34.4  725s
+ 28062 22653    0.00000  547 1297          -    0.00000      -  40.3  895s
+ 28062 22653    0.00000  547 1297          -    0.00000      -  40.3  895s
+ 29800 23886    0.00000  569 1294          -    0.00000      -  44.7  966s
+ 29800 23886    0.00000  569 1294          -    0.00000      -  44.7  966s
+ 31051 25642    0.00000  582 1379          -    0.00000      -  47.8 1051s
+ 31051 25642    0.00000  582 1379          -    0.00000      -  47.8 1051s
+ 32885 27670    0.00000  594 1327          -    0.00000      -  50.8 1142s
+ 32885 27670    0.00000  594 1327          -    0.00000      -  50.8 1142s
+ 34959 29561    0.00000  642 1343          -    0.00000      -  51.6 1200s
+ 34959 29561    0.00000  642 1343          -    0.00000      -  51.6 1200s
+
+
+Cutting planes:
+Cutting planes:
+  RLT: 574
+  RLT: 574
+
+
+Explored 36868 nodes (1907005 simplex iterations) in 1200.03 seconds
+Explored 36868 nodes (1907005 simplex iterations) in 1200.03 seconds
+Thread count was 16 (of 16 available processors)
+Thread count was 16 (of 16 available processors)
+
+
+Solution count 0
+Solution count 0
+
+
+Time limit reached
+Time limit reached
+Best objective -, best bound 0.000000000000e+00, gap -
+Best objective -, best bound 0.000000000000e+00, gap -
+Unknown (code: 9)
+Solver time :1200.0450384616852
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

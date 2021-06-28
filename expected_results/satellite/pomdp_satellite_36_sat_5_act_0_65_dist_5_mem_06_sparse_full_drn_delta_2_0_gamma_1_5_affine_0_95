@@ -1,0 +1,287 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/nmt$ python3 parameter_synthesis.py load-problem pomdp_satellite_36_sat_5_act_0_65_dist_5_mem_06_sparse_full.drn satellite_props.pctl set-threshold 0.95 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above affine 
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+pomdp_satellite_36_sat_5_act_0_65_dist_5_mem_06_sparse_full.drn
+satellite_props.pctl
+set-threshold
+0.95
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+above
+affine
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 2555
+Parsing P=? [F "goal"]
+Parse formula P=? [F "goal"] without a program.
+Build model
+Built a model with 31325 states and 156924 transitions
+Bisimulation yields model with 31325 states, 31325 actions and 156924 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Solving...
+Gurobi reports: solved
+Solver time :1.6439287662506104
+Found better value
+Init prob: 0.002039474154776344
+Best found: 0.002039474154776344
+Trust region: 4.0
+Gamma: 1.5
+Total time: 18.115200996398926
+Solver time: 1.9445576667785645
+Encoding time: 16.17064332962036
+Max vio : 1.0813106519841171
+p =  0.829743596107229
+Solving...
+Gurobi reports: solved
+Solver time :2.168318748474121
+Found better value
+Init prob: 0.041058931856069236
+Best found: 0.041058931856069236
+Trust region: 5.5
+Gamma: 1.5
+Total time: 27.97940754890442
+Solver time: 4.1128764152526855
+Encoding time: 23.866531133651733
+Max vio : 0.9418421033808946
+p =  0.008157896619105376
+Solving...
+Gurobi reports: solved
+Solver time :2.3732171058654785
+Found better value
+Init prob: 0.17006405403721037
+Best found: 0.17006405403721037
+Trust region: 7.75
+Gamma: 1.5
+Total time: 37.99551868438721
+Solver time: 6.486093521118164
+Encoding time: 31.509425163269043
+Max vio : 0.7241758747916192
+p =  0.2258241252083808
+Solving...
+Gurobi reports: solved
+Solver time :4.338375568389893
+Found better value
+Init prob: 0.46984220846596453
+Best found: 0.46984220846596453
+Trust region: 10
+Gamma: 1.5
+Total time: 49.94666361808777
+Solver time: 10.824469089508057
+Encoding time: 39.12219452857971
+Max vio : 0.218046976690358
+p =  0.7319530233097231
+Solving...
+Gurobi reports: solved
+Solver time :4.357095956802368
+Found better value
+Init prob: 0.5727288584941798
+Best found: 0.5727288584941798
+Trust region: 10
+Gamma: 1.5
+Total time: 61.99146771430969
+Solver time: 15.181565046310425
+Encoding time: 46.80990266799927
+Max vio : 4.800741928763923e-13
+p =  0.9638244207990504
+Solving...
+Gurobi reports: solved
+Solver time :4.779900074005127
+Found better value
+Init prob: 0.7760054368164918
+Best found: 0.7760054368164918
+Trust region: 10
+Gamma: 1.5
+Total time: 74.40361022949219
+Solver time: 19.96146512031555
+Encoding time: 54.442145109176636
+Max vio : 0.0411846277034533
+p =  0.9088153722966043
+Solving...
+Gurobi reports: solved
+Solver time :3.946476697921753
+Init prob: 0.7517243593184383
+Best found: 0.7760054368164918
+Trust region: 7.0
+Gamma: 1.5
+Total time: 86.04514765739441
+Solver time: 23.907941818237305
+Encoding time: 62.137205839157104
+Max vio : 2.9013398616206074e-12
+p =  0.9672794895889715
+Solving...
+Gurobi reports: solved
+Solver time :3.9992198944091797
+Init prob: 0.7463706997645279
+Best found: 0.7760054368164918
+Trust region: 5.0
+Gamma: 1.5
+Total time: 97.6793565750122
+Solver time: 27.907161712646484
+Encoding time: 69.77219486236572
+Max vio : 7.0698097749690385e-12
+p =  0.9630544219252984
+Solving...
+Gurobi reports: solved
+Solver time :3.7166740894317627
+Init prob: 0.7396361555293152
+Best found: 0.7760054368164918
+Trust region: 3.6666666666666665
+Gamma: 1.5
+Total time: 109.01772451400757
+Solver time: 31.623835802078247
+Encoding time: 77.39388871192932
+Max vio : 8.95481999018503e-14
+p =  0.9570610333551972
+Solving...
+Gurobi reports: solved
+Solver time :4.411076307296753
+Init prob: 0.7380846643010033
+Best found: 0.7760054368164918
+Trust region: 2.7777777777777777
+Gamma: 1.5
+Total time: 121.1270649433136
+Solver time: 36.034912109375
+Encoding time: 85.0921528339386
+Max vio : 0.0003376894114573857
+p =  0.9496623105887126
+Solving...
+Gurobi reports: solved
+Solver time :3.909252405166626
+Init prob: 0.7658433535176563
+Best found: 0.7760054368164918
+Trust region: 2.185185185185185
+Gamma: 1.5
+Total time: 132.6523735523224
+Solver time: 39.944164514541626
+Encoding time: 92.70820903778076
+Max vio : 0.013585166342950414
+p =  0.936414833657149
+Solving...
+Gurobi reports: solved
+Solver time :3.75972056388855
+Found better value
+Init prob: 0.7978058436301925
+Best found: 0.7978058436301925
+Trust region: 2.7777777777777777
+Gamma: 1.5
+Total time: 144.0944700241089
+Solver time: 43.703885078430176
+Encoding time: 100.39058494567871
+Max vio : 0.028945536313139637
+p =  0.9210544636870573
+Solving...
+Gurobi reports: solved
+Solver time :4.21861457824707
+Found better value
+Init prob: 0.902791865101274
+Best found: 0.902791865101274
+Trust region: 3.6666666666666665
+Gamma: 1.5
+Total time: 155.93629479408264
+Solver time: 47.922499656677246
+Encoding time: 108.0137951374054
+Max vio : 0.02328425354914227
+p =  0.9267157464508875
+Solving...
+Gurobi reports: solved
+Solver time :4.179994583129883
+Init prob: 0.9017582768252463
+Best found: 0.902791865101274
+Trust region: 2.7777777777777777
+Gamma: 1.5
+Total time: 167.737548828125
+Solver time: 52.10249423980713
+Encoding time: 115.63505458831787
+Max vio : 0.017942781946346298
+p =  0.9499999999982134
+Solving...
+Gurobi reports: solved
+Solver time :4.01885724067688
+Found better value
+Init prob: 0.9035961217732484
+Best found: 0.9035961217732484
+Trust region: 3.6666666666666665
+Gamma: 1.5
+Total time: 179.41690111160278
+Solver time: 56.12135148048401
+Encoding time: 123.29554963111877
+Max vio : 0.025145525671816292
+p =  0.9499999999973717
+Solving...
+Gurobi reports: solved
+Solver time :4.9321582317352295
+Found better value
+Init prob: 0.9130525486402306
+Best found: 0.9130525486402306
+Trust region: 5.0
+Gamma: 1.5
+Total time: 191.96216821670532
+Solver time: 61.05350971221924
+Encoding time: 130.90865850448608
+Max vio : 0.003499771956128207
+p =  0.9465002280442495
+Solving...
+Gurobi reports: solved
+Solver time :4.058957576751709
+Found better value
+Init prob: 0.918641666576592
+Best found: 0.918641666576592
+Trust region: 7.0
+Gamma: 1.5
+Total time: 203.7006380558014
+Solver time: 65.11246728897095
+Encoding time: 138.58817076683044
+Max vio : 5.600144367884227e-13
+p =  0.9681121827526016
+Solving...
+Gurobi reports: solved
+Solver time :3.951749801635742
+Found better value
+Init prob: 0.9696413757573236
+Best found: 0.9696413757573236
+Trust region: 10.0
+Gamma: 1.5
+Total time: 215.25968217849731
+Solver time: 69.06421709060669
+Encoding time: 146.19546508789062
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Scp: 0.9649077954623169: Mc: 0.9696413757573236
+iterations =17
+solver time=69.06421709060669
+encoding time=146.19546508789062
+iterate time=0.0
+inner part = 110.99804377555847s (0.3395902516348183)
+adding constraints = 110.99804377555847s
+Qcqp: 0.9649077954623169: Mc: 0.9696413757573236
+iterations =17
+solver time=69.06421709060669
+encoding time=146.19546508789062
+iterate time=0.0
+inner part = 37.69385361671448s (0.3395902516348183)
+adding constraints = 110.99804377555847s
+<prophesy.optimisation.affine.AffineModelRepair object at 0x7ff612da0438>
+110.99804377555847
+Final result: 0.9696413757573236 (approx. 0.9696413757573236)
+This procedure took 239.60060667991638s (from start: 239.62525749206543s)
+Ratio of solver time over procedure time 0.2882472546610448
+Ratio of model building time time over procedure time 0.02929031994968887
+Ratio of mc time time over procedure time 0.0074686540339973665
+Ratio of encoding time over procedure time 0.6101631674213324
+Ratio of adding cons time over procedure time 0.463262782651637
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/nmt/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

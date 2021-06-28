@@ -1,0 +1,53 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/brpmdp/brp.pm prism/brpmdp/brp.prctl set-threshold 0.1 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/brpmdp/brp.pm
+prism/brpmdp/brp.prctl
+set-threshold
+0.1
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+qcqp
+{}
+Assume input is a Prism File
+Parsing Pmax=? [ F (s=5 & T) ]
+Load model from prism file
+Load formula Pmax=? [ F (s=5 & T) ] with respect to program.
+Build model
+Built a model with 18369 states and 24950 transitions
+Bisimulation yields model with 18369 states, 18510 actions and 24950 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Gurobi reports: solved
+Solver time :0.4076650142669678
+Init prob:  1.9692327376157696e-29
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Qcqp: 0.0: Mc: 1.9692327376157696e-29
+iterations =0
+solver time=0.4076650142669678
+encoding time=0.7974460124969482
+iterate time=0.0
+inner part = 0.11788415908813477s (0.4589866576560436)
+adding constraints = 0.0s
+
+Point found: {pL:3229798047366429/4503599627370496;pK:5115966729494677/9007199254740992}: 1.9692327376157696e-29 (approx. 1.9692327376157696e-29)
+This procedure took 1.7000231742858887s (from start: 1.7085015773773193s)
+Ratio of solver time over procedure time 0.23979968063565454
+Ratio of model building time time over procedure time 0.21659205201829795
+Ratio of mc time time over procedure time 0.0024361839298531612
+Ratio of encoding time over procedure time 0.4690794952438947
+Ratio of adding cons time over procedure time 0.15107776350713997
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

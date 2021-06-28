@@ -1,0 +1,73 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/brp/brp_16_2.pm prism/brp/brp.prctl set-threshold 0.1 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/brp/brp_16_2.pm
+prism/brp/brp.prctl
+set-threshold
+0.1
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+qcqp
+{}
+Assume input is a Prism File
+Parsing P=? [ F s=5 ]
+Load model from prism file
+Load formula P=? [ F s=5 ] with respect to program.
+Build model
+Built a model with 613 states and 803 transitions
+Bisimulation yields model with 613 states, 613 actions and 803 transitions
+Perform bisimulation
+Bisimulation yields model with 324 states, 324 actions and 452 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Gurobi reports: solved
+Solver time :0.007078647613525391
+Init prob:  0.518326379790089
+Max vio : 0.42923193131489384
+p =  0.0
+Solving...
+Gurobi reports: solved
+Solver time :0.010041236877441406
+Init prob:  0.30645030964015857
+Max vio : 0.18550958899132228
+p =  0.28550957404266547
+Solving...
+Gurobi reports: solved
+Solver time :0.00816488265991211
+Init prob:  0.13467232051078765
+Max vio : 0.08243018079028132
+p =  0.18243017818375354
+Solving...
+Gurobi reports: solved
+Solver time :0.008507013320922852
+Init prob:  0.06816955513073136
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Qcqp: 0.10284174747736784: Mc: 0.06816955513073092
+iterations =3
+solver time=0.03379178047180176
+encoding time=0.11580038070678711
+iterate time=0.0
+inner part = 0.017116308212280273s (0.4100257583286214)
+adding constraints = 0.0s
+
+Point found: {pL:4503149267467303/4503599627370496;pK:7531653090177563/9007199254740992}: 0.06816955513073092 (approx. 0.06816955513073092)
+This procedure took 0.1804499626159668s (from start: 0.1870579719543457s)
+Ratio of solver time over procedure time 0.1872639926433088
+Ratio of model building time time over procedure time 0.1210934093665688
+Ratio of mc time time over procedure time 0.004126247585425084
+Ratio of encoding time over procedure time 0.6417312535178143
+Ratio of adding cons time over procedure time 0.23133543499343343
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

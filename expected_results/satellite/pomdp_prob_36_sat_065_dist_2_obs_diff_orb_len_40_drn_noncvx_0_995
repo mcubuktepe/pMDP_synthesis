@@ -1,0 +1,101 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/nmt$ python3 parameter_synthesis.py load-problem pomdp_prob_36_sat_065_dist_2_obs_diff_orb_len_40.drn satellite_props.pctl set-threshold 0.995 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above noncvx
+Loading configuration
+Loaded configuration
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 5337
+Parsing P=? [F "goal"]
+Parse formula P=? [F "goal"] without a program.
+Build model
+Built a model with 217561 states and 615433 transitions
+Bisimulation yields model with 217561 states, 217561 actions and 615433 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Parameter OutputFlag unchanged
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+   Value: 1  Min: 0  Max: 1  Default: 1
+Changed value of parameter BarHomogeneous to 1
+Changed value of parameter BarHomogeneous to 1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+Changed value of parameter Method to 2
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Crossover to 0
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter CrossoverBasis to 1
+Changed value of parameter CrossoverBasis to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Changed value of parameter NonConvex to 2
+Changed value of parameter NonConvex to 2
+   Prev: -1  Min: -1  Max: 2  Default: -1
+   Prev: -1  Min: -1  Max: 2  Default: -1
+Changed value of parameter TimeLimit to 1200.0
+Changed value of parameter TimeLimit to 1200.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Solving...
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 1101030 rows, 340983 columns and 1544497 nonzeros
+Optimize a model with 1101030 rows, 340983 columns and 1544497 nonzeros
+Model fingerprint: 0xa7ec3306
+Model fingerprint: 0xa7ec3306
+Model has 167920 quadratic constraints
+Model has 167920 quadratic constraints
+Coefficient statistics:
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e-05, 1e+00]
+  Bounds range     [1e-05, 1e+00]
+  RHS range        [1e-03, 1e+00]
+  RHS range        [1e-03, 1e+00]
+  QRHS range       [1e+00, 1e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1099102 rows and 167927 columns
+Presolve removed 1099102 rows and 167927 columns
+
+
+Continuous model is non-convex -- solving as a MIP.
+Continuous model is non-convex -- solving as a MIP.
+
+
+Presolve removed 1099394 rows and 167927 columns
+Presolve removed 1099394 rows and 167927 columns
+Presolve time: 2.03s
+Presolve time: 2.03s
+Presolved: 3100777 rows, 904587 columns, 8426093 nonzeros
+Presolved: 3100777 rows, 904587 columns, 8426093 nonzeros
+Presolved model has 733230 bilinear constraint(s)
+Presolved model has 733230 bilinear constraint(s)
+Variable types: 904587 continuous, 0 integer (0 binary)
+Variable types: 904587 continuous, 0 integer (0 binary)
+Root barrier log...
+Root barrier log...
+
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 5s
+Elapsed ordering time = 19s
+Elapsed ordering time = 19s
+Killed

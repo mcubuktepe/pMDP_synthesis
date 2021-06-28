@@ -1,0 +1,277 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/nmt$ python3 parameter_synthesis.py load-problem pomdp_satellite_36_sat_5_act_0_65_dist_1_mem_06_sparse_full.drn satellite_props.pctl set-threshold 0.5 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above noncvx
+Loading configuration
+Loaded configuration
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 231
+Parsing P=? [F "goal"]
+Parse formula P=? [F "goal"] without a program.
+Build model
+Built a model with 6265 states and 17436 transitions
+Bisimulation yields model with 6265 states, 6265 actions and 17436 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Parameter OutputFlag unchanged
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+   Value: 1  Min: 0  Max: 1  Default: 1
+Changed value of parameter BarHomogeneous to 1
+Changed value of parameter BarHomogeneous to 1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+Changed value of parameter Method to 2
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Crossover to 0
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter CrossoverBasis to 1
+Changed value of parameter CrossoverBasis to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Changed value of parameter NonConvex to 2
+Changed value of parameter NonConvex to 2
+   Prev: -1  Min: -1  Max: 2  Default: -1
+   Prev: -1  Min: -1  Max: 2  Default: -1
+Changed value of parameter TimeLimit to 1200.0
+Changed value of parameter TimeLimit to 1200.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Solving...
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 27782 rows, 8640 columns and 39001 nonzeros
+Optimize a model with 27782 rows, 8640 columns and 39001 nonzeros
+Model fingerprint: 0xff39c60a
+Model fingerprint: 0xff39c60a
+Model has 4201 quadratic constraints
+Model has 4201 quadratic constraints
+Coefficient statistics:
+Coefficient statistics:
+  Matrix range     [9e-01, 1e+00]
+  Matrix range     [9e-01, 1e+00]
+  QMatrix range    [9e-01, 9e-01]
+  QMatrix range    [9e-01, 9e-01]
+  QLMatrix range   [9e-01, 1e+00]
+  QLMatrix range   [9e-01, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e-05, 1e+00]
+  Bounds range     [1e-05, 1e+00]
+  RHS range        [1e-03, 1e+00]
+  RHS range        [1e-03, 1e+00]
+  QRHS range       [1e+00, 1e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 27571 rows and 4208 columns
+Presolve removed 27571 rows and 4208 columns
+
+
+Continuous model is non-convex -- solving as a MIP.
+Continuous model is non-convex -- solving as a MIP.
+
+
+Presolve removed 27722 rows and 4209 columns
+Presolve removed 27722 rows and 4209 columns
+Presolve time: 0.14s
+Presolve time: 0.14s
+Presolved: 55637 rows, 17204 columns, 156153 nonzeros
+Presolved: 55637 rows, 17204 columns, 156153 nonzeros
+Presolved model has 12871 bilinear constraint(s)
+Presolved model has 12871 bilinear constraint(s)
+Variable types: 17204 continuous, 0 integer (0 binary)
+Variable types: 17204 continuous, 0 integer (0 binary)
+Root barrier log...
+Root barrier log...
+
+
+Ordering time: 0.12s
+Ordering time: 0.12s
+
+
+Barrier statistics:
+Barrier statistics:
+ Dense cols : 113
+ Dense cols : 113
+ AA' NZ     : 7.042e+05
+ AA' NZ     : 7.042e+05
+ Factor NZ  : 1.881e+06 (roughly 45 MBytes of memory)
+ Factor NZ  : 1.881e+06 (roughly 45 MBytes of memory)
+ Factor Ops : 1.998e+08 (less than 1 second per iteration)
+ Factor Ops : 1.998e+08 (less than 1 second per iteration)
+ Threads    : 8
+ Threads    : 8
+
+
+                  Objective                Residual
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   0.00000000e+00 -1.71727283e+03  2.66e+01 0.00e+00  4.91e-01     1s
+   0   0.00000000e+00 -1.71727283e+03  2.66e+01 0.00e+00  4.91e-01     1s
+   1   0.00000000e+00 -2.52075361e+02  7.99e+00 1.17e-02  2.82e-02     2s
+   1   0.00000000e+00 -2.52075361e+02  7.99e+00 1.17e-02  2.82e-02     2s
+   2   0.00000000e+00 -3.49673829e+01  2.37e+00 2.01e-03  2.17e-03     2s
+   2   0.00000000e+00 -3.49673829e+01  2.37e+00 2.01e-03  2.17e-03     2s
+   3   0.00000000e+00 -6.14661501e+00  2.73e-01 2.58e-04  1.66e-04     2s
+   3   0.00000000e+00 -6.14661501e+00  2.73e-01 2.58e-04  1.66e-04     2s
+   4   0.00000000e+00 -1.45619123e+00  4.73e-03 5.74e-05  2.69e-05     3s
+   4   0.00000000e+00 -1.45619123e+00  4.73e-03 5.74e-05  2.69e-05     3s
+   5   0.00000000e+00 -1.44280130e-02  2.82e-05 3.48e-07  2.64e-07     3s
+   5   0.00000000e+00 -1.44280130e-02  2.82e-05 3.48e-07  2.64e-07     3s
+   6   0.00000000e+00 -1.44427018e-08  2.82e-11 3.48e-13  2.65e-13     3s
+   6   0.00000000e+00 -1.44427018e-08  2.82e-11 3.48e-13  2.65e-13     3s
+   7   0.00000000e+00 -1.25344929e-12  1.76e-14 4.82e-16  2.33e-17     3s
+   7   0.00000000e+00 -1.25344929e-12  1.76e-14 4.82e-16  2.33e-17     3s
+
+
+Barrier solved model in 7 iterations and 3.45 seconds
+Barrier solved model in 7 iterations and 3.45 seconds
+Optimal objective 0.00000000e+00
+Optimal objective 0.00000000e+00
+
+
+
+
+Root crossover log...
+Root crossover log...
+
+
+    4004 DPushes remaining with DInf 0.0000000e+00                14s
+    4004 DPushes remaining with DInf 0.0000000e+00                14s
+
+
+     116 PPushes remaining with PInf 5.0544348e-06                14s
+     116 PPushes remaining with PInf 5.0544348e-06                14s
+       0 PPushes remaining with PInf 3.1788382e-06                14s
+       0 PPushes remaining with PInf 3.1788382e-06                14s
+
+
+  Push phase complete: Pinf 3.1788382e-06, Dinf 0.0000000e+00     14s
+  Push phase complete: Pinf 3.1788382e-06, Dinf 0.0000000e+00     14s
+
+
+
+
+Root simplex log...
+Root simplex log...
+
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     119    0.0000000e+00   3.178838e-06   0.000000e+00     14s
+     119    0.0000000e+00   3.178838e-06   0.000000e+00     14s
+     122    0.0000000e+00   0.000000e+00   0.000000e+00     14s
+     122    0.0000000e+00   0.000000e+00   0.000000e+00     14s
+     122    0.0000000e+00   0.000000e+00   0.000000e+00     14s
+     122    0.0000000e+00   0.000000e+00   0.000000e+00     14s
+
+
+Root relaxation: objective 0.000000e+00, 122 iterations, 13.22 seconds
+Root relaxation: objective 0.000000e+00, 122 iterations, 13.22 seconds
+
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+
+     0     0    0.00000    0  120          -    0.00000      -     -   13s
+     0     0    0.00000    0  120          -    0.00000      -     -   13s
+     0     0    0.00000    0  120          -    0.00000      -     -   14s
+     0     0    0.00000    0  120          -    0.00000      -     -   14s
+     0     2    0.00000    0  119          -    0.00000      -     -   32s
+     0     2    0.00000    0  119          -    0.00000      -     -   32s
+    31    40    0.00000    5  250          -    0.00000      -   444   35s
+    31    40    0.00000    5  250          -    0.00000      -   444   35s
+   139   365    0.00000   16  285          -    0.00000      -   246   42s
+   139   365    0.00000   16  285          -    0.00000      -   246   42s
+   364   709    0.00000   27  429          -    0.00000      -   143   47s
+   364   709    0.00000   27  429          -    0.00000      -   143   47s
+   708   900    0.00000   45  637          -    0.00000      -   127   53s
+   708   900    0.00000   45  637          -    0.00000      -   127   53s
+   899  1039    0.00000   69  792          -    0.00000      -   144   61s
+   899  1039    0.00000   69  792          -    0.00000      -   144   61s
+  1038  1179    0.00000   79  983          -    0.00000      -   151   68s
+  1038  1179    0.00000   79  983          -    0.00000      -   151   68s
+  1178  1404    0.00000   90 1103          -    0.00000      -   162   76s
+  1178  1404    0.00000   90 1103          -    0.00000      -   162   76s
+  1403  1597    0.00000  122 1157          -    0.00000      -   163  100s
+  1403  1597    0.00000  122 1157          -    0.00000      -   163  100s
+  1596  1747    0.00000  150 1220          -    0.00000      -   168  109s
+  1596  1747    0.00000  150 1220          -    0.00000      -   168  109s
+  1746  1956    0.00000  164 1406          -    0.00000      -   172  120s
+  1746  1956    0.00000  164 1406          -    0.00000      -   172  120s
+  1955  2071    0.00000  181 1492          -    0.00000      -   176  131s
+  1955  2071    0.00000  181 1492          -    0.00000      -   176  131s
+  2070  2171    0.00000  183 1669          -    0.00000      -   184  140s
+  2070  2171    0.00000  183 1669          -    0.00000      -   184  140s
+  2172  2347    0.00000  185 1657          -    0.00000      -   194  151s
+  2172  2347    0.00000  185 1657          -    0.00000      -   194  151s
+  2348  2575    0.00000  187 2215          -    0.00000      -   195  163s
+  2348  2575    0.00000  187 2215          -    0.00000      -   195  163s
+  2576  2912    0.00000  216 2490          -    0.00000      -   193  181s
+  2576  2912    0.00000  216 2490          -    0.00000      -   193  181s
+  2913  3098    0.00000  237 2475          -    0.00000      -   189  195s
+  2913  3098    0.00000  237 2475          -    0.00000      -   189  195s
+  3099  3263    0.00000  256 2578          -    0.00000      -   192  224s
+  3099  3263    0.00000  256 2578          -    0.00000      -   192  224s
+  3264  3381    0.00000  270 2706          -    0.00000      -   197  255s
+  3264  3381    0.00000  270 2706          -    0.00000      -   197  255s
+  3382  3522    0.00000  275 2861          -    0.00000      -   203  349s
+  3382  3522    0.00000  275 2861          -    0.00000      -   203  349s
+  3525  3656    0.00000  286 3378          -    0.00000      -   214  381s
+  3525  3656    0.00000  286 3378          -    0.00000      -   214  381s
+  3659  3818    0.00000  322 3259          -    0.00000      -   217  440s
+  3659  3818    0.00000  322 3259          -    0.00000      -   217  440s
+  3823  3903    0.00000  335 3131          -    0.00000      -   224  497s
+  3823  3903    0.00000  335 3131          -    0.00000      -   224  497s
+  3908  4024    0.00000  345 3642          -    0.00000      -   233  553s
+  3908  4024    0.00000  345 3642          -    0.00000      -   233  553s
+  4029  4185    0.00000  349 3640          -    0.00000      -   240  593s
+  4029  4185    0.00000  349 3640          -    0.00000      -   240  593s
+  4192  4314    0.00000  371 3940          -    0.00000      -   243  621s
+  4192  4314    0.00000  371 3940          -    0.00000      -   243  621s
+  4321  4440    0.00000  381 4216          -    0.00000      -   251  788s
+  4321  4440    0.00000  381 4216          -    0.00000      -   251  788s
+  4447  4528    0.00000  383 4184          -    0.00000      -   260  835s
+  4447  4528    0.00000  383 4184          -    0.00000      -   260  835s
+  4537  4694    0.00000  384 4918          -    0.00000      -   273 1200s
+  4537  4694    0.00000  384 4918          -    0.00000      -   273 1200s
+
+
+Cutting planes:
+Cutting planes:
+  RLT: 2
+  RLT: 2
+
+
+Explored 4703 nodes (1303456 simplex iterations) in 1200.01 seconds
+Explored 4703 nodes (1303456 simplex iterations) in 1200.01 seconds
+Thread count was 16 (of 16 available processors)
+Thread count was 16 (of 16 available processors)
+
+
+Solution count 0
+Solution count 0
+
+
+Time limit reached
+Time limit reached
+Best objective -, best bound 0.000000000000e+00, gap -
+Best objective -, best bound 0.000000000000e+00, gap -
+Unknown (code: 9)
+Solver time :1200.0230615139008
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/nmt/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

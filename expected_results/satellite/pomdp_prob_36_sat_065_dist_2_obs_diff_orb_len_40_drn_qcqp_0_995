@@ -1,0 +1,21 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/nmt$ python3 parameter_synthesis.py load-problem pomdp_prob_36_sat_065_dist_2_obs_diff_orb_len_40.drn satellite_props.pctl set-threshold 0.995 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above qcqp
+Loading configuration
+Loaded configuration
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 5337
+Parsing P=? [F "goal"]
+Parse formula P=? [F "goal"] without a program.
+Build model
+Built a model with 217561 states and 615433 transitions
+Bisimulation yields model with 217561 states, 217561 actions and 615433 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Killed

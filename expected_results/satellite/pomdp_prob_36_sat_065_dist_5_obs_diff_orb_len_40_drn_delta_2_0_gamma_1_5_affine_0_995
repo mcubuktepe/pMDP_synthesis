@@ -1,0 +1,98 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/nmt$ python3 parameter_synthesis.py load-problem pomdp_prob_36_sat_065_dist_5_obs_diff_orb_len_40.drn satellite_props.pctl set-threshold 0.995 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above affine 
+Loading configuration
+Loaded configuration
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Parsing P=? [F "goal"]
+Parse formula P=? [F "goal"] without a program.
+Build model
+Built a model with 217561 states and 615433 transitions
+Bisimulation yields model with 217561 states, 217561 actions and 615433 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Solving...
+Gurobi reports: solved
+Solver time :39.402803897857666
+Found better value
+Init prob: 3.6021027266519567e-06
+Best found: 3.6021027266519567e-06
+Trust region: 4.0
+Gamma: 1.5
+Total time: 97.06951928138733
+Solver time: 40.40811109542847
+Encoding time: 56.66140818595886
+Max vio : 0.3916700127818743
+p =  0.9168433023584508
+Solving...
+Gurobi reports: solved
+Solver time :35.92152500152588
+Found better value
+Init prob: 0.3198829457975626
+Best found: 0.3198829457975626
+Trust region: 5.5
+Gamma: 1.5
+Total time: 158.8637399673462
+Solver time: 76.32963609695435
+Encoding time: 82.53410387039185
+Max vio : 0.9949855915890934
+p =  1.4408410906607827e-05
+Solving...
+Gurobi reports: solved
+Solver time :59.4015793800354
+Found better value
+Init prob: 0.9384980239656993
+Best found: 0.9384980239656993
+Trust region: 7.75
+Gamma: 1.5
+Total time: 244.09634685516357
+Solver time: 135.73121547698975
+Encoding time: 108.36513137817383
+Max vio : 0.013435467807169274
+p =  0.9815645321928637
+Solving...
+Gurobi reports: solved
+Solver time :34.130749225616455
+Found better value
+Init prob: 0.9967437450481276
+Best found: 0.9967437450481276
+Trust region: 10
+Gamma: 1.5
+Total time: 304.27907490730286
+Solver time: 169.8619647026062
+Encoding time: 134.41711020469666
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Scp: 0.9999999633288449: Mc: 0.9967437450481276
+iterations =3
+solver time=169.8619647026062
+encoding time=134.41711020469666
+iterate time=0.0
+inner part = 71.80958390235901s (0.2669850424759221)
+adding constraints = 71.80958390235901s
+Qcqp: 0.9999999633288449: Mc: 0.9967437450481276
+iterations =3
+solver time=169.8619647026062
+encoding time=134.41711020469666
+iterate time=0.0
+inner part = 19.17208480834961s (0.2669850424759221)
+adding constraints = 71.80958390235901s
+<prophesy.optimisation.affine.AffineModelRepair object at 0x7f2745e8e9b0>
+71.80958390235901
+Final result: 0.9967437450481276 (approx. 0.9967437450481276)
+This procedure took 370.27148365974426s (from start: 370.2954292297363s)
+Ratio of solver time over procedure time 0.4587497881924346
+Ratio of model building time time over procedure time 0.027231432924914936
+Ratio of mc time time over procedure time 0.031441558354046294
+Ratio of encoding time over procedure time 0.36302312259136155
+Ratio of adding cons time over procedure time 0.1939376567501142
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/nmt/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

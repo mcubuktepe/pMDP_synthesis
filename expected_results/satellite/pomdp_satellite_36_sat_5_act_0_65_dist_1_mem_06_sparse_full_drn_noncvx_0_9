@@ -1,0 +1,229 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/nmt$ python3 parameter_synthesis.py load-problem pomdp_satellite_36_sat_5_act_0_65_dist_1_mem_06_sparse_full.drn satellite_props.pctl set-threshold 0.9 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above noncvx
+Loading configuration
+Loaded configuration
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 231
+Parsing P=? [F "goal"]
+Parse formula P=? [F "goal"] without a program.
+Build model
+Built a model with 6265 states and 17436 transitions
+Bisimulation yields model with 6265 states, 6265 actions and 17436 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Parameter OutputFlag unchanged
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+   Value: 1  Min: 0  Max: 1  Default: 1
+Changed value of parameter BarHomogeneous to 1
+Changed value of parameter BarHomogeneous to 1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+Changed value of parameter Method to 2
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Crossover to 0
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter CrossoverBasis to 1
+Changed value of parameter CrossoverBasis to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Changed value of parameter NonConvex to 2
+Changed value of parameter NonConvex to 2
+   Prev: -1  Min: -1  Max: 2  Default: -1
+   Prev: -1  Min: -1  Max: 2  Default: -1
+Changed value of parameter TimeLimit to 1200.0
+Changed value of parameter TimeLimit to 1200.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Solving...
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 27782 rows, 8640 columns and 39001 nonzeros
+Optimize a model with 27782 rows, 8640 columns and 39001 nonzeros
+Model fingerprint: 0x5006534a
+Model fingerprint: 0x5006534a
+Model has 4201 quadratic constraints
+Model has 4201 quadratic constraints
+Coefficient statistics:
+Coefficient statistics:
+  Matrix range     [9e-01, 1e+00]
+  Matrix range     [9e-01, 1e+00]
+  QMatrix range    [9e-01, 9e-01]
+  QMatrix range    [9e-01, 9e-01]
+  QLMatrix range   [9e-01, 1e+00]
+  QLMatrix range   [9e-01, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e-05, 1e+00]
+  Bounds range     [1e-05, 1e+00]
+  RHS range        [1e-03, 1e+00]
+  RHS range        [1e-03, 1e+00]
+  QRHS range       [1e+00, 1e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 27570 rows and 4207 columns
+Presolve removed 27570 rows and 4207 columns
+
+
+Continuous model is non-convex -- solving as a MIP.
+Continuous model is non-convex -- solving as a MIP.
+
+
+Presolve removed 27722 rows and 4209 columns
+Presolve removed 27722 rows and 4209 columns
+Presolve time: 0.10s
+Presolve time: 0.10s
+Presolved: 55637 rows, 17204 columns, 156153 nonzeros
+Presolved: 55637 rows, 17204 columns, 156153 nonzeros
+Presolved model has 12871 bilinear constraint(s)
+Presolved model has 12871 bilinear constraint(s)
+Variable types: 17204 continuous, 0 integer (0 binary)
+Variable types: 17204 continuous, 0 integer (0 binary)
+Root barrier log...
+Root barrier log...
+
+
+Ordering time: 0.08s
+Ordering time: 0.08s
+
+
+Barrier statistics:
+Barrier statistics:
+ Dense cols : 113
+ Dense cols : 113
+ AA' NZ     : 7.042e+05
+ AA' NZ     : 7.042e+05
+ Factor NZ  : 1.881e+06 (roughly 45 MBytes of memory)
+ Factor NZ  : 1.881e+06 (roughly 45 MBytes of memory)
+ Factor Ops : 1.998e+08 (less than 1 second per iteration)
+ Factor Ops : 1.998e+08 (less than 1 second per iteration)
+ Threads    : 8
+ Threads    : 8
+
+
+                  Objective                Residual
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -5.36538161e+00 -1.12088314e+04  2.66e+01 1.37e-01  3.21e+00     1s
+   0  -5.36538161e+00 -1.12088314e+04  2.66e+01 1.37e-01  3.21e+00     1s
+   1  -2.90589889e+00 -1.64668106e+03  7.99e+00 7.61e-02  1.84e-01     1s
+   1  -2.90589889e+00 -1.64668106e+03  7.99e+00 7.61e-02  1.84e-01     1s
+   2  -1.62495616e+00 -2.29430620e+02  2.37e+00 1.31e-02  1.41e-02     1s
+   2  -1.62495616e+00 -2.29430620e+02  2.37e+00 1.31e-02  1.41e-02     1s
+   3  -1.07553961e+00 -4.11598563e+01  2.73e-01 1.68e-03  1.08e-03     1s
+   3  -1.07553961e+00 -4.11598563e+01  2.73e-01 1.68e-03  1.08e-03     1s
+   4  -1.00171296e+00 -1.04419757e+01  4.74e-03 3.72e-04  1.74e-04     1s
+   4  -1.00171296e+00 -1.04419757e+01  4.74e-03 3.72e-04  1.74e-04     1s
+   5  -1.00001441e+00 -1.09441230e+00  2.84e-05 2.27e-06  1.73e-06     1s
+   5  -1.00001441e+00 -1.09441230e+00  2.84e-05 2.27e-06  1.73e-06     1s
+   6  -1.00000000e+00 -1.00000009e+00  2.83e-11 2.28e-12  1.73e-12     1s
+   6  -1.00000000e+00 -1.00000009e+00  2.83e-11 2.28e-12  1.73e-12     1s
+   7  -1.00000000e+00 -1.00000000e+00  1.25e-10 8.75e-09  3.24e-15     1s
+   7  -1.00000000e+00 -1.00000000e+00  1.25e-10 8.75e-09  3.24e-15     1s
+
+
+Barrier solved model in 7 iterations and 1.05 seconds
+Barrier solved model in 7 iterations and 1.05 seconds
+Optimal objective -1.00000000e+00
+Optimal objective -1.00000000e+00
+
+
+
+
+Root relaxation: objective -1.000000e+00, 175 iterations, 3.74 seconds
+Root relaxation: objective -1.000000e+00, 175 iterations, 3.74 seconds
+
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+
+     0     0   -1.00000    0  149          -   -1.00000      -     -    4s
+     0     0   -1.00000    0  149          -   -1.00000      -     -    4s
+     0     0   -1.00000    0  151          -   -1.00000      -     -    5s
+     0     0   -1.00000    0  151          -   -1.00000      -     -    5s
+     0     0   -1.00000    0  150          -   -1.00000      -     -    5s
+     0     0   -1.00000    0  150          -   -1.00000      -     -    5s
+     0     0   -1.00000    0  151          -   -1.00000      -     -    6s
+     0     0   -1.00000    0  151          -   -1.00000      -     -    6s
+     0     0   -1.00000    0  150          -   -1.00000      -     -    7s
+     0     0   -1.00000    0  150          -   -1.00000      -     -    7s
+     0     0   -1.00000    0  149          -   -1.00000      -     -    8s
+     0     0   -1.00000    0  149          -   -1.00000      -     -    8s
+     0     2   -1.00000    0  149          -   -1.00000      -     -   19s
+     0     2   -1.00000    0  149          -   -1.00000      -     -   19s
+     1     4   -1.00000    1  165          -   -1.00000      -  78.0   20s
+     1     4   -1.00000    1  165          -   -1.00000      -  78.0   20s
+    23    32   -1.00000    4 2690          -   -1.00000      -  1035   27s
+    23    32   -1.00000    4 2690          -   -1.00000      -  1035   27s
+    39    48   -1.00000    6 2710          -   -1.00000      -   836   35s
+    39    48   -1.00000    6 2710          -   -1.00000      -   836   35s
+    47    58   -1.00000    7 3299          -   -1.00000      -  1034   41s
+    47    58   -1.00000    7 3299          -   -1.00000      -  1034   41s
+    57    99   -1.00000    7 2664          -   -1.00000      -   983   50s
+    57    99   -1.00000    7 2664          -   -1.00000      -   983   50s
+   179   491   -1.00000   12 2714          -   -1.00000      -   533   64s
+   179   491   -1.00000   12 2714          -   -1.00000      -   533   64s
+   490   662   -1.00000   17 3479          -   -1.00000      -   335   73s
+   490   662   -1.00000   17 3479          -   -1.00000      -   335   73s
+   661   767   -1.00000   24 3645          -   -1.00000      -   367   88s
+   661   767   -1.00000   24 3645          -   -1.00000      -   367   88s
+   768   908   -1.00000   32 4161          -   -1.00000      -   413  115s
+   768   908   -1.00000   32 4161          -   -1.00000      -   413  115s
+   911  1019   -1.00000   34 4643          -   -1.00000      -   471  301s
+   911  1019   -1.00000   34 4643          -   -1.00000      -   471  301s
+  1026  1084   -1.00000   37 4605          -   -1.00000      -   562  397s
+  1026  1084   -1.00000   37 4605          -   -1.00000      -   562  397s
+  1091  1187   -1.00000   38 4607          -   -1.00000      -   662  461s
+  1091  1187   -1.00000   38 4607          -   -1.00000      -   662  461s
+  1202  1237   -1.00000   47 5251          -   -1.00000      -   714  652s
+  1202  1237   -1.00000   47 5251          -   -1.00000      -   714  652s
+  1252  1308   -1.00000   49 5385          -   -1.00000      -   852  894s
+  1252  1308   -1.00000   49 5385          -   -1.00000      -   852  894s
+  1333  1376   -0.99999   73 5705          -   -1.00000      -   939 1001s
+  1333  1376   -0.99999   73 5705          -   -1.00000      -   939 1001s
+  1409  1583   -0.99998   78 6005          -   -1.00000      -  1025 1126s
+  1409  1583   -0.99998   78 6005          -   -1.00000      -  1025 1126s
+  1616  1651   -0.99997   83 6726          -   -1.00000      -  1065 1200s
+  1616  1651   -0.99997   83 6726          -   -1.00000      -  1065 1200s
+
+
+Cutting planes:
+Cutting planes:
+  RLT: 14
+  RLT: 14
+
+
+Explored 1684 nodes (1792631 simplex iterations) in 1200.04 seconds
+Explored 1684 nodes (1792631 simplex iterations) in 1200.04 seconds
+Thread count was 16 (of 16 available processors)
+Thread count was 16 (of 16 available processors)
+
+
+Solution count 0
+Solution count 0
+
+
+Time limit reached
+Time limit reached
+Best objective -, best bound -1.000000000000e+00, gap -
+Best objective -, best bound -1.000000000000e+00, gap -
+Unknown (code: 9)
+Solver time :1200.0230615139008
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/nmt/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

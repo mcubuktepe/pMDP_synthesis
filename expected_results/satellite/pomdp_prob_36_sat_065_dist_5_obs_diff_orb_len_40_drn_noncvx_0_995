@@ -1,0 +1,211 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/nmt$ python3 parameter_synthesis.py load-problem pomdp_prob_36_sat_065_dist_5_obs_diff_orb_len_40.drn satellite_props.pctl set-threshold 0.995 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above noncvx
+Loading configuration
+Loaded configuration
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 2448
+Parsing P=? [F "goal"]
+Parse formula P=? [F "goal"] without a program.
+Build model
+Built a model with 217561 states and 615433 transitions
+Bisimulation yields model with 217561 states, 217561 actions and 615433 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Parameter OutputFlag unchanged
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+   Value: 1  Min: 0  Max: 1  Default: 1
+Changed value of parameter BarHomogeneous to 1
+Changed value of parameter BarHomogeneous to 1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+Changed value of parameter Method to 2
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Crossover to 0
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter CrossoverBasis to 1
+Changed value of parameter CrossoverBasis to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Changed value of parameter NonConvex to 2
+Changed value of parameter NonConvex to 2
+   Prev: -1  Min: -1  Max: 2  Default: -1
+   Prev: -1  Min: -1  Max: 2  Default: -1
+Changed value of parameter TimeLimit to 1200.0
+Changed value of parameter TimeLimit to 1200.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Solving...
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 1101030 rows, 338200 columns and 1544497 nonzeros
+Optimize a model with 1101030 rows, 338200 columns and 1544497 nonzeros
+Model fingerprint: 0xbcd032ef
+Model fingerprint: 0xbcd032ef
+Model has 167920 quadratic constraints
+Model has 167920 quadratic constraints
+Coefficient statistics:
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e-05, 1e+00]
+  Bounds range     [1e-05, 1e+00]
+  RHS range        [1e-03, 1e+00]
+  RHS range        [1e-03, 1e+00]
+  QRHS range       [1e+00, 1e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1099922 rows and 167927 columns
+Presolve removed 1099922 rows and 167927 columns
+
+
+Continuous model is non-convex -- solving as a MIP.
+Continuous model is non-convex -- solving as a MIP.
+
+
+Presolve removed 1100299 rows and 167927 columns
+Presolve removed 1100299 rows and 167927 columns
+Presolve time: 1.91s
+Presolve time: 1.91s
+Presolved: 3034456 rows, 885450 columns, 8260068 nonzeros
+Presolved: 3034456 rows, 885450 columns, 8260068 nonzeros
+Presolved model has 716876 bilinear constraint(s)
+Presolved model has 716876 bilinear constraint(s)
+Variable types: 885450 continuous, 0 integer (0 binary)
+Variable types: 885450 continuous, 0 integer (0 binary)
+Root barrier log...
+Root barrier log...
+
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 5s
+Elapsed ordering time = 17s
+Elapsed ordering time = 17s
+Ordering time: 45.10s
+Ordering time: 45.10s
+
+
+Barrier statistics:
+Barrier statistics:
+ Dense cols : 1887
+ Dense cols : 1887
+ AA' NZ     : 5.206e+07
+ AA' NZ     : 5.206e+07
+ Factor NZ  : 2.821e+08 (roughly 4.0 GBytes of memory)
+ Factor NZ  : 2.821e+08 (roughly 4.0 GBytes of memory)
+ Factor Ops : 3.270e+11 (roughly 2 seconds per iteration)
+ Factor Ops : 3.270e+11 (roughly 2 seconds per iteration)
+ Threads    : 8
+ Threads    : 8
+
+
+                  Objective                Residual
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   0.00000000e+00 -8.83916050e+04  1.45e+01 0.00e+00  3.65e-01    61s
+   0   0.00000000e+00 -8.83916050e+04  1.45e+01 0.00e+00  3.65e-01    61s
+   1   0.00000000e+00 -3.96137161e+03  6.38e+00 2.26e-03  9.12e-03    64s
+   1   0.00000000e+00 -3.96137161e+03  6.38e+00 2.26e-03  9.12e-03    64s
+   2   0.00000000e+00 -1.92247633e+02  1.01e+00 3.25e-04  2.51e-04    67s
+   2   0.00000000e+00 -1.92247633e+02  1.01e+00 3.25e-04  2.51e-04    67s
+   3   0.00000000e+00 -4.41254624e+01  5.08e-02 2.98e-05  1.88e-05    71s
+   3   0.00000000e+00 -4.41254624e+01  5.08e-02 2.98e-05  1.88e-05    71s
+   4   0.00000000e+00 -3.34583896e+00  9.08e-04 2.28e-06  1.15e-06    76s
+   4   0.00000000e+00 -3.34583896e+00  9.08e-04 2.28e-06  1.15e-06    76s
+   5   0.00000000e+00 -5.70522812e-03  4.61e-08 3.60e-09  1.83e-09    79s
+   5   0.00000000e+00 -5.70522812e-03  4.61e-08 3.60e-09  1.83e-09    79s
+   6   0.00000000e+00 -5.69958742e-09  1.21e-12 3.59e-15  1.83e-15    83s
+   6   0.00000000e+00 -5.69958742e-09  1.21e-12 3.59e-15  1.83e-15    83s
+
+
+Barrier solved model in 6 iterations and 82.93 seconds
+Barrier solved model in 6 iterations and 82.93 seconds
+Optimal objective 0.00000000e+00
+Optimal objective 0.00000000e+00
+
+
+
+
+Root crossover log...
+Root crossover log...
+
+
+  166054 DPushes remaining with DInf 0.0000000e+00               401s
+  166054 DPushes remaining with DInf 0.0000000e+00               401s
+
+
+     294 PPushes remaining with PInf 0.0000000e+00               401s
+     294 PPushes remaining with PInf 0.0000000e+00               401s
+       0 PPushes remaining with PInf 0.0000000e+00               402s
+       0 PPushes remaining with PInf 0.0000000e+00               402s
+
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00    402s
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00    402s
+
+
+
+
+Root simplex log...
+Root simplex log...
+
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     297    0.0000000e+00   0.000000e+00   0.000000e+00    402s
+     297    0.0000000e+00   0.000000e+00   0.000000e+00    402s
+     297    0.0000000e+00   0.000000e+00   0.000000e+00    402s
+     297    0.0000000e+00   0.000000e+00   0.000000e+00    402s
+
+
+Root relaxation: objective 0.000000e+00, 297 iterations, 395.72 seconds
+Root relaxation: objective 0.000000e+00, 297 iterations, 395.72 seconds
+
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+
+     0     0    0.00000    0  304          -    0.00000      -     -  402s
+     0     0    0.00000    0  304          -    0.00000      -     -  402s
+
+
+Explored 1 nodes (297 simplex iterations) in 1200.11 seconds
+Explored 1 nodes (297 simplex iterations) in 1200.11 seconds
+Thread count was 16 (of 16 available processors)
+Thread count was 16 (of 16 available processors)
+
+
+Solution count 0
+Solution count 0
+
+
+Time limit reached
+Time limit reached
+Best objective -, best bound 0.000000000000e+00, gap -
+Best objective -, best bound 0.000000000000e+00, gap -
+Unknown (code: 9)
+Solver time :1200.3915884494781
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/nmt/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

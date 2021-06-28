@@ -1,0 +1,200 @@
+Removing handler <StreamHandler <stderr> (DEBUG)>
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp$ python3 parameter_synthesis.py load-problem models/drone/pomdp_drone_4-2-mem5-simple.drn models/drone/drone_drn.props set-threshold 0.95 find-feasible-instantiation --qcqp-mc full --qcqp-incremental above qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+models/drone/pomdp_drone_4-2-mem5.drn
+models/drone/drone_drn.props
+set-threshold
+0.95
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+above
+qcqp
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 12286
+Parsing P=? ["notbad" U "goal"];
+Parse formula P=? ["notbad" U "goal"]; without a program.
+Build model
+Built a model with 32403 states and 70099 transitions
+Bisimulation yields model with 32403 states, 32403 actions and 70099 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Gurobi reports: solved
+Solver time :46.29116106033325
+Init prob:  0.250783705144189
+Max vio : 0.3796954985132928
+p =  0.9999999999833746
+Solving...
+Gurobi reports: solved
+Solver time :35.981794595718384
+Init prob:  0.5195896028423707
+Max vio : 0.3417277529102363
+p =  0.6082722474641207
+Solving...
+Gurobi reports: solved
+Solver time :41.94784593582153
+Init prob:  0.6719997211404037
+Max vio : 0.206218698174456
+p =  0.743781301888729
+Solving...
+Gurobi reports: solved
+Solver time :49.95736265182495
+Init prob:  0.7546539429911759
+Max vio : 0.13107880588057907
+p =  0.8189211941327074
+Solving...
+Gurobi reports: solved
+Solver time :39.624114751815796
+Init prob:  0.8078388497269843
+Max vio : 0.09108595845148097
+p =  0.8589140415856295
+Solving...
+Gurobi reports: solved
+Solver time :48.54860043525696
+Init prob:  0.8430213010905196
+Max vio : 0.0656572874861253
+p =  0.8843427125325481
+Solving...
+Gurobi reports: solved
+Solver time :46.06020379066467
+Init prob:  0.8630153373381177
+Max vio : 0.0497888533850704
+p =  0.900211146649954
+Solving...
+Gurobi reports: solved
+Solver time :50.03344225883484
+Init prob:  0.8754368610466884
+Max vio : 0.04083718251776328
+p =  0.9091628175233896
+Solving...
+Gurobi reports: solved
+Solver time :41.6376006603241
+Init prob:  0.8832186813157779
+Max vio : 0.035540494347583454
+p =  0.9144595056643706
+Solving...
+Gurobi reports: solved
+Solver time :40.29292392730713
+Init prob:  0.8889428188469528
+Max vio : 0.032038114659932476
+p =  0.9179618853596737
+Solving...
+Gurobi reports: solved
+Solver time :48.471686601638794
+Init prob:  0.8934497773684154
+Max vio : 0.029472999724967412
+p =  0.9205270002908397
+Solving...
+Gurobi reports: solved
+Solver time :50.325379610061646
+Init prob:  0.897210208959885
+Max vio : 0.02738262687072848
+p =  0.9226173731388071
+Solving...
+Gurobi reports: solved
+Solver time :41.24743866920471
+Init prob:  0.90056449742754
+Max vio : 0.025593562686178777
+p =  0.9244064373658705
+Solving...
+Gurobi reports: solved
+Solver time :43.86406111717224
+Init prob:  0.9035885181358737
+Max vio : 0.023993242272672785
+p =  0.9260067577515829
+Solving...
+Gurobi reports: solved
+Solver time :44.248488664627075
+Init prob:  0.9063281414410065
+Max vio : 0.022546725128021434
+p =  0.9274532749021835
+Solving...
+Gurobi reports: solved
+Solver time :40.64194321632385
+Init prob:  0.9088156236680374
+Max vio : 0.021228463996039282
+p =  0.928771536016351
+Solving...
+Gurobi reports: solved
+Solver time :43.224570989608765
+Init prob:  0.9110762715786365
+Max vio : 0.020044788493003073
+p =  0.9299552115269049
+Solving...
+Gurobi reports: solved
+Solver time :41.73984169960022
+Init prob:  0.9132151889052853
+Max vio : 0.01894242050221996
+p =  0.9310575795301486
+Solving...
+Gurobi reports: solved
+Solver time :44.10102725028992
+Init prob:  0.9151991626174164
+Max vio : 0.017904018511699017
+p =  0.9320959815049794
+Solving...
+Gurobi reports: solved
+Solver time :41.95141386985779
+Init prob:  0.9170164708612724
+Max vio : 0.016956351879545455
+p =  0.9330436481602946
+Solving...
+Gurobi reports: solved
+Solver time :45.4118754863739
+Init prob:  0.9187113984103275
+Max vio : 0.016077162680732664
+p =  0.9339228373210301
+Solving...
+Gurobi reports: solved
+Solver time :44.2189826965332
+Init prob:  0.9202966554522191
+Max vio : 0.015255014676167045
+p =  0.9347449853372364
+Solving...
+Gurobi reports: solved
+Solver time :43.90456557273865
+Init prob:  0.9218221419083867
+Max vio : 0.014478920675233058
+p =  0.9355210793614496
+Solving...
+Gurobi reports: solved
+Solver time :41.02508783340454
+Init prob:  0.9232523080287525
+Max vio : 0.013734651786778086
+p =  0.9362653482509901
+Solving...
+Gurobi reports: solved
+Solver time :42.624621868133545
+Time out has elapsed after 1200 seconds:
+Traceback (most recent call last):
+  File "parameter_synthesis.py", line 733, in <module>
+    state = parameter_synthesis.main(standalone_mode=False)[0]
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1699, in invoke
+    rv.append(sub_ctx.command.invoke(sub_ctx))
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "parameter_synthesis.py", line 384, in find_feasible_instantiation
+    result = checker.run(dir, upper_state_var_bounds=upper_state_bounds, lower_state_var_bounds=lower_state_bounds)
+  File "/home/gradandpostdoc/prophesy/prophesy/optimisation/qcqp.py", line 855, in run
+    sample, mc_res = self._evaluate_result(result.parameter_values)
+AttributeError: 'tuple' object has no attribute 'parameter_values'

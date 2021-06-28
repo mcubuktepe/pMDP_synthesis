@@ -1,0 +1,161 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/nmt$ python3 parameter_synthesis.py load-problem pomdp_prob_36_sat_065_dist_1_obs_diff_orb_len_40.drn satellite_props.pctl set-threshold 0.995 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above noncvx
+Loading configuration
+Loaded configuration
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 10042
+Parsing P=? [F "goal"]
+Parse formula P=? [F "goal"] without a program.
+Build model
+Built a model with 217561 states and 615433 transitions
+Bisimulation yields model with 217561 states, 217561 actions and 615433 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Parameter OutputFlag unchanged
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+   Value: 1  Min: 0  Max: 1  Default: 1
+Changed value of parameter BarHomogeneous to 1
+Changed value of parameter BarHomogeneous to 1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+Changed value of parameter Method to 2
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Crossover to 0
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter CrossoverBasis to 1
+Changed value of parameter CrossoverBasis to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Changed value of parameter NonConvex to 2
+Changed value of parameter NonConvex to 2
+   Prev: -1  Min: -1  Max: 2  Default: -1
+   Prev: -1  Min: -1  Max: 2  Default: -1
+Changed value of parameter TimeLimit to 1200.0
+Changed value of parameter TimeLimit to 1200.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Solving...
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 1101030 rows, 345502 columns and 1544497 nonzeros
+Optimize a model with 1101030 rows, 345502 columns and 1544497 nonzeros
+Model fingerprint: 0x0c876d47
+Model fingerprint: 0x0c876d47
+Model has 167920 quadratic constraints
+Model has 167920 quadratic constraints
+Coefficient statistics:
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e-05, 1e+00]
+  Bounds range     [1e-05, 1e+00]
+  RHS range        [1e-03, 1e+00]
+  RHS range        [1e-03, 1e+00]
+  QRHS range       [1e+00, 1e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1097904 rows and 167927 columns
+Presolve removed 1097904 rows and 167927 columns
+
+
+Continuous model is non-convex -- solving as a MIP.
+Continuous model is non-convex -- solving as a MIP.
+
+
+Presolve removed 1097912 rows and 167927 columns
+Presolve removed 1097912 rows and 167927 columns
+Presolve time: 2.28s
+Presolve time: 2.28s
+Presolved: 3203015 rows, 934295 columns, 8682003 nonzeros
+Presolved: 3203015 rows, 934295 columns, 8682003 nonzeros
+Presolved model has 758419 bilinear constraint(s)
+Presolved model has 758419 bilinear constraint(s)
+Variable types: 934295 continuous, 0 integer (0 binary)
+Variable types: 934295 continuous, 0 integer (0 binary)
+Root barrier log...
+Root barrier log...
+
+
+Elapsed ordering time = 21s
+Elapsed ordering time = 21s
+Elapsed ordering time = 25s
+Elapsed ordering time = 25s
+Ordering time: 88.44s
+Ordering time: 88.44s
+Elapsed ordering time = 89s
+Elapsed ordering time = 89s
+Elapsed ordering time = 90s
+Elapsed ordering time = 90s
+Elapsed ordering time = 111s
+Elapsed ordering time = 111s
+Elapsed ordering time = 120s
+Elapsed ordering time = 120s
+Elapsed ordering time = 129s
+Elapsed ordering time = 129s
+Elapsed ordering time = 132s
+Elapsed ordering time = 132s
+Elapsed ordering time = 138s
+Elapsed ordering time = 138s
+Elapsed ordering time = 140s
+Elapsed ordering time = 140s
+Elapsed ordering time = 145s
+Elapsed ordering time = 145s
+Elapsed ordering time = 151s
+Elapsed ordering time = 151s
+Elapsed ordering time = 155s
+Elapsed ordering time = 155s
+Elapsed ordering time = 160s
+Elapsed ordering time = 160s
+Elapsed ordering time = 165s
+Elapsed ordering time = 165s
+Elapsed ordering time = 170s
+Elapsed ordering time = 170s
+Elapsed ordering time = 175s
+Elapsed ordering time = 175s
+Elapsed ordering time = 180s
+Elapsed ordering time = 180s
+Elapsed ordering time = 202s
+Elapsed ordering time = 202s
+Elapsed ordering time = 211s
+Elapsed ordering time = 211s
+Elapsed ordering time = 215s
+Elapsed ordering time = 215s
+Elapsed ordering time = 221s
+Elapsed ordering time = 221s
+Elapsed ordering time = 225s
+Elapsed ordering time = 225s
+Elapsed ordering time = 230s
+Elapsed ordering time = 230s
+Elapsed ordering time = 236s
+Elapsed ordering time = 236s
+Elapsed ordering time = 240s
+Elapsed ordering time = 240s
+Elapsed ordering time = 245s
+Elapsed ordering time = 245s
+Elapsed ordering time = 250s
+Elapsed ordering time = 250s
+Elapsed ordering time = 255s
+Elapsed ordering time = 255s
+Elapsed ordering time = 260s
+Elapsed ordering time = 260s
+Elapsed ordering time = 265s
+Elapsed ordering time = 265s
+Killed

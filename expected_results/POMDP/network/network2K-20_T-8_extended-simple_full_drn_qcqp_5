@@ -1,0 +1,69 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp$ python3 parameter_synthesis.py load-problem pomdp_fsc_new_/network/network2K-20_T-8_extended-simple_full.drn pomdp_fsc_new_/network/performance.pctl  set-threshold 5 find-feasible-instantiation --qcqp-mc full --qcqp-incremental below qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+pomdp_fsc_new_/network/network2K-20_T-8_extended-simple_full.drn
+pomdp_fsc_new_/network/performance.pctl
+set-threshold
+5
+find-feasible-instantiation
+--qcqp-mc
+full
+--qcqp-incremental
+below
+qcqp
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 596
+Parsing R{"dropped_packets"}=? [F "goal"]
+Parse formula R=? [F "goal"] without a program.
+Build model
+ WARN (DirectEncodingParser.cpp:120): No. of actions has to be declared. We may continue now, but future versions might not support this.
+Built a model with 5040 states and 13327 transitions
+Bisimulation yields model with 5040 states, 5040 actions and 13327 transitions
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Gurobi reports: solved
+Solver time :0.5706119537353516
+Init prob:  8.327859697675262
+Max vio : 1.4092147644005752
+p =  5.214856235137011
+Solving...
+Gurobi reports: solved
+Solver time :0.44176197052001953
+Init prob:  6.064098100395609
+Max vio : 1.6110460240153812
+p =  6.611046024838231
+Solving...
+Gurobi reports: solved
+Solver time :0.5034999847412109
+Init prob:  4.947083290048564
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Qcqp: 5.49389140605815: Mc: 4.947083290048564
+iterations =2
+solver time=1.515873908996582
+encoding time=3.265648603439331
+iterate time=0.0
+inner part = 0.7919168472290039s (0.44518351150734925)
+adding constraints = 0.0s
+
+1.7788548469543457
+Final result: 4.947083290048564 (approx. 4.947083290048564)
+This procedure took 5.701902627944946s (from start: 5.712118625640869s)
+Ratio of solver time over procedure time 0.26585405046506844
+Ratio of model building time time over procedure time 0.08137391825966685
+Ratio of mc time time over procedure time 0.007595990100651406
+Ratio of encoding time over procedure time 0.5727296336900656
+Ratio of adding cons time over procedure time 0.31197566198977206
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

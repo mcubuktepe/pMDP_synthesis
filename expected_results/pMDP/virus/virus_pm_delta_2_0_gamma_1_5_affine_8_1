@@ -1,0 +1,93 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/mdp/virus/virus.pm prism/mdp/virus/maxattacks.pctl set-threshold 8.1 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below affine
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/mdp/virus/virus.pm
+prism/mdp/virus/maxattacks.pctl
+set-threshold
+8.1
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+affine
+{}
+Assume input is a Prism File
+Parsing R{"attacks"}max=? [F s11=2 ]
+Load model from prism file
+Load formula Rmax=? [F s11=2 ] with respect to program.
+Build model
+Built a model with 761 states and 5009 transitions
+Bisimulation yields model with 761 states, 2606 actions and 5009 transitions
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Solving...
+Gurobi reports: solved
+Solver time :0.022009849548339844
+Found better value
+Init prob: 51.598953641638914
+Best found: 51.598953641638914
+Trust region: 4.0
+Gamma: 1.5
+Total time: 0.49498748779296875
+Solver time: 0.025827884674072266
+Encoding time: 0.4691596031188965
+Max vio : 6.066666666666756
+p =  14.166666666666119
+Solving...
+Gurobi reports: solved
+Solver time :0.019962072372436523
+Found better value
+Init prob: 12.00000224371922
+Best found: 12.00000224371922
+Trust region: 5.5
+Gamma: 1.5
+Total time: 0.7348232269287109
+Solver time: 0.04578995704650879
+Encoding time: 0.6890332698822021
+Max vio : 4.8130650689481165
+p =  12.899738410413834
+Solving...
+Gurobi reports: solved
+Solver time :0.023114681243896484
+Found better value
+Init prob: 8.061149287060605
+Best found: 8.061149287060605
+Trust region: 7.75
+Gamma: 1.5
+Total time: 0.9768316745758057
+Solver time: 0.06890463829040527
+Encoding time: 0.9079270362854004
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Scp: 7.592101662922025: Mc: 8.061149287060605
+iterations =2
+solver time=0.06890463829040527
+encoding time=0.9079270362854004
+iterate time=0.0
+inner part = 0.3530433177947998s (0.26994180734225615)
+adding constraints = 0.3530433177947998s
+Qcqp: 7.592101662922025: Mc: 8.061149287060605
+iterations =2
+solver time=0.06890463829040527
+encoding time=0.9079270362854004
+iterate time=0.0
+inner part = 0.09530115127563477s (0.26994180734225615)
+adding constraints = 0.3530433177947998s
+Final result: 8.061149287060605 (approx. 8.061149287060605)
+This procedure took 1.4074616432189941s (from start: 1.4147281646728516s)
+Ratio of solver time over procedure time 0.048956672192368975
+Ratio of model building time time over procedure time 0.03761322861941124
+Ratio of mc time time over procedure time 0.004118867308949097
+Ratio of encoding time over procedure time 0.645081193267113
+Ratio of adding cons time over procedure time 0.25083690166316525
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>
+

@@ -1,0 +1,124 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp$ python3 parameter_synthesis.py load-problem maze_simple_extended_m5.drn cost.pctl set-threshold 14 find-feasible-instantiation --qcqp-mc full --qcqp-incremental below affine
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+maze_simple_extended_m5.drn
+cost.pctl
+set-threshold
+14
+find-feasible-instantiation
+--qcqp-mc
+full
+--qcqp-incremental
+below
+affine
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 590
+Parsing R=? [F "goal"]
+Parse formula R=? [F "goal"] without a program.
+Build model
+ WARN (DirectEncodingParser.cpp:120): No. of actions has to be declared. We may continue now, but future versions might not support this.
+Built a model with 1303 states and 2658 transitions
+Bisimulation yields model with 1303 states, 1303 actions and 2658 transitions
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Solving...
+Gurobi reports: solved
+Solver time :0.012649774551391602
+Found better value
+Init prob: 16611.182382284624
+Best found: 16611.182382284624
+Trust region: 4.0
+Gamma: 1.5
+Total time: 0.33097124099731445
+Solver time: 0.02174520492553711
+Encoding time: 0.30922603607177734
+Max vio : 4.537112814026732
+p =  18.40042188176627
+Solving...
+Gurobi reports: solved
+Solver time :0.011258602142333984
+Found better value
+Init prob: 58.2888621648217
+Best found: 58.2888621648217
+Trust region: 5.5
+Gamma: 1.5
+Total time: 0.4932692050933838
+Solver time: 0.033003807067871094
+Encoding time: 0.4602653980255127
+Max vio : 4138.795595571156
+p =  4152.795595571156
+Solving...
+Gurobi reports: solved
+Solver time :0.018895626068115234
+Found better value
+Init prob: 25.109035513760443
+Best found: 25.109035513760443
+Trust region: 7.75
+Gamma: 1.5
+Total time: 0.6629600524902344
+Solver time: 0.05189943313598633
+Encoding time: 0.611060619354248
+Max vio : 0
+p =  11.441322725057915
+Solving...
+Gurobi reports: solved
+Solver time :0.02308797836303711
+Found better value
+Init prob: 15.421121100154094
+Best found: 15.421121100154094
+Trust region: 10
+Gamma: 1.5
+Total time: 0.8366396427154541
+Solver time: 0.07498741149902344
+Encoding time: 0.7616522312164307
+Max vio : 0
+p =  5.864161691835952
+Solving...
+Gurobi reports: solved
+Solver time :0.019676923751831055
+Found better value
+Init prob: 10.825755002455075
+Best found: 10.825755002455075
+Trust region: 10
+Gamma: 1.5
+Total time: 1.0093917846679688
+Solver time: 0.09466433525085449
+Encoding time: 0.9147274494171143
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Scp: 4.066110949869708: Mc: 10.825755002455075
+iterations =4
+solver time=0.09466433525085449
+encoding time=0.9147274494171143
+iterate time=0.0
+inner part = 0.33586740493774414s (0.27019372058520796)
+adding constraints = 0.33586740493774414s
+Qcqp: 4.066110949869708: Mc: 10.825755002455075
+iterations =4
+solver time=0.09466433525085449
+encoding time=0.9147274494171143
+iterate time=0.0
+inner part = 0.09074926376342773s (0.27019372058520796)
+adding constraints = 0.33586740493774414s
+<prophesy.optimisation.affine.AffineModelRepair object at 0x7f8d3f0a3550>
+0.33586740493774414
+Final result: 10.825755002455075 (approx. 10.825755002455075)
+This procedure took 1.498560905456543s (from start: 1.5085880756378174s)
+Ratio of solver time over procedure time 0.06317016205758724
+Ratio of model building time time over procedure time 0.04144973605582443
+Ratio of mc time time over procedure time 0.008314798374651176
+Ratio of encoding time over procedure time 0.610403918910749
+Ratio of adding cons time over procedure time 0.22412662956492962
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

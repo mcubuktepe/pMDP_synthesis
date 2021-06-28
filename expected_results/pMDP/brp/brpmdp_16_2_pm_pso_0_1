@@ -1,0 +1,41 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ parameter_synthesis.py load-problem prism/brpmdp/brp.pm prism/brpmdp/brp.prctl set-threshold 0.1 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below pso
+Loading configuration
+Loaded configuration
+/home/gradandpostdoc/stormenv/bin/parameter_synthesis.py
+load-problem
+prism/brpmdp/brp.pm
+prism/brpmdp/brp.prctl
+set-threshold
+0.1
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+pso
+{}
+Assume input is a Prism File
+Parsing Pmax=? [ F (s=5 & T) ]
+Load model from prism file
+Load formula Pmax=? [ F (s=5 & T) ] with respect to program.
+Call stormpy for constraints
+Build model
+Built a model with 18369 states and 24950 transitions
+Bisimulation yields model with 18369 states, 18510 actions and 24950 transitions
+Stormpy finished collecting constraints
+Push [1]
+Call Z3 cli tool with timeout 10.0
+SMT result:	unsat
+Load formula Pmax=? [ F (s=5 & T) ] with respect to program.
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 1.1275035891151475e-119 with 1/10
+This procedure took 0.5900382995605469s (from start: 0.5969009399414062s)
+Ratio of solver time over procedure time 0.6646229998383708
+Ratio of model building time time over procedure time 0.6104355907548085
+Ratio of mc time time over procedure time 0.32537215128495234
+Ratio of encoding time over procedure time 0.0
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

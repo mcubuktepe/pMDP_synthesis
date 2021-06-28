@@ -1,0 +1,125 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/consensus/coin4.pm prism/consensus/coin4.prctl set-threshold 0.99 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/consensus/coin4.pm
+prism/consensus/coin4.prctl
+set-threshold
+0.99
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+above
+qcqp
+{}
+Assume input is a Prism File
+Parsing Pmin=? [ F "finished" & "all_coins_equal_1" ]
+Load model from prism file
+Load formula Pmin=? [ F "finished" & "all_coins_equal_1" ] with respect to program.
+Build model
+Built a model with 22656 states and 75232 transitions
+Bisimulation yields model with 22656 states, 60544 actions and 75232 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Gurobi reports: solved
+Solver time :3.6264634132385254
+Init prob:  0.6983552677926834
+Max vio : 0.43356649249553636
+p =  0.999999999851572
+Solving...
+Gurobi reports: solved
+Solver time :6.663722038269043
+Init prob:  0.866485966448956
+Max vio : 0.12228252285037956
+p =  0.8677175034700491
+Solving...
+Gurobi reports: solved
+Solver time :12.851634740829468
+Init prob:  0.9181435915259463
+Max vio : 0.05087957375901391
+p =  0.9391204426665435
+Solving...
+Gurobi reports: solved
+Solver time :14.234773397445679
+Init prob:  0.9438401198441352
+Max vio : 0.02977701652262363
+p =  0.9602230161941205
+Solving...
+Gurobi reports: solved
+Solver time :11.768522262573242
+Init prob:  0.9589084277249907
+Max vio : 0.019273399057538793
+p =  0.9707266183985058
+Solving...
+Gurobi reports: solved
+Solver time :11.749863624572754
+Init prob:  0.9685733512124388
+Max vio : 0.013018563598157324
+p =  0.9769814435280436
+Solving...
+Gurobi reports: solved
+Solver time :16.177344799041748
+Init prob:  0.9751593272145301
+Max vio : 0.008975397940820763
+p =  0.9810246154172405
+Solving...
+Gurobi reports: solved
+Solver time :13.973637104034424
+Init prob:  0.9798433736558607
+Max vio : 0.006217187978040785
+p =  0.9837828174381332
+Solving...
+Gurobi reports: solved
+Solver time :13.954353094100952
+Init prob:  0.9833003398950898
+Max vio : 0.00419178384784748
+p =  0.9858082341326769
+Solving...
+Gurobi reports: solved
+Solver time :13.883760690689087
+Init prob:  0.98592349190484
+Max vio : 0.002677051398003988
+p =  0.9873229520238324
+Solving...
+Gurobi reports: solved
+Solver time :13.87373661994934
+Init prob:  0.9879604316491709
+Max vio : 0.0015178879149677106
+p =  0.9884821156730672
+Solving...
+Gurobi reports: solved
+Solver time :14.706560611724854
+Init prob:  0.9895737891982492
+Max vio : 0.0006075588181052256
+p =  0.9893924421857041
+Solving...
+Gurobi reports: solved
+Solver time :6.664902687072754
+Init prob:  0.9908635360640411
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Qcqp: 0.9902366848465344: Mc: 0.9908635360640411
+iterations =12
+solver time=154.12927508354187
+encoding time=14.994017124176025
+iterate time=0.0
+inner part = 3.679863929748535s (0.42745611915455767)
+adding constraints = 0.0s
+
+Point found: {p1:1328293934997773/4503599627370496;p2:2656577513385945/9007199254740992;p3:5313120223216677/18014398509481984;p4:1328279242242839/4503599627370496}: 0.9908635360640411 (approx. 0.9908635360640411)
+This procedure took 170.8354697227478s (from start: 170.84171414375305s)
+Ratio of solver time over procedure time 0.9022088640823903
+Ratio of model building time time over procedure time 0.003083044434337856
+Ratio of mc time time over procedure time 0.001970459556628994
+Ratio of encoding time over procedure time 0.08776875872738903
+Ratio of adding cons time over procedure time 0.05039206730933147
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

@@ -1,0 +1,204 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp$ python3 parameter_synthesis.py load-problem maze_simple_extended_m5.drn cost.pctl set-threshold 14 find-feasible-instantiation --qcqp-mc full --qcqp-incremental below qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+maze_simple_extended_m5.drn
+cost.pctl
+set-threshold
+14
+find-feasible-instantiation
+--qcqp-mc
+full
+--qcqp-incremental
+below
+qcqp
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 590
+Parsing R=? [F "goal"]
+Parse formula R=? [F "goal"] without a program.
+Build model
+ WARN (DirectEncodingParser.cpp:120): No. of actions has to be declared. We may continue now, but future versions might not support this.
+Built a model with 1303 states and 2658 transitions
+Bisimulation yields model with 1303 states, 1303 actions and 2658 transitions
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Gurobi reports: solved
+Solver time :0.22721028327941895
+Init prob:  7940.45704989799
+Max vio : 1.210798298971869
+p =  13.859989566899957
+Solving...
+Unknown (code: 12)
+Solver time :0.8350710868835449
+Solving...
+Unknown (code: 13)
+Solver time :0.4028282165527344
+Init prob:  1036.3095611479228
+Max vio : 7933.458105263385
+p =  0.0013415630582485928
+Solving...
+Unknown (code: 13)
+Solver time :0.7024273872375488
+Init prob:  415.8745832157119
+Max vio : 510.85449143650516
+p =  524.854377047957
+Solving...
+Unknown (code: 13)
+Solver time :1.360229253768921
+Init prob:  278.66460005732483
+Max vio : 200.79069394459233
+p =  214.7906931505186
+Solving...
+Unknown (code: 13)
+Solver time :0.9770545959472656
+Init prob:  216.0366403101161
+Max vio : 132.19562634578818
+p =  146.19562328945892
+Solving...
+Unknown (code: 13)
+Solver time :1.5264570713043213
+Init prob:  247.03341870967336
+Max vio : 99.89587197107136
+p =  113.87871291199373
+Solving...
+Unknown (code: 13)
+Solver time :0.9136908054351807
+Init prob:  212.4270461915776
+Max vio : 116.42657958332828
+p =  130.42657900295077
+Solving...
+Unknown (code: 13)
+Solver time :1.3519198894500732
+Init prob:  209.29167151872576
+Max vio : 98.92839096251681
+p =  112.88426767815005
+Solving...
+Unknown (code: 13)
+Solver time :1.034508228302002
+Init prob:  233.22174753429172
+Max vio : 97.26830817811161
+p =  111.26814646252436
+Solving...
+Unknown (code: 13)
+Solver time :0.9819431304931641
+Init prob:  286.29777982768417
+Max vio : 109.17062352958165
+p =  123.16855536652659
+Solving...
+Unknown (code: 13)
+Solver time :1.529878854751587
+Init prob:  289.33504212312914
+Max vio : 136.0856472189536
+p =  150.08564663943093
+Solving...
+Unknown (code: 13)
+Solver time :1.2021572589874268
+Init prob:  292.31630210973026
+Max vio : 137.59183176302457
+p =  151.59182784420634
+Solving...
+Unknown (code: 13)
+Solver time :1.1589138507843018
+Init prob:  292.9381840702887
+Max vio : 139.11377279136187
+p =  153.11377115777736
+Solving...
+Unknown (code: 13)
+Solver time :1.6319692134857178
+Init prob:  292.47579479941203
+Max vio : 139.42427121350616
+p =  153.42427058365064
+Solving...
+Unknown (code: 13)
+Solver time :1.4360947608947754
+Init prob:  1101955.9415007327
+Max vio : 136.64147021653102
+p =  150.53224156930463
+Solving...
+Unknown (code: 12)
+Solver time :0.45584678649902344
+Solving...
+Unknown (code: 12)
+Solver time :0.7088184356689453
+Solving...
+Unknown (code: 13)
+Solver time :0.4309713840484619
+Init prob:  73.27782827789869
+Max vio : 24817.51208177897
+p =  159.80691964707358
+Solving...
+Unknown (code: 13)
+Solver time :0.7881672382354736
+Init prob:  23.185344218642506
+Max vio : 29.546738215026622
+p =  43.543975251363236
+Solving...
+Gurobi reports: solved
+Solver time :0.6598899364471436
+Init prob:  19.2968268545618
+Max vio : 4.5326377421778785
+p =  18.532608414616845
+Solving...
+Gurobi reports: solved
+Solver time :0.2366924285888672
+Init prob:  18.575485308028334
+Max vio : 2.6125012453830267
+p =  16.612501229917083
+Solving...
+Gurobi reports: solved
+Solver time :0.6282238960266113
+Init prob:  18.11361565859745
+Max vio : 2.2607129244050137
+p =  16.260712541857508
+Solving...
+Gurobi reports: solved
+Solver time :0.21905207633972168
+Init prob:  17.56151152478335
+Max vio : 2.033790058352799
+p =  16.033790051912195
+Solving...
+Gurobi reports: solved
+Solver time :0.7849917411804199
+Init prob:  16.567264960653524
+Max vio : 1.7508097223318457
+p =  15.75080886510368
+Solving...
+Gurobi reports: solved
+Solver time :0.6754229068756104
+Init prob:  15.16816751667054
+Max vio : 1.2457646120322872
+p =  15.245761516147644
+Solving...
+Gurobi reports: solved
+Solver time :0.23557233810424805
+Init prob:  13.900293542269047
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Qcqp: 14.544425379692685: Mc: 13.900293542269047
+iterations =26
+solver time=23.09600305557251
+encoding time=5.021154165267944
+iterate time=0.0
+inner part = 1.2882521152496338s (0.4715517091664887)
+adding constraints = 0.0s
+
+2.7319424152374268
+Final result: 13.900293542269047 (approx. 13.900293542269047)
+This procedure took 28.620219230651855s (from start: 28.6323139667511s)
+Ratio of solver time over procedure time 0.806982045435802
+Ratio of model building time time over procedure time 0.0021921345796759297
+Ratio of mc time time over procedure time 0.0018542775480894587
+Ratio of encoding time over procedure time 0.17544080025391134
+Ratio of adding cons time over procedure time 0.09545497863662604
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

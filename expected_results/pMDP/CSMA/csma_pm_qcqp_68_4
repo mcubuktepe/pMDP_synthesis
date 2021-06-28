@@ -1,0 +1,394 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/csma/csma2_4_param.nm prism/csma/csma.pctl set-threshold 68.4 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/csma/csma2_4_param.nm
+prism/csma/csma.pctl
+set-threshold
+68.4
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+qcqp
+{}
+Assume input is a Prism File
+Parsing R{"time"}max=?  [ F "all_delivered" ]
+Load model from prism file
+Load formula Rmax=? [ F "all_delivered" ] with respect to program.
+Build model
+Built a model with 7958 states and 10594 transitions
+Bisimulation yields model with 7958 states, 7988 actions and 10594 transitions
+Perform bisimulation
+Bisimulation yields model with 1016 states, 1023 actions and 1637 transitions
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Unknown (code: 13)
+Solver time :0.414686918258667
+Init prob:  78.61065510902033
+Max vio : 0.2237063600334497
+p =  67.75734382918456
+Solving...
+Unknown (code: 13)
+Solver time :0.7043116092681885
+Init prob:  76.89124944632923
+Max vio : 4.810564729176324
+p =  73.19463761280541
+Solving...
+Unknown (code: 13)
+Solver time :0.5751552581787109
+Init prob:  75.68099661297879
+Max vio : 4.013090586023674
+p =  72.40040433364257
+Solving...
+Unknown (code: 13)
+Solver time :0.30977416038513184
+Init prob:  74.72238740527351
+Max vio : 3.433179163040574
+p =  71.83290699157558
+Solving...
+Unknown (code: 13)
+Solver time :0.24636411666870117
+Init prob:  74.2130539301702
+Max vio : 2.894770310066188
+p =  71.28962645084643
+Solving...
+Unknown (code: 13)
+Solver time :0.8558962345123291
+Init prob:  73.71859581799194
+Max vio : 2.68933382103926
+p =  71.08606280899916
+Solving...
+Unknown (code: 13)
+Solver time :0.7747421264648438
+Init prob:  73.19631338650163
+Max vio : 2.6087983087525943
+p =  71.0087360474364
+Solving...
+Unknown (code: 13)
+Solver time :0.9179575443267822
+Init prob:  73.01499424330363
+Max vio : 2.370675376885571
+p =  70.77067118188606
+Solving...
+Unknown (code: 12)
+Solver time :0.3311347961425781
+Solving...
+Unknown (code: 13)
+Solver time :0.4925563335418701
+Init prob:  72.62917424900536
+Max vio : 36.82056104063002
+p =  0.0
+Solving...
+Unknown (code: 13)
+Solver time :0.34650659561157227
+Init prob:  72.09658894139115
+Max vio : 1.9515798420592825
+p =  70.33752119605712
+Solving...
+Unknown (code: 13)
+Solver time :0.7948675155639648
+Init prob:  81.13049661610266
+Max vio : 1.81957743807017
+p =  70.2195537191096
+Solving...
+Unknown (code: 13)
+Solver time :0.40470027923583984
+Init prob:  80.07431559832214
+Max vio : 6.2350379567481475
+p =  74.63084931768336
+Solving...
+Unknown (code: 13)
+Solver time :0.6619305610656738
+Init prob:  79.28265266433458
+Max vio : 5.758652006063836
+p =  74.07220266264973
+Solving...
+Unknown (code: 13)
+Solver time :0.45809006690979004
+Init prob:  78.52027514207167
+Max vio : 5.283196665936503
+p =  73.64182722454244
+Solving...
+Unknown (code: 13)
+Solver time :0.5868425369262695
+Init prob:  77.0419238225714
+Max vio : 5.020023355563656
+p =  73.4200215056874
+Solving...
+Unknown (code: 13)
+Solver time :0.5287983417510986
+Init prob:  78.16571121974961
+Max vio : 7.129117041788783
+p =  73.16042173602416
+Solving...
+Unknown (code: 13)
+Solver time :0.6094298362731934
+Init prob:  78.01052263759028
+Max vio : 4.751725098145972
+p =  73.10587148080319
+Solving...
+Unknown (code: 13)
+Solver time :0.5723910331726074
+Init prob:  77.79832796887766
+Max vio : 4.770333678892863
+p =  73.17033334539022
+Solving...
+Unknown (code: 13)
+Solver time :0.4220387935638428
+Init prob:  77.76691969036334
+Max vio : 4.572857842564097
+p =  72.97017027851643
+Solving...
+Unknown (code: 13)
+Solver time :0.6573531627655029
+Init prob:  77.80142969130799
+Max vio : 4.555137993742532
+p =  72.94681096591664
+Solving...
+Unknown (code: 13)
+Solver time :0.6877810955047607
+Init prob:  77.65586136051546
+Max vio : 4.610726778111048
+p =  72.99441070653447
+Solving...
+Unknown (code: 13)
+Solver time :0.5714025497436523
+Init prob:  77.68977428610553
+Max vio : 4.477232028001232
+p =  72.87446004987127
+Solving...
+Unknown (code: 13)
+Solver time :0.4116673469543457
+Init prob:  77.52598462436887
+Max vio : 4.60645514335793
+p =  73.00627006125137
+Solving...
+Unknown (code: 13)
+Solver time :0.5539531707763672
+Init prob:  77.48942272607529
+Max vio : 4.431732588493114
+p =  72.8268744281592
+Solving...
+Unknown (code: 13)
+Solver time :0.6808488368988037
+Init prob:  77.46781937741208
+Max vio : 4.448934382281536
+p =  72.83711505095019
+Solving...
+Unknown (code: 13)
+Solver time :0.379624605178833
+Init prob:  77.35413277228105
+Max vio : 4.436606952023974
+p =  72.76480932081738
+Solving...
+Unknown (code: 13)
+Solver time :0.2992680072784424
+Init prob:  77.16510785524241
+Max vio : 4.3718197876341325
+p =  72.76000995745781
+Solving...
+Unknown (code: 13)
+Solver time :0.4380931854248047
+Init prob:  76.91141214822996
+Max vio : 4.269013736714571
+p =  72.66888460273516
+Solving...
+Unknown (code: 13)
+Solver time :0.6001074314117432
+Init prob:  76.63148883919354
+Max vio : 4.0517756330187575
+p =  72.45079113833621
+Solving...
+Unknown (code: 13)
+Solver time :0.3088207244873047
+Init prob:  75.61651631989159
+Max vio : 3.851139996577356
+p =  72.24506469580022
+Solving...
+Unknown (code: 13)
+Solver time :0.4318277835845947
+Init prob:  74.43280550660187
+Max vio : 3.461581764183577
+p =  71.85970602374688
+Solving...
+Unknown (code: 13)
+Solver time :0.7612535953521729
+Init prob:  74.01046181948689
+Max vio : 2.8805720182648167
+p =  71.2764807799263
+Solving...
+Unknown (code: 13)
+Solver time :0.2863197326660156
+Init prob:  74.91347205330091
+Max vio : 2.7229133701115433
+p =  71.12113758541216
+Solving...
+Unknown (code: 13)
+Solver time :1.181926965713501
+Init prob:  73.61314277853954
+Max vio : 3.1244492171565903
+p =  71.5042258313502
+Solving...
+Unknown (code: 13)
+Solver time :0.5055520534515381
+Init prob:  72.71062684842342
+Max vio : 2.433632071451495
+p =  70.79709799838957
+Solving...
+Unknown (code: 13)
+Solver time :0.46071314811706543
+Init prob:  72.32009973950409
+Max vio : 2.1192979349444685
+p =  70.51875753280295
+Solving...
+Unknown (code: 13)
+Solver time :0.9382040500640869
+Init prob:  71.53495931859756
+Max vio : 1.7938811560851387
+p =  70.19242064137516
+Solving...
+Unknown (code: 13)
+Solver time :0.44866037368774414
+Init prob:  71.09851151538821
+Max vio : 1.3870660722517325
+p =  69.78625179891223
+Solving...
+Unknown (code: 13)
+Solver time :0.6419596672058105
+Init prob:  71.02279997810133
+Max vio : 1.3242253919966496
+p =  69.72422534325915
+Solving...
+Unknown (code: 13)
+Solver time :0.6198925971984863
+Init prob:  70.32061683637227
+Max vio : 1.1787370781050426
+p =  69.57791322690534
+Solving...
+Unknown (code: 13)
+Solver time :0.5768496990203857
+Init prob:  70.11459944292717
+Max vio : 0.9342536953333739
+p =  69.33424478682724
+Solving...
+Unknown (code: 13)
+Solver time :0.6445672512054443
+Init prob:  70.13663541871684
+Max vio : 0.6889727825127936
+p =  69.08535383820713
+Solving...
+Unknown (code: 13)
+Solver time :0.45912647247314453
+Init prob:  69.91776071943404
+Max vio : 0.8454610467469239
+p =  69.24545554053964
+Solving...
+Unknown (code: 13)
+Solver time :0.6797435283660889
+Init prob:  69.84472387712572
+Max vio : 0.7438598282716826
+p =  69.14382645475501
+Solving...
+Unknown (code: 13)
+Solver time :0.4003570079803467
+Init prob:  69.76256694521287
+Max vio : 0.6995559756678903
+p =  69.09948413967554
+Solving...
+Unknown (code: 13)
+Solver time :0.39820027351379395
+Init prob:  69.3741098304114
+Max vio : 0.6323478122145705
+p =  69.03219883741352
+Solving...
+Unknown (code: 13)
+Solver time :0.5720715522766113
+Init prob:  69.37949147588415
+Max vio : 0.4693216579388184
+p =  68.86921699897317
+Solving...
+Unknown (code: 13)
+Solver time :0.46295809745788574
+Init prob:  69.12808779795965
+Max vio : 0.44021410015451196
+p =  68.83998283795412
+Solving...
+Unknown (code: 13)
+Solver time :1.1632184982299805
+Init prob:  68.53986935608643
+Max vio : 0.35351004380063916
+p =  68.75348864305666
+Solving...
+Unknown (code: 13)
+Solver time :0.6577417850494385
+Init prob:  73.051938711414
+Max vio : 0.10868102266498716
+p =  68.4784928475739
+Solving...
+Unknown (code: 13)
+Solver time :0.46196889877319336
+Init prob:  69.85335420473068
+Max vio : 24.41486072565439
+p =  71.17278874887758
+Solving...
+Unknown (code: 13)
+Solver time :0.817317008972168
+Init prob:  69.74125603700462
+Max vio : 0.7033549533728117
+p =  69.10333341929407
+Solving...
+Unknown (code: 13)
+Solver time :0.9063186645507812
+Init prob:  70.09353701897749
+Max vio : 0.6543993002558114
+p =  69.05439522753694
+Solving...
+Unknown (code: 13)
+Solver time :0.37082338333129883
+Init prob:  69.83774046000411
+Max vio : 0.8159529775480233
+p =  69.21554856117272
+Solving...
+Unknown (code: 13)
+Solver time :0.4694786071777344
+Init prob:  69.7298202914175
+Max vio : 0.7025715134757441
+p =  69.10256757861946
+Solving...
+Unknown (code: 13)
+Solver time :0.6380372047424316
+Init prob:  69.67646861294544
+Max vio : 0.6492693512967758
+p =  69.0492244620476
+Solving...
+Unknown (code: 13)
+Solver time :0.3643665313720703
+Init prob:  67.81485190804389
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Qcqp: 68.99222212551382: Mc: 67.81485190804389
+iterations =57
+solver time=32.91654920578003
+encoding time=2.3578574657440186
+iterate time=0.0
+inner part = 0.7964901924133301s (0.5435611604377553)
+adding constraints = 0.0s
+
+1.4653184413909912
+Final result: 67.81485190804389 (approx. 67.81485190804389)
+This procedure took 37.06969428062439s (from start: 37.079301834106445s)
+Ratio of solver time over procedure time 0.8879638703409775
+Ratio of model building time time over procedure time 0.04583208889321266
+Ratio of mc time time over procedure time 0.0012636031639686265
+Ratio of encoding time over procedure time 0.06360606720666766
+Ratio of adding cons time over procedure time 0.03952874362270867
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

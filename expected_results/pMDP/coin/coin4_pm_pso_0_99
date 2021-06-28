@@ -1,0 +1,19 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/consensus/coin4.pm prism/consensus/coin4.prctl set-threshold 0.99 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above pso
+Loading configuration
+Loaded configuration
+{}
+Assume input is a Prism File
+Parsing Pmin=? [ F "finished" & "all_coins_equal_1" ]
+Load model from prism file
+Load formula Pmin=? [ F "finished" & "all_coins_equal_1" ] with respect to program.
+Call stormpy for constraints
+Build model
+Built a model with 22656 states and 75232 transitions
+Bisimulation yields model with 22656 states, 60544 actions and 75232 transitions
+Stormpy finished collecting constraints
+Push [1]
+Call Z3 cli tool with timeout 10.0
+SMT result:	unsat
+Load formula Pmin=? [ F "finished" & "all_coins_equal_1" ] with respect to program.
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling

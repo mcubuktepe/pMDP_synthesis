@@ -1,0 +1,128 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp$ python3 parameter_synthesis.py load-problem models/drone/pomdp_drone_4-2-mem5-simple.drn models/drone/drone_drn.props set-threshold 0.90 find-feasible-instantiation --qcqp-mc full --qcqp-incremental above qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+models/drone/pomdp_drone_4-2-mem5.drn
+models/drone/drone_drn.props
+set-threshold
+0.90
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+above
+qcqp
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 12286
+Parsing P=? ["notbad" U "goal"];
+Parse formula P=? ["notbad" U "goal"]; without a program.
+Build model
+Built a model with 32403 states and 70099 transitions
+Bisimulation yields model with 32403 states, 32403 actions and 70099 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Gurobi reports: solved
+Solver time :101.26387977600098
+Init prob:  0.2519588689666498
+Max vio : 0.4222523780213264
+p =  0.9999999999938665
+Solving...
+Gurobi reports: solved
+Solver time :78.59539294242859
+Init prob:  0.5193266831194467
+Max vio : 0.3160584251779437
+p =  0.583941575024141
+Solving...
+Gurobi reports: solved
+Solver time :66.40686583518982
+Init prob:  0.6709172298129488
+Max vio : 0.18130513581924623
+p =  0.7186948642083755
+Solving...
+Gurobi reports: solved
+Solver time :77.212331533432
+Init prob:  0.7538603657208438
+Max vio : 0.10656124167449617
+p =  0.7934387583410187
+Solving...
+Gurobi reports: solved
+Solver time :61.054253816604614
+Init prob:  0.8069147007047484
+Max vio : 0.06645899459071611
+p =  0.8335410054240472
+Solving...
+Gurobi reports: solved
+Solver time :70.71641874313354
+Init prob:  0.842625947782997
+Max vio : 0.04107068408095904
+p =  0.8589293159421958
+Solving...
+Gurobi reports: solved
+Solver time :48.253838300704956
+Init prob:  0.8628249670762874
+Max vio : 0.024936158519261103
+p =  0.8750638414845666
+Solving...
+Gurobi reports: solved
+Solver time :47.56392860412598
+Init prob:  0.8753196111955336
+Max vio : 0.015912554634141297
+p =  0.8840874453672056
+Solving...
+Gurobi reports: solved
+Solver time :45.69921326637268
+Init prob:  0.8831520263098502
+Max vio : 0.010581630503536827
+p =  0.8894183695061714
+Solving...
+Gurobi reports: solved
+Solver time :47.047619342803955
+Init prob:  0.8889115637661572
+Max vio : 0.007063254900958314
+p =  0.8929367451016382
+Solving...
+Gurobi reports: solved
+Solver time :44.445679903030396
+Init prob:  0.893413943087219
+Max vio : 0.004490077190897751
+p =  0.8955099228146314
+Solving...
+Gurobi reports: solved
+Solver time :52.02642512321472
+Init prob:  0.8971764887184172
+Max vio : 0.0023963020765314356
+p =  0.8976036979751805
+Solving...
+Gurobi reports: solved
+Solver time :53.073824405670166
+Init prob:  0.9005170219645497
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Qcqp: 0.8993891066239752: Mc: 0.900519431582689
+iterations =12
+solver time=793.3596715927124
+encoding time=79.09492826461792
+iterate time=0.0
+inner part = 23.560317039489746s (0.45217560998519957)
+adding constraints = 0.0s
+
+Final result: 0.900519431582689 (approx. 0.900519431582689)
+This procedure took 1179.0599324703217s (from start: 1179.7030856609344s)
+Ratio of solver time over procedure time 0.6728747621255311
+Ratio of model building time time over procedure time 0.1672278999749726
+Ratio of mc time time over procedure time 0.000981274519079467
+Ratio of encoding time over procedure time 0.06708304309764918
+Ratio of adding cons time over procedure time 0.044191436180678154
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

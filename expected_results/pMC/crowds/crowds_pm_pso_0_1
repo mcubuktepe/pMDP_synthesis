@@ -1,0 +1,45 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/crowds/crowds.pm prism/crowds/crowds.prctl set-threshold 0.1 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below pso
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/crowds/crowds.pm
+prism/crowds/crowds.prctl
+set-threshold
+0.1
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+pso
+{}
+Assume input is a Prism File
+Parsing P=? [F "observe0Greater1" ]
+Load model from prism file
+Load formula P=? [F "observe0Greater1" ] with respect to program.
+Call stormpy for constraints
+Build model
+Built a model with 104512 states and 246082 transitions
+Bisimulation yields model with 104512 states, 104512 actions and 246082 transitions
+Perform bisimulation
+Bisimulation yields model with 80 states, 80 actions and 120 transitions
+Stormpy finished collecting constraints
+Push [1]
+Call Z3 cli tool with timeout 10.0
+SMT result:	unsat
+Load formula P=? [F "observe0Greater1" ] with respect to program.
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 0.0004728323294264092 with 1/10
+Point found: {PF:0.8289334504167788;badC:0.004705382283023214}: 0.0004728323294264092 (approx. 0.0004728323294264092)
+This procedure took 1.766869068145752s (from start: 1.7754528522491455s)
+Ratio of solver time over procedure time 0.9931359507614982
+Ratio of model building time time over procedure time 0.9920769537806111
+Ratio of mc time time over procedure time 0.00478451273589603
+Ratio of encoding time over procedure time 0.0
+Ratio of adding cons time over procedure time 0.0
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

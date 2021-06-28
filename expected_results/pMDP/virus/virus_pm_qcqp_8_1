@@ -1,0 +1,60 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/mdp/virus/virus.pm prism/mdp/virus/maxattacks.pctl set-threshold 8.1 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/mdp/virus/virus.pm
+prism/mdp/virus/maxattacks.pctl
+set-threshold
+8.1
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+qcqp
+{}
+Assume input is a Prism File
+Parsing R{"attacks"}max=? [F s11=2 ]
+Load model from prism file
+Load formula Rmax=? [F s11=2 ] with respect to program.
+Build model
+
+Built a model with 761 states and 5009 transitions
+Bisimulation yields model with 761 states, 2606 actions and 5009 transitions
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Unknown (code: 13)
+Solver time :0.777794599533081
+Init prob:  20.21407938790172
+Max vio : 1.1842183910169872
+p =  8.545625036679029
+Solving...
+Gurobi reports: solved
+Solver time :0.19275379180908203
+Init prob:  8.060702768903806
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Qcqp: 17.702498939210205: Mc: 8.060702768903806
+iterations =1
+solver time=0.9705483913421631
+encoding time=0.9064021110534668
+iterate time=0.0
+inner part = 0.1746377944946289s (0.47047926987730015)
+adding constraints = 0.0s
+
+Point found: {detect21:5029096558027545/9223372036854775808;detect12:2523659130716155/4611686018427387904;infect21:8948309324510187/9007199254740992;detect11:479718081435285/144115188075855872;infect11:8728083995191259/9007199254740992;detect32:461521127677785/4611686018427387904;detect23:7378957006437563/73786976294838206464;infect32:9006298548364981/9007199254740992;infect23:2251574638253439/2251799813685248;detect22:7379607947707177/73786976294838206464;detect31:7786703685782229/73786976294838206464;detect13:3901675218073267/36893488147419103232;infect22:1115918696770321/1125899906842624;infect31:4500544356508933/4503599627370496}: 8.060702768903806 (approx. 8.060702768903806)
+This procedure took 2.015623092651367s (from start: 2.0231258869171143s)
+Ratio of solver time over procedure time 0.4815128358474479
+Ratio of model building time time over procedure time 0.02612780300671766
+Ratio of mc time time over procedure time 0.0018435946618317945
+Ratio of encoding time over procedure time 0.4496882945814924
+Ratio of adding cons time over procedure time 0.18415708003751063
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>
+

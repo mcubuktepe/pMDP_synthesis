@@ -1,0 +1,67 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/brpmdp/brp.pm prism/brpmdp/brp.prctl set-threshold 0.1 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below affine_scp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/brpmdp/brp.pm
+prism/brpmdp/brp.prctl
+set-threshold
+0.1
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+affine_scp
+{}
+Assume input is a Prism File
+Parsing Pmax=? [ F (s=5 & T) ]
+Load model from prism file
+Load formula Pmax=? [ F (s=5 & T) ] with respect to program.
+Build model
+Built a model with 18369 states and 24950 transitions
+Bisimulation yields model with 18369 states, 18510 actions and 24950 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Solving...
+Gurobi reports: solved
+Solver time :0.09949278831481934
+Found better value
+Init prob: 3.0541569707379307e-16
+Best found: 3.0541569707379307e-16
+Total time: 0.7849719524383545
+Solver time: 0.10432052612304688
+Encoding time: 0.6806514263153076
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Scp: 1.4363560376003826e-12: Mc: 3.0541569707379307e-16
+iterations =0
+solver time=0.10432052612304688
+encoding time=0.6806514263153076
+iterate time=0.0
+inner part = 0.16937756538391113s (0.25586940701358774)
+adding constraints = 0.16937756538391113s
+Qcqp: 1.4363560376003826e-12: Mc: 3.0541569707379307e-16
+iterations =0
+solver time=0.10432052612304688
+encoding time=0.6806514263153076
+iterate time=0.0
+inner part = 0.04333853721618652s (0.25586940701358774)
+adding constraints = 0.16937756538391113s
+<prophesy.optimisation.affine_trust_region.AffineModelRepairTrustRegion object at 0x7f587cc269e8>
+0.16937756538391113
+Final result: 3.0541569707379307e-16 (approx. 3.0541569707379307e-16)
+This procedure took 1.697991132736206s (from start: 1.7076690196990967s)
+Ratio of solver time over procedure time 0.061437615374905344
+Ratio of model building time time over procedure time 0.22372246359850215
+Ratio of mc time time over procedure time 0.0038951733465170976
+Ratio of encoding time over procedure time 0.4008568791631324
+Ratio of adding cons time over procedure time 0.09975173728438136
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

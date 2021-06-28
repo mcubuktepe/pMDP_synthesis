@@ -1,0 +1,57 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp$ python3 parameter_synthesis.py load-problem pomdp_fsc_new_/network/network2K-20_T-8_extended-simple_full.drn pomdp_fsc_new_/network/performance.pctl  set-threshold 10 find-feasible-instantiation --qcqp-mc full --qcqp-incremental below qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+pomdp_fsc_new_/network/network2K-20_T-8_extended-simple_full.drn
+pomdp_fsc_new_/network/performance.pctl
+set-threshold
+10
+find-feasible-instantiation
+--qcqp-mc
+full
+--qcqp-incremental
+below
+qcqp
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 596
+Parsing R{"dropped_packets"}=? [F "goal"]
+Parse formula R=? [F "goal"] without a program.
+Build model
+ WARN (DirectEncodingParser.cpp:120): No. of actions has to be declared. We may continue now, but future versions might not support this.
+Built a model with 5040 states and 13327 transitions
+Bisimulation yields model with 5040 states, 5040 actions and 13327 transitions
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Gurobi reports: solved
+Solver time :0.49789905548095703
+Init prob:  8.289901224490759
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Qcqp: 10.214860460706078: Mc: 8.289901224490759
+iterations =0
+solver time=0.49789905548095703
+encoding time=1.6237196922302246
+iterate time=0.0
+inner part = 0.2704427242279053s (0.4446715961416183)
+adding constraints = 0.0s
+
+0.6081852912902832
+Final result: 8.289901224490759 (approx. 8.289901224490759)
+This procedure took 2.9959914684295654s (from start: 3.0068588256835938s)
+Ratio of solver time over procedure time 0.16618840898834236
+Ratio of model building time time over procedure time 0.15321429506484072
+Ratio of mc time time over procedure time 0.008759838673879618
+Ratio of encoding time over procedure time 0.5419640574214798
+Ratio of adding cons time over procedure time 0.202999673964052
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

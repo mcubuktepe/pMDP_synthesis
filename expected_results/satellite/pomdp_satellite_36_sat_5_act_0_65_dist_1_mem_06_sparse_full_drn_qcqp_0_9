@@ -1,0 +1,2677 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/nmt$ python3 parameter_synthesis.py load-problem pomdp_satellite_36_sat_5_act_0_65_dist_1_mem_06_sparse_full.drn satellite_props.pctl set-threshold 0.9 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above qcqp
+Loading configuration
+Loaded configuration
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 231
+Parsing P=? [F "goal"]
+Parse formula P=? [F "goal"] without a program.
+Build model
+Built a model with 6265 states and 17436 transitions
+Bisimulation yields model with 6265 states, 6265 actions and 17436 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Gurobi reports: solved
+Solver time :0.6376144886016846
+Init prob:  8.635122280575334e-05
+Max vio : 1.2540807781196797
+p =  1.0
+Solving...
+Gurobi reports: solved
+Solver time :4.097247838973999
+Init prob:  8.6596566816922e-05
+Max vio : 0.4499359499844136
+p =  0.4500641454915407
+Solving...
+Gurobi reports: solved
+Solver time :5.8464319705963135
+Init prob:  8.711459409402649e-05
+Max vio : 0.44995490452611014
+p =  0.45004505489715846
+Solving...
+Gurobi reports: solved
+Solver time :3.0293662548065186
+Init prob:  8.754803173174897e-05
+Max vio : 0.4499543184042235
+p =  0.45004569391330246
+Solving...
+Gurobi reports: solved
+Solver time :3.345226287841797
+Init prob:  8.788161186389517e-05
+Max vio : 0.4499274290070006
+p =  0.4500726112037933
+Solving...
+Gurobi reports: solved
+Solver time :1.555833101272583
+Init prob:  8.833431138541211e-05
+Max vio : 0.44995576819481814
+p =  0.4500442372348079
+Solving...
+Gurobi reports: solved
+Solver time :1.6681764125823975
+Init prob:  8.882336016084623e-05
+Max vio : 0.44995506018889536
+p =  0.4500449433946696
+Solving...
+Gurobi reports: solved
+Solver time :2.944810390472412
+Init prob:  8.935501114753095e-05
+Max vio : 0.44995506481374475
+p =  0.4500449383789546
+Solving...
+Gurobi reports: solved
+Solver time :3.6269657611846924
+Init prob:  8.973847261002829e-05
+Max vio : 0.4499552679767804
+p =  0.4500447285365837
+Solving...
+Gurobi reports: solved
+Solver time :4.221395254135132
+Init prob:  9.02886372814441e-05
+Max vio : 0.4499545567799043
+p =  0.4500454311537421
+Solving...
+Gurobi reports: solved
+Solver time :2.8168692588806152
+Init prob:  9.081080356662229e-05
+Max vio : 0.44995436032349295
+p =  0.45004564364896943
+Solving...
+Gurobi reports: solved
+Solver time :6.730970859527588
+Init prob:  9.106495075402043e-05
+Max vio : 0.44994559945925655
+p =  0.4500544445563694
+Solving...
+Gurobi reports: solved
+Solver time :2.080420970916748
+Init prob:  9.145846299559216e-05
+Max vio : 0.4499543368514519
+p =  0.45004565832093313
+Solving...
+Gurobi reports: solved
+Solver time :1.8291301727294922
+Init prob:  9.194640648702579e-05
+Max vio : 0.4499539918160041
+p =  0.45004600899592573
+Solving...
+Gurobi reports: solved
+Solver time :1.2622504234313965
+Init prob:  9.243859662060501e-05
+Max vio : 0.44995344001050663
+p =  0.45004656512133767
+Solving...
+Gurobi reports: solved
+Solver time :1.8662831783294678
+Init prob:  9.300909537995158e-05
+Max vio : 0.44995308501733894
+p =  0.4500469182369588
+Solving...
+Gurobi reports: solved
+Solver time :3.933720350265503
+Init prob:  9.35264618065785e-05
+Max vio : 0.44995235015764745
+p =  0.4500476475949863
+Solving...
+Gurobi reports: solved
+Solver time :2.481147527694702
+Init prob:  9.4098623858497e-05
+Max vio : 0.44995281368348367
+p =  0.4500471865254565
+Solving...
+Gurobi reports: solved
+Solver time :1.728104829788208
+Init prob:  9.477394799718997e-05
+Max vio : 0.4499523326913797
+p =  0.45004766897176784
+Solving...
+Gurobi reports: solved
+Solver time :1.3904893398284912
+Init prob:  9.535111898015448e-05
+Max vio : 0.4499521527375934
+p =  0.45004785112843665
+Solving...
+Gurobi reports: solved
+Solver time :2.370938301086426
+Init prob:  9.58495708606217e-05
+Max vio : 0.4499514374899562
+p =  0.4500485600118347
+Solving...
+Gurobi reports: solved
+Solver time :2.335129499435425
+Init prob:  9.642699450534288e-05
+Max vio : 0.4499511580253242
+p =  0.4500488427407555
+Solving...
+Gurobi reports: solved
+Solver time :1.3451764583587646
+Init prob:  9.692524771379349e-05
+Max vio : 0.449951132701752
+p =  0.4500488711484678
+Solving...
+Gurobi reports: solved
+Solver time :1.684950828552246
+Init prob:  9.757847067738722e-05
+Max vio : 0.4499506414695798
+p =  0.45004936202363555
+Solving...
+Gurobi reports: solved
+Solver time :1.7947180271148682
+Init prob:  9.816050078423203e-05
+Max vio : 0.44995097667774364
+p =  0.4500490246345384
+Solving...
+Gurobi reports: solved
+Solver time :1.6605408191680908
+Init prob:  9.867947105565082e-05
+Max vio : 0.4499503277725019
+p =  0.45004967527645645
+Solving...
+Gurobi reports: solved
+Solver time :2.2008049488067627
+Init prob:  9.945417278927583e-05
+Max vio : 0.4499498210404366
+p =  0.45005006627628186
+Solving...
+Gurobi reports: solved
+Solver time :2.100874423980713
+Init prob:  0.00010033156921311646
+Max vio : 0.4499498188268736
+p =  0.45005017519660845
+Solving...
+Gurobi reports: solved
+Solver time :2.2530226707458496
+Init prob:  0.00010104903960435063
+Max vio : 0.44994944179865043
+p =  0.4500505811882548
+Solving...
+Gurobi reports: solved
+Solver time :1.9020040035247803
+Init prob:  0.00010168857212861257
+Max vio : 0.4499485319430254
+p =  0.45005145944936314
+Solving...
+Gurobi reports: solved
+Solver time :1.9579038619995117
+Init prob:  0.00010253806509778881
+Max vio : 0.4499484566920892
+p =  0.45005154502250666
+Solving...
+Gurobi reports: solved
+Solver time :2.341010808944702
+Init prob:  0.00010332424852849012
+Max vio : 0.449948165817073
+p =  0.4500518260976795
+Solving...
+Gurobi reports: solved
+Solver time :1.8112337589263916
+Init prob:  0.00010429018678191413
+Max vio : 0.4499478917194171
+p =  0.4500521155537846
+Solving...
+Gurobi reports: solved
+Solver time :1.9210238456726074
+Init prob:  0.00010505019182960132
+Max vio : 0.44994760104063436
+p =  0.45005240970068805
+Solving...
+Gurobi reports: solved
+Solver time :2.8040246963500977
+Init prob:  0.00010577829413468978
+Max vio : 0.4499465950624498
+p =  0.4500534086184948
+Solving...
+Gurobi reports: solved
+Solver time :2.178269863128662
+Init prob:  0.00010652645716890397
+Max vio : 0.44994670545676013
+p =  0.4500532932295312
+Solving...
+Gurobi reports: solved
+Solver time :2.1391329765319824
+Init prob:  0.00010725463352757182
+Max vio : 0.4499460376115758
+p =  0.4500539355367219
+Solving...
+Gurobi reports: solved
+Solver time :1.5421059131622314
+Init prob:  0.00010800892089107809
+Max vio : 0.4499458854843324
+p =  0.450054115811369
+Solving...
+Gurobi reports: solved
+Solver time :1.7694838047027588
+Init prob:  0.00010867794043797694
+Max vio : 0.44994538110656235
+p =  0.45005462620230213
+Solving...
+Gurobi reports: solved
+Solver time :1.6954305171966553
+Init prob:  0.0001095994026464486
+Max vio : 0.44994521819956695
+p =  0.45005469375727325
+Solving...
+Gurobi reports: solved
+Solver time :1.531116008758545
+Init prob:  0.00011040447555889024
+Max vio : 0.4499443857386256
+p =  0.4500556225058799
+Solving...
+Gurobi reports: solved
+Solver time :1.8439600467681885
+Init prob:  0.00011120677208304719
+Max vio : 0.44994439956837545
+p =  0.4500555932371809
+Solving...
+Gurobi reports: solved
+Solver time :2.3789522647857666
+Init prob:  0.00011206483717088903
+Max vio : 0.4499442033354246
+p =  0.4500558028204018
+Solving...
+Gurobi reports: solved
+Solver time :2.0575828552246094
+Init prob:  0.00011284971275164707
+Max vio : 0.44994257685489547
+p =  0.45005742419918854
+Solving...
+Gurobi reports: solved
+Solver time :2.208212375640869
+Init prob:  0.00011381224969989641
+Max vio : 0.4499426377321587
+p =  0.450057359738829
+Solving...
+Gurobi reports: solved
+Solver time :3.652254104614258
+Init prob:  0.00011448089007256488
+Max vio : 0.4499406921766503
+p =  0.45005932344087785
+Solving...
+Gurobi reports: solved
+Solver time :3.045647382736206
+Init prob:  0.00011548497042608353
+Max vio : 0.4499419785551716
+p =  0.4500580320469276
+Solving...
+Gurobi reports: solved
+Solver time :3.0608489513397217
+Init prob:  0.00011629293340345841
+Max vio : 0.4499414380894921
+p =  0.45005856563216873
+Solving...
+Gurobi reports: solved
+Solver time :1.701840877532959
+Init prob:  0.00011714173113062872
+Max vio : 0.44994110020759653
+p =  0.4500589034575271
+Solving...
+Gurobi reports: solved
+Solver time :1.3707554340362549
+Init prob:  0.00011785358492615513
+Max vio : 0.44994094181042465
+p =  0.4500590651465303
+Solving...
+Gurobi reports: solved
+Solver time :1.659437656402588
+Init prob:  0.00011873823813901872
+Max vio : 0.44994078126792875
+p =  0.45005921499635504
+Solving...
+Gurobi reports: solved
+Solver time :1.5635473728179932
+Init prob:  0.00011940246714592404
+Max vio : 0.4499405763252213
+p =  0.45005942992251774
+Solving...
+Gurobi reports: solved
+Solver time :1.3689968585968018
+Init prob:  0.00012042038786287038
+Max vio : 0.44994002053065263
+p =  0.45005998010699133
+Solving...
+Gurobi reports: solved
+Solver time :1.9229099750518799
+Init prob:  0.00012137734187835293
+Max vio : 0.4499394124448137
+p =  0.450060593245572
+Solving...
+Gurobi reports: solved
+Solver time :2.158874034881592
+Init prob:  0.00012247698180067805
+Max vio : 0.44993888446679764
+p =  0.4500611092829529
+Solving...
+Gurobi reports: solved
+Solver time :1.4807887077331543
+Init prob:  0.00012326846325356352
+Max vio : 0.4499385049481454
+p =  0.45006149405917595
+Solving...
+Gurobi reports: solved
+Solver time :2.4958949089050293
+Init prob:  0.0001245338698527071
+Max vio : 0.4499378466678486
+p =  0.45006215552724826
+Solving...
+Gurobi reports: solved
+Solver time :1.745640516281128
+Init prob:  0.00012569471441317736
+Max vio : 0.44993719786037506
+p =  0.45006280426650674
+Solving...
+Gurobi reports: solved
+Solver time :2.0331413745880127
+Init prob:  0.00012685412458099832
+Max vio : 0.4499365804538968
+p =  0.4500634188224342
+Solving...
+Gurobi reports: solved
+Solver time :1.8531980514526367
+Init prob:  0.00012792412842845802
+Max vio : 0.44993564446395407
+p =  0.4500643586083822
+Solving...
+Gurobi reports: solved
+Solver time :1.9876742362976074
+Init prob:  0.0001290536583075763
+Max vio : 0.4499354923945444
+p =  0.45006450356535316
+Solving...
+Gurobi reports: solved
+Solver time :1.3141424655914307
+Init prob:  0.00012989725651432792
+Max vio : 0.44993521655911745
+p =  0.4500647859860036
+Solving...
+Gurobi reports: solved
+Solver time :1.4955945014953613
+Init prob:  0.00013108616268922986
+Max vio : 0.44993460161527765
+p =  0.4500653996430145
+Solving...
+Gurobi reports: solved
+Solver time :1.5935840606689453
+Init prob:  0.00013218004775923312
+Max vio : 0.44993406682390574
+p =  0.45006593680565654
+Solving...
+Gurobi reports: solved
+Solver time :1.8500795364379883
+Init prob:  0.0001330638344711612
+Max vio : 0.4499332142729411
+p =  0.45006678928458466
+Solving...
+Gurobi reports: solved
+Solver time :2.052419424057007
+Init prob:  0.0001342561164177973
+Max vio : 0.4499328730323733
+p =  0.45006709882524537
+Solving...
+Gurobi reports: solved
+Solver time :2.0773463249206543
+Init prob:  0.0001355596062896155
+Max vio : 0.4499322421258583
+p =  0.4500677584776325
+Solving...
+Gurobi reports: solved
+Solver time :1.2834746837615967
+Init prob:  0.00013675837492734512
+Max vio : 0.4499315942992168
+p =  0.45006840070740106
+Solving...
+Gurobi reports: solved
+Solver time :1.258404016494751
+Init prob:  0.00013803753919576885
+Max vio : 0.4499309571112352
+p =  0.45006904638858325
+Solving...
+Gurobi reports: solved
+Solver time :1.3616433143615723
+Init prob:  0.00013925527343273944
+Max vio : 0.44993029489999337
+p =  0.4500697087309314
+Solving...
+Gurobi reports: solved
+Solver time :2.0274651050567627
+Init prob:  0.00014094201981327412
+Max vio : 0.44992960539312826
+p =  0.4500703922892103
+Solving...
+Gurobi reports: solved
+Solver time :2.1584596633911133
+Init prob:  0.00014264758331126748
+Max vio : 0.44992885025581403
+p =  0.4500711498965739
+Solving...
+Gurobi reports: solved
+Solver time :1.3841748237609863
+Init prob:  0.00014419364867605203
+Max vio : 0.4499280288416638
+p =  0.4500719716518029
+Solving...
+Gurobi reports: solved
+Solver time :1.9676458835601807
+Init prob:  0.00014542810948733857
+Max vio : 0.44992706432160207
+p =  0.4500729388152562
+Solving...
+Gurobi reports: solved
+Solver time :2.004359006881714
+Init prob:  0.00014702563736469779
+Max vio : 0.44992659910588406
+p =  0.45007339315941824
+Solving...
+Gurobi reports: solved
+Solver time :1.9018776416778564
+Init prob:  0.00014869744691601628
+Max vio : 0.4499257800681892
+p =  0.4500742208213972
+Solving...
+Gurobi reports: solved
+Solver time :1.39797043800354
+Init prob:  0.00015033293398011784
+Max vio : 0.4499250114448551
+p =  0.4500749755201913
+Solving...
+Gurobi reports: solved
+Solver time :1.9473216533660889
+Init prob:  0.00015214737084751512
+Max vio : 0.449924142094386
+p =  0.45007586308205877
+Solving...
+Gurobi reports: solved
+Solver time :1.7886528968811035
+Init prob:  0.00015404017817560882
+Max vio : 0.4499231755625392
+p =  0.450076835599903
+Solving...
+Gurobi reports: solved
+Solver time :1.4895265102386475
+Init prob:  0.00015573312875103815
+Max vio : 0.4499223064404108
+p =  0.4500776975255095
+Solving...
+Gurobi reports: solved
+Solver time :1.2236108779907227
+Init prob:  0.00015754788515663748
+Max vio : 0.44992128392083236
+p =  0.4500787168479939
+Solving...
+Gurobi reports: solved
+Solver time :1.9016053676605225
+Init prob:  0.00015949967338265786
+Max vio : 0.4499204563096276
+p =  0.4500795635805376
+Solving...
+Gurobi reports: solved
+Solver time :1.9645462036132812
+Init prob:  0.00016095049653042537
+Max vio : 0.44991952142000685
+p =  0.4500804779454612
+Solving...
+Gurobi reports: solved
+Solver time :1.696587085723877
+Init prob:  0.00016262164697602107
+Max vio : 0.44991888201404795
+p =  0.45008112332072225
+Solving...
+Gurobi reports: solved
+Solver time :2.300804376602173
+Init prob:  0.0001642900715237483
+Max vio : 0.449917836317979
+p =  0.4500821674511689
+Solving...
+Gurobi reports: solved
+Solver time :1.2887153625488281
+Init prob:  0.00016614052561927324
+Max vio : 0.4499169997820824
+p =  0.4500830008926409
+Solving...
+Gurobi reports: solved
+Solver time :4.236670970916748
+Init prob:  0.00016803184298237639
+Max vio : 0.44991601671167386
+p =  0.4500839982869552
+Solving...
+Gurobi reports: solved
+Solver time :1.4749054908752441
+Init prob:  0.00017000294099787347
+Max vio : 0.4499151471197335
+p =  0.4500848499511873
+Solving...
+Gurobi reports: solved
+Solver time :1.4554624557495117
+Init prob:  0.00017209167661221155
+Max vio : 0.44991407628747343
+p =  0.45008592440119954
+Solving...
+Gurobi reports: solved
+Solver time :1.6559576988220215
+Init prob:  0.00017414528147498024
+Max vio : 0.44991311594851
+p =  0.4500868890384952
+Solving...
+Gurobi reports: solved
+Solver time :2.2265777587890625
+Init prob:  0.000176349553832855
+Max vio : 0.44991205693238784
+p =  0.4500879385754306
+Solving...
+Gurobi reports: solved
+Solver time :1.768484354019165
+Init prob:  0.00017797463527781995
+Max vio : 0.44991100872889045
+p =  0.4500889743138506
+Solving...
+Gurobi reports: solved
+Solver time :3.6761856079101562
+Init prob:  0.000179777536595346
+Max vio : 0.449909950113824
+p =  0.4500900480807729
+Solving...
+Gurobi reports: solved
+Solver time :2.4216530323028564
+Init prob:  0.00018151802260349702
+Max vio : 0.44990937196126285
+p =  0.4500906333541567
+Solving...
+Gurobi reports: solved
+Solver time :3.5227136611938477
+Init prob:  0.00018346343216334222
+Max vio : 0.4499082463194616
+p =  0.4500917578756236
+Solving...
+Gurobi reports: solved
+Solver time :5.3001649379730225
+Init prob:  0.00018513137424572577
+Max vio : 0.4499075553230293
+p =  0.4500924556809054
+Solving...
+Gurobi reports: solved
+Solver time :5.1616294384002686
+Init prob:  0.00018670908589359241
+Max vio : 0.44990663736423814
+p =  0.45009336246697745
+Solving...
+Gurobi reports: solved
+Solver time :2.7850186824798584
+Init prob:  0.0001887302567472856
+Max vio : 0.4499055912483421
+p =  0.45009437959241244
+Solving...
+Gurobi reports: solved
+Solver time :1.2437539100646973
+Init prob:  0.00019086467315402507
+Max vio : 0.4499046131005258
+p =  0.4500953950535137
+Solving...
+Gurobi reports: solved
+Solver time :2.572575330734253
+Init prob:  0.0001933847571774112
+Max vio : 0.44990355886223704
+p =  0.4500964390750431
+Solving...
+Gurobi reports: solved
+Solver time :4.113037347793579
+Init prob:  0.0001955213954281407
+Max vio : 0.4499022709486658
+p =  0.4500977288790945
+Solving...
+Gurobi reports: solved
+Solver time :2.2184572219848633
+Init prob:  0.00019785890816375142
+Max vio : 0.44990112636640944
+p =  0.4500988775612631
+Solving...
+Gurobi reports: solved
+Solver time :1.845165729522705
+Init prob:  0.00020032122874632336
+Max vio : 0.4498999919474592
+p =  0.4501000089650278
+Solving...
+Gurobi reports: solved
+Solver time :3.744875192642212
+Init prob:  0.0002029497584438656
+Max vio : 0.44989876482644875
+p =  0.45010123249927586
+Solving...
+Gurobi reports: solved
+Solver time :2.074411153793335
+Init prob:  0.00020543013975071606
+Max vio : 0.4498973473222474
+p =  0.45010266264477894
+Solving...
+Gurobi reports: solved
+Solver time :2.723698377609253
+Init prob:  0.00020766367652654558
+Max vio : 0.44989625344447826
+p =  0.4501037568624406
+Solving...
+Gurobi reports: solved
+Solver time :1.6746411323547363
+Init prob:  0.0002102835745794897
+Max vio : 0.44989512406146515
+p =  0.45010494028271325
+Solving...
+Gurobi reports: solved
+Solver time :2.4776840209960938
+Init prob:  0.00021266728955298883
+Max vio : 0.4498938304026659
+p =  0.4501061664363568
+Solving...
+Gurobi reports: solved
+Solver time :3.006516456604004
+Init prob:  0.00021516372567693628
+Max vio : 0.4498925379400412
+p =  0.4501074601215238
+Solving...
+Gurobi reports: solved
+Solver time :1.968008279800415
+Init prob:  0.00021820520711966006
+Max vio : 0.44989119630947993
+p =  0.45010880675243226
+Solving...
+Gurobi reports: solved
+Solver time :1.558680534362793
+Init prob:  0.00022101754243979076
+Max vio : 0.4498896825949406
+p =  0.4501103266109924
+Solving...
+Gurobi reports: solved
+Solver time :1.3186845779418945
+Init prob:  0.0002231030097846223
+Max vio : 0.44988867272273564
+p =  0.4501113299015472
+Solving...
+Gurobi reports: solved
+Solver time :2.31634259223938
+Init prob:  0.00022591143738843005
+Max vio : 0.4498873527715412
+p =  0.45011264656141037
+Solving...
+Gurobi reports: solved
+Solver time :2.2683889865875244
+Init prob:  0.00022921566237269666
+Max vio : 0.4498856879953791
+p =  0.45011429710322076
+Solving...
+Gurobi reports: solved
+Solver time :1.9315273761749268
+Init prob:  0.00023211015068915844
+Max vio : 0.44988416346847726
+p =  0.45011584133203114
+Solving...
+Gurobi reports: solved
+Solver time :1.394472360610962
+Init prob:  0.00023524505444878874
+Max vio : 0.44988265932523086
+p =  0.45011734367904394
+Solving...
+Gurobi reports: solved
+Solver time :1.4638068675994873
+Init prob:  0.00023861531671228085
+Max vio : 0.4498811131271402
+p =  0.4501188911069386
+Solving...
+Gurobi reports: solved
+Solver time :2.1020565032958984
+Init prob:  0.00024209217198171957
+Max vio : 0.4498793219042038
+p =  0.4501206905049834
+Solving...
+Gurobi reports: solved
+Solver time :1.6253747940063477
+Init prob:  0.0002454992450592462
+Max vio : 0.449877578915723
+p =  0.4501224242182812
+Solving...
+Gurobi reports: solved
+Solver time :2.066699981689453
+Init prob:  0.0002491573804281907
+Max vio : 0.4498757580861288
+p =  0.4501242429498902
+Solving...
+Gurobi reports: solved
+Solver time :1.7519915103912354
+Init prob:  0.0002529148676106338
+Max vio : 0.44987393678427096
+p =  0.450126060518345
+Solving...
+Gurobi reports: solved
+Solver time :2.8158016204833984
+Init prob:  0.0002567869041525201
+Max vio : 0.4498719582463939
+p =  0.45012802341421015
+Solving...
+Gurobi reports: solved
+Solver time :2.0172979831695557
+Init prob:  0.00026051535544625924
+Max vio : 0.449870043097606
+p =  0.450129960824754
+Solving...
+Gurobi reports: solved
+Solver time :1.8757059574127197
+Init prob:  0.0002645680490869401
+Max vio : 0.44986804266678343
+p =  0.4501319580379682
+Solving...
+Gurobi reports: solved
+Solver time :1.5679266452789307
+Init prob:  0.0002683466510712738
+Max vio : 0.44986620180592296
+p =  0.45013379932194425
+Solving...
+Gurobi reports: solved
+Solver time :1.7119824886322021
+Init prob:  0.0002724940111448361
+Max vio : 0.4498641114859487
+p =  0.4501358941953554
+Solving...
+Gurobi reports: solved
+Solver time :2.0319457054138184
+Init prob:  0.00027676018869998584
+Max vio : 0.44986202316285023
+p =  0.45013797336965167
+Solving...
+Gurobi reports: solved
+Solver time :1.6771278381347656
+Init prob:  0.00028092495869832477
+Max vio : 0.4498599754091906
+p =  0.4501400305406207
+Solving...
+Gurobi reports: solved
+Solver time :1.4863786697387695
+Init prob:  0.00028528139445613694
+Max vio : 0.4498577397884037
+p =  0.45014226174010596
+Solving...
+Gurobi reports: solved
+Solver time :1.3399138450622559
+Init prob:  0.0002891548987829108
+Max vio : 0.449855818820089
+p =  0.4501441818781181
+Solving...
+Gurobi reports: solved
+Solver time :2.032191753387451
+Init prob:  0.00029365450760904867
+Max vio : 0.44985361662137424
+p =  0.4501463790115362
+Solving...
+Gurobi reports: solved
+Solver time :2.184776782989502
+Init prob:  0.00029811971275512094
+Max vio : 0.44985134992421627
+p =  0.4501486507036004
+Solving...
+Gurobi reports: solved
+Solver time :1.6696546077728271
+Init prob:  0.000302920150565093
+Max vio : 0.4498490344995783
+p =  0.4501509686244423
+Solving...
+Gurobi reports: solved
+Solver time :1.9131438732147217
+Init prob:  0.0003074490364769755
+Max vio : 0.4498466689628341
+p =  0.45015333248944067
+Solving...
+Gurobi reports: solved
+Solver time :2.1470320224761963
+Init prob:  0.0003122619537330863
+Max vio : 0.44984425021200664
+p =  0.45015575362291865
+Solving...
+Gurobi reports: solved
+Solver time :1.6896357536315918
+Init prob:  0.0003171964567296122
+Max vio : 0.44984187390535557
+p =  0.4501581262909803
+Solving...
+Gurobi reports: solved
+Solver time :1.7199525833129883
+Init prob:  0.00032240705667876686
+Max vio : 0.4498393633922194
+p =  0.4501606329166324
+Solving...
+Gurobi reports: solved
+Solver time :1.5854661464691162
+Init prob:  0.0003274360954924112
+Max vio : 0.4498368467141488
+p =  0.45016315256775946
+Solving...
+Gurobi reports: solved
+Solver time :1.7566413879394531
+Init prob:  0.0003328769915644891
+Max vio : 0.4498340012554477
+p =  0.4501659981393546
+Solving...
+Gurobi reports: solved
+Solver time :1.150862455368042
+Init prob:  0.00033823292195986603
+Max vio : 0.44983143324899355
+p =  0.4501685702289755
+Solving...
+Gurobi reports: solved
+Solver time :1.8144099712371826
+Init prob:  0.0003440194796199787
+Max vio : 0.44982844405056055
+p =  0.45017155735234105
+Solving...
+Gurobi reports: solved
+Solver time :1.4030661582946777
+Init prob:  0.000349765240625321
+Max vio : 0.4498253415189651
+p =  0.4501746673628856
+Solving...
+Gurobi reports: solved
+Solver time :1.4373345375061035
+Init prob:  0.0003557391595831883
+Max vio : 0.4498224498259524
+p =  0.45017755585338187
+Solving...
+Gurobi reports: solved
+Solver time :1.9470126628875732
+Init prob:  0.0003619733643019138
+Max vio : 0.44981954746207164
+p =  0.4501804517270134
+Solving...
+Gurobi reports: solved
+Solver time :1.4466533660888672
+Init prob:  0.0003682355100601304
+Max vio : 0.44981634630819245
+p =  0.45018364994938426
+Solving...
+Gurobi reports: solved
+Solver time :1.5831975936889648
+Init prob:  0.0003746321593967412
+Max vio : 0.4498132118094731
+p =  0.4501868301739516
+Solving...
+Gurobi reports: solved
+Solver time :1.9747827053070068
+Init prob:  0.0003813451614939872
+Max vio : 0.44980987937075373
+p =  0.4501901129545101
+Solving...
+Gurobi reports: solved
+Solver time :1.4166100025177002
+Init prob:  0.0003880046593624858
+Max vio : 0.4498064181911639
+p =  0.4501935763024664
+Solving...
+Gurobi reports: solved
+Solver time :1.4986956119537354
+Init prob:  0.0003947545977152614
+Max vio : 0.44980295480741606
+p =  0.4501970458790205
+Solving...
+Gurobi reports: solved
+Solver time :1.6025216579437256
+Init prob:  0.00040182436655512995
+Max vio : 0.44979948084059257
+p =  0.4502005200731259
+Solving...
+Gurobi reports: solved
+Solver time :1.5079174041748047
+Init prob:  0.0004089806789696142
+Max vio : 0.4497958081368957
+p =  0.45020418959080793
+Solving...
+Gurobi reports: solved
+Solver time :2.123332977294922
+Init prob:  0.0004164084297365644
+Max vio : 0.4497922326637319
+p =  0.4502077667338314
+Solving...
+Gurobi reports: solved
+Solver time :1.4684069156646729
+Init prob:  0.0004239362697728364
+Max vio : 0.44978857347938916
+p =  0.45021142731792574
+Solving...
+Gurobi reports: solved
+Solver time :1.4270415306091309
+Init prob:  0.0004315189877917587
+Max vio : 0.4497844504469716
+p =  0.45021555908462746
+Solving...
+Gurobi reports: solved
+Solver time :1.9636049270629883
+Init prob:  0.00043961433135950983
+Max vio : 0.44978073650620265
+p =  0.4502192697111522
+Solving...
+Gurobi reports: solved
+Solver time :1.808152675628662
+Init prob:  0.00044788870017440854
+Max vio : 0.4497766993897827
+p =  0.45022330373547903
+Solving...
+Gurobi reports: solved
+Solver time :1.6137845516204834
+Init prob:  0.00045626647371710383
+Max vio : 0.4497726371460673
+p =  0.45022736530308244
+Solving...
+Gurobi reports: solved
+Solver time :1.3288733959197998
+Init prob:  0.0004647177652588538
+Max vio : 0.4497681036435658
+p =  0.4502319061577761
+Solving...
+Gurobi reports: solved
+Solver time :1.4900193214416504
+Init prob:  0.0004734680437151234
+Max vio : 0.4497641725265233
+p =  0.4502358269495773
+Solving...
+Gurobi reports: solved
+Solver time :1.5062322616577148
+Init prob:  0.0004827100868331587
+Max vio : 0.4497594883040179
+p =  0.45024050973126367
+Solving...
+Gurobi reports: solved
+Solver time :1.3684165477752686
+Init prob:  0.0004921018068918355
+Max vio : 0.4497549275207168
+p =  0.45024507080007825
+Solving...
+Gurobi reports: solved
+Solver time :1.551257610321045
+Init prob:  0.0005017112516040833
+Max vio : 0.44974988438027
+p =  0.4502501163778211
+Solving...
+Gurobi reports: solved
+Solver time :1.9731230735778809
+Init prob:  0.0005117041161211967
+Max vio : 0.4497450620435506
+p =  0.4502549340507863
+Solving...
+Gurobi reports: solved
+Solver time :1.3401663303375244
+Init prob:  0.0005220158154012883
+Max vio : 0.44973985487946716
+p =  0.45026014888312554
+Solving...
+Gurobi reports: solved
+Solver time :1.4103608131408691
+Init prob:  0.0005323573905600644
+Max vio : 0.44973488406580264
+p =  0.4502651167083134
+Solving...
+Gurobi reports: solved
+Solver time :1.528864860534668
+Init prob:  0.0005432936119989127
+Max vio : 0.4497292093536781
+p =  0.45027079212889703
+Solving...
+Gurobi reports: solved
+Solver time :1.867093801498413
+Init prob:  0.0005545982468041202
+Max vio : 0.4497236839100287
+p =  0.45027631103173577
+Solving...
+Gurobi reports: solved
+Solver time :1.8566868305206299
+Init prob:  0.0005659331777621345
+Max vio : 0.4497181041417149
+p =  0.4502818739694118
+Solving...
+Gurobi reports: solved
+Solver time :1.4566903114318848
+Init prob:  0.0005772943213982518
+Max vio : 0.44971270598636237
+p =  0.4502872962120896
+Solving...
+Gurobi reports: solved
+Solver time :1.8783533573150635
+Init prob:  0.000589357712769312
+Max vio : 0.44970658913171435
+p =  0.45029340429163467
+Solving...
+Gurobi reports: solved
+Solver time :1.4749870300292969
+Init prob:  0.0006012649876336979
+Max vio : 0.4497005528553827
+p =  0.4502994492979075
+Solving...
+Gurobi reports: solved
+Solver time :1.6490142345428467
+Init prob:  0.0006129972000600551
+Max vio : 0.449694772076465
+p =  0.45030522947177665
+Solving...
+Gurobi reports: solved
+Solver time :1.9580037593841553
+Init prob:  0.0006252935518535109
+Max vio : 0.4496885039343901
+p =  0.45031148210399297
+Solving...
+Gurobi reports: solved
+Solver time :1.2384257316589355
+Init prob:  0.0006375282198852801
+Max vio : 0.4496820996275644
+p =  0.4503179064160778
+Solving...
+Gurobi reports: solved
+Solver time :2.1980340480804443
+Init prob:  0.0006504257567656031
+Max vio : 0.44967607641089713
+p =  0.45032392312455
+Solving...
+Gurobi reports: solved
+Solver time :2.2481608390808105
+Init prob:  0.0006634478814124148
+Max vio : 0.44966960799962413
+p =  0.45033039273264536
+Solving...
+Gurobi reports: solved
+Solver time :1.373788833618164
+Init prob:  0.0006765448319336912
+Max vio : 0.44966324366584115
+p =  0.4503367574905507
+Solving...
+Gurobi reports: solved
+Solver time :1.120396375656128
+Init prob:  0.0006892896454626368
+Max vio : 0.44965703290771486
+p =  0.4503429680150748
+Solving...
+Gurobi reports: solved
+Solver time :1.3176259994506836
+Init prob:  0.0007022338012883332
+Max vio : 0.44965013649072066
+p =  0.4503498651442109
+Solving...
+Gurobi reports: solved
+Solver time :1.8261356353759766
+Init prob:  0.0007161907487026127
+Max vio : 0.4496432223476471
+p =  0.45035677719025613
+Solving...
+Gurobi reports: solved
+Solver time :1.6128852367401123
+Init prob:  0.000729532171919009
+Max vio : 0.44963647255946676
+p =  0.4503635323048412
+Solving...
+Gurobi reports: solved
+Solver time :1.406750202178955
+Init prob:  0.0007403242194893635
+Max vio : 0.4496310325479438
+p =  0.4503689742510528
+Solving...
+Gurobi reports: solved
+Solver time :1.619781494140625
+Init prob:  0.000752088140045704
+Max vio : 0.4496249671560209
+p =  0.4503750319973317
+Solving...
+Gurobi reports: solved
+Solver time :1.7817084789276123
+Init prob:  0.0007640759805821662
+Max vio : 0.4496190834731263
+p =  0.45038091766802607
+Solving...
+Gurobi reports: solved
+Solver time :2.127817153930664
+Init prob:  0.000776415920308496
+Max vio : 0.44961303634270655
+p =  0.45038696608035456
+Solving...
+Gurobi reports: solved
+Solver time :1.8481032848358154
+Init prob:  0.0007889733763998653
+Max vio : 0.4496066953593185
+p =  0.4503932720281384
+Solving...
+Gurobi reports: solved
+Solver time :1.2179155349731445
+Init prob:  0.0008012026604377354
+Max vio : 0.44960068717061663
+p =  0.4503993133180588
+Solving...
+Gurobi reports: solved
+Solver time :1.4292182922363281
+Init prob:  0.0008136576400735384
+Max vio : 0.4495944551145417
+p =  0.45040555098117785
+Solving...
+Gurobi reports: solved
+Solver time :1.450040578842163
+Init prob:  0.0008266366821809515
+Max vio : 0.4495880036371253
+p =  0.450411998598641
+Solving...
+Gurobi reports: solved
+Solver time :1.376641035079956
+Init prob:  0.0008395374267884654
+Max vio : 0.4495815579967811
+p =  0.4504184436609526
+Solving...
+Gurobi reports: solved
+Solver time :1.192225456237793
+Init prob:  0.0008522754356055053
+Max vio : 0.44957519788266714
+p =  0.45042480428909304
+Solving...
+Gurobi reports: solved
+Solver time :1.4363429546356201
+Init prob:  0.0008662503480241373
+Max vio : 0.4495683454877421
+p =  0.450431652819808
+Solving...
+Gurobi reports: solved
+Solver time :1.3700740337371826
+Init prob:  0.0008801348526824107
+Max vio : 0.44956137489570036
+p =  0.4504386258076535
+Solving...
+Gurobi reports: solved
+Solver time :1.6045331954956055
+Init prob:  0.000894532315748689
+Max vio : 0.4495542614343893
+p =  0.45044573559311774
+Solving...
+Gurobi reports: solved
+Solver time :1.5375888347625732
+Init prob:  0.0009091818918490256
+Max vio : 0.4495469876335917
+p =  0.45045301152886746
+Solving...
+Gurobi reports: solved
+Solver time :1.1823313236236572
+Init prob:  0.0009238628744702103
+Max vio : 0.44953955561573994
+p =  0.45046044258761697
+Solving...
+Gurobi reports: solved
+Solver time :1.2360172271728516
+Init prob:  0.0009388096793312257
+Max vio : 0.44953212318980074
+p =  0.45046787963218443
+Solving...
+Gurobi reports: solved
+Solver time :1.299072265625
+Init prob:  0.0009540413984284796
+Max vio : 0.4495246044206423
+p =  0.4504753952677195
+Solving...
+Gurobi reports: solved
+Solver time :1.1089868545532227
+Init prob:  0.0009685485569888392
+Max vio : 0.44951750311971245
+p =  0.45048249748933705
+Solving...
+Gurobi reports: solved
+Solver time :1.2878363132476807
+Init prob:  0.00098446911237477
+Max vio : 0.4495095666990132
+p =  0.450490435030682
+Solving...
+Gurobi reports: solved
+Solver time :1.1482045650482178
+Init prob:  0.0010008567278052816
+Max vio : 0.44950145020690496
+p =  0.4504985552541925
+Solving...
+Gurobi reports: solved
+Solver time :1.3655223846435547
+Init prob:  0.001017067871668371
+Max vio : 0.449493245925398
+p =  0.4505067547721989
+Solving...
+Gurobi reports: solved
+Solver time :1.717261791229248
+Init prob:  0.001034095429705573
+Max vio : 0.4494848423625637
+p =  0.4505151550586826
+Solving...
+Gurobi reports: solved
+Solver time :1.4605522155761719
+Init prob:  0.001051453445059314
+Max vio : 0.44947614971390465
+p =  0.4505238507631738
+Solving...
+Gurobi reports: solved
+Solver time :1.627807855606079
+Init prob:  0.0010688582395495647
+Max vio : 0.44946756643748387
+p =  0.45053243312684454
+Solving...
+Gurobi reports: solved
+Solver time :1.9638488292694092
+Init prob:  0.0010867220954853811
+Max vio : 0.44945859502181534
+p =  0.4505413998146209
+Solving...
+Gurobi reports: solved
+Solver time :1.0089795589447021
+Init prob:  0.0011044101918439534
+Max vio : 0.44944969691884645
+p =  0.4505503043184065
+Solving...
+Gurobi reports: solved
+Solver time :1.5281245708465576
+Init prob:  0.0011229474059736475
+Max vio : 0.4494403310598999
+p =  0.45055966924871016
+Solving...
+Gurobi reports: solved
+Solver time :1.2361080646514893
+Init prob:  0.0011421702260164222
+Max vio : 0.44943070476992414
+p =  0.45056929608038976
+Solving...
+Gurobi reports: solved
+Solver time :1.046849250793457
+Init prob:  0.0011609859566720064
+Max vio : 0.4494213392232912
+p =  0.4505786619583077
+Solving...
+Gurobi reports: solved
+Solver time :1.6103553771972656
+Init prob:  0.0011808301692841664
+Max vio : 0.4494118237143027
+p =  0.4505881769267257
+Solving...
+Gurobi reports: solved
+Solver time :1.515794038772583
+Init prob:  0.0012012554975497458
+Max vio : 0.44940153298245894
+p =  0.45059847780017076
+Solving...
+Gurobi reports: solved
+Solver time :2.144606590270996
+Init prob:  0.0012222086879293843
+Max vio : 0.44939113435472133
+p =  0.45060886642196474
+Solving...
+Gurobi reports: solved
+Solver time :1.9396460056304932
+Init prob:  0.0012439603612713337
+Max vio : 0.44938042779254955
+p =  0.45061957536568803
+Solving...
+Gurobi reports: solved
+Solver time :1.3273036479949951
+Init prob:  0.0012654880185096287
+Max vio : 0.44936936399167027
+p =  0.45063063779100215
+Solving...
+Gurobi reports: solved
+Solver time :1.8803753852844238
+Init prob:  0.0012880500359142056
+Max vio : 0.44935849807743905
+p =  0.45064151068536723
+Solving...
+Gurobi reports: solved
+Solver time :1.157813310623169
+Init prob:  0.0013103178938886537
+Max vio : 0.4493472700430944
+p =  0.45065273282311535
+Solving...
+Gurobi reports: solved
+Solver time :1.5124545097351074
+Init prob:  0.0013335340765567546
+Max vio : 0.44933584192426895
+p =  0.45066415956814165
+Solving...
+Gurobi reports: solved
+Solver time :1.2096138000488281
+Init prob:  0.0013569337553899503
+Max vio : 0.4493241485054985
+p =  0.4506758527398857
+Solving...
+Gurobi reports: solved
+Solver time :2.2827582359313965
+Init prob:  0.0013815602236091555
+Max vio : 0.4493120766404617
+p =  0.45068791342000886
+Solving...
+Gurobi reports: solved
+Solver time :1.8399348258972168
+Init prob:  0.0014066529344023283
+Max vio : 0.4492994454530124
+p =  0.4507005647533481
+Solving...
+Gurobi reports: solved
+Solver time :1.6726272106170654
+Init prob:  0.0014323040953558538
+Max vio : 0.4492866921347894
+p =  0.45071330929364367
+Solving...
+Gurobi reports: solved
+Solver time :1.5396316051483154
+Init prob:  0.0014585630625937396
+Max vio : 0.4492736843402738
+p =  0.45072630611200715
+Solving...
+Gurobi reports: solved
+Solver time :1.5865836143493652
+Init prob:  0.001484768775081218
+Max vio : 0.4492605215460146
+p =  0.4507394804733697
+Solving...
+Gurobi reports: solved
+Solver time :1.1281194686889648
+Init prob:  0.0015120240430217366
+Max vio : 0.449247074274649
+p =  0.4507529281973177
+Solving...
+Gurobi reports: solved
+Solver time :1.78920316696167
+Init prob:  0.0015401350968365527
+Max vio : 0.4492332496284878
+p =  0.45076679167832046
+Solving...
+Gurobi reports: solved
+Solver time :1.9079625606536865
+Init prob:  0.0015689213952101574
+Max vio : 0.4492188592970863
+p =  0.4507811413050541
+Solving...
+Gurobi reports: solved
+Solver time :1.753282070159912
+Init prob:  0.001598457203073494
+Max vio : 0.4492044241461488
+p =  0.4507955823799585
+Solving...
+Gurobi reports: solved
+Solver time :1.7482030391693115
+Init prob:  0.001628694435044348
+Max vio : 0.4491892771175852
+p =  0.4508107253438335
+Solving...
+Gurobi reports: solved
+Solver time :2.113435983657837
+Init prob:  0.0016597154612890829
+Max vio : 0.44917393861126187
+p =  0.45082606253347707
+Solving...
+Gurobi reports: solved
+Solver time :1.4144906997680664
+Init prob:  0.0016905588332013345
+Max vio : 0.44915846872557574
+p =  0.4508415328883885
+Solving...
+Gurobi reports: solved
+Solver time :1.3003199100494385
+Init prob:  0.0017223436753216908
+Max vio : 0.4491426812723362
+p =  0.45085731869457796
+Solving...
+Gurobi reports: solved
+Solver time :1.5827922821044922
+Init prob:  0.0017545209012841123
+Max vio : 0.4491266802010076
+p =  0.4508733236580182
+Solving...
+Gurobi reports: solved
+Solver time :1.7293002605438232
+Init prob:  0.0017883440579559077
+Max vio : 0.4491099273725864
+p =  0.4508900759677328
+Solving...
+Gurobi reports: solved
+Solver time :1.700373649597168
+Init prob:  0.001822683181239009
+Max vio : 0.44909268426672977
+p =  0.4509073188578659
+Solving...
+Gurobi reports: solved
+Solver time :1.5754027366638184
+Init prob:  0.0018584764476368965
+Max vio : 0.4490752864177042
+p =  0.4509247148101026
+Solving...
+Gurobi reports: solved
+Solver time :1.5548062324523926
+Init prob:  0.0018954163629286895
+Max vio : 0.44905695356946196
+p =  0.4509430490337322
+Solving...
+Gurobi reports: solved
+Solver time :2.2061872482299805
+Init prob:  0.0019335952470863887
+Max vio : 0.4490380221762857
+p =  0.450961991428273
+Solving...
+Gurobi reports: solved
+Solver time :1.9519102573394775
+Init prob:  0.0019725676741675167
+Max vio : 0.44901889140076673
+p =  0.4509811140600371
+Solving...
+Gurobi reports: solved
+Solver time :1.569953203201294
+Init prob:  0.0020126789818886953
+Max vio : 0.4489988459126236
+p =  0.4510011554612764
+Solving...
+Gurobi reports: solved
+Solver time :1.407114028930664
+Init prob:  0.0020534953814753784
+Max vio : 0.44897833962410383
+p =  0.4510216674106121
+Solving...
+Gurobi reports: solved
+Solver time :1.5701000690460205
+Init prob:  0.0020955799975998024
+Max vio : 0.44895745833687833
+p =  0.45104254479212585
+Solving...
+Gurobi reports: solved
+Solver time :1.7938714027404785
+Init prob:  0.0021390235866070146
+Max vio : 0.4489361131523511
+p =  0.4510638874822553
+Solving...
+Gurobi reports: solved
+Solver time :1.918773889541626
+Init prob:  0.0021829481902116946
+Max vio : 0.4489141591718033
+p =  0.45108584386016154
+Solving...
+Gurobi reports: solved
+Solver time :1.166306972503662
+Init prob:  0.0022287479388150276
+Max vio : 0.4488917783978445
+p =  0.45110821866946255
+Solving...
+Gurobi reports: solved
+Solver time :1.2721433639526367
+Init prob:  0.0022752041548678254
+Max vio : 0.4488686537359618
+p =  0.4511313494624787
+Solving...
+Gurobi reports: solved
+Solver time :1.88383150100708
+Init prob:  0.0023233206623708928
+Max vio : 0.4488445839967602
+p =  0.45115541830125294
+Solving...
+Gurobi reports: solved
+Solver time :2.199549913406372
+Init prob:  0.002373479339868851
+Max vio : 0.44881990864585253
+p =  0.451180095202888
+Solving...
+Gurobi reports: solved
+Solver time :1.8074793815612793
+Init prob:  0.0024245978346383477
+Max vio : 0.44879441418874066
+p =  0.45120558762333207
+Solving...
+Gurobi reports: solved
+Solver time :1.4122538566589355
+Init prob:  0.002477543890987775
+Max vio : 0.44876824892747763
+p =  0.45123175394125015
+Solving...
+Gurobi reports: solved
+Solver time :1.8666059970855713
+Init prob:  0.002532396448954043
+Max vio : 0.4487413437091551
+p =  0.45125865927656406
+Solving...
+Gurobi reports: solved
+Solver time :2.1037392616271973
+Init prob:  0.002589024306309752
+Max vio : 0.4487131814624904
+p =  0.45128681044257307
+Solving...
+Gurobi reports: solved
+Solver time :1.1770145893096924
+Init prob:  0.002647428383611438
+Max vio : 0.44868422996357277
+p =  0.4513157711560738
+Solving...
+Gurobi reports: solved
+Solver time :1.4960908889770508
+Init prob:  0.0027070825281953047
+Max vio : 0.4486545630084077
+p =  0.4513454362689022
+Solving...
+Gurobi reports: solved
+Solver time :1.5701777935028076
+Init prob:  0.0027691631646170516
+Max vio : 0.44862401352185477
+p =  0.45137598345281926
+Solving...
+Gurobi reports: solved
+Solver time :1.5698645114898682
+Init prob:  0.002833321860968475
+Max vio : 0.4485923646302684
+p =  0.451407637922371
+Solving...
+Gurobi reports: solved
+Solver time :1.9663467407226562
+Init prob:  0.0028995409904857593
+Max vio : 0.44855970639686527
+p =  0.451440295635429
+Solving...
+Gurobi reports: solved
+Solver time :1.8893728256225586
+Init prob:  0.002966867534920233
+Max vio : 0.4485263345754478
+p =  0.4514736661987181
+Solving...
+Gurobi reports: solved
+Solver time :1.648298740386963
+Init prob:  0.003037846734113821
+Max vio : 0.44849127625451307
+p =  0.4515087235006414
+Solving...
+Gurobi reports: solved
+Solver time :2.0786519050598145
+Init prob:  0.003111121526404575
+Max vio : 0.4484547932925252
+p =  0.4515452124651386
+Solving...
+Gurobi reports: solved
+Solver time :1.5824108123779297
+Init prob:  0.003184988816161767
+Max vio : 0.44841804600631124
+p =  0.45158195425168723
+Solving...
+Gurobi reports: solved
+Solver time :1.4812564849853516
+Init prob:  0.0032574319886858553
+Max vio : 0.4483817703026271
+p =  0.4516182357463035
+Solving...
+Gurobi reports: solved
+Solver time :1.489152431488037
+Init prob:  0.0033293761531069392
+Max vio : 0.4483458017093432
+p =  0.4516541985941634
+Solving...
+Gurobi reports: solved
+Solver time :1.6764230728149414
+Init prob:  0.0034015766102576004
+Max vio : 0.4483098015549659
+p =  0.45169019916888314
+Solving...
+Gurobi reports: solved
+Solver time :1.8056340217590332
+Init prob:  0.0034728451636357044
+Max vio : 0.44827438889422727
+p =  0.4517256122780677
+Solving...
+Gurobi reports: solved
+Solver time :1.7550721168518066
+Init prob:  0.0035446533689068127
+Max vio : 0.44823887949911906
+p =  0.4517611210980129
+Solving...
+Gurobi reports: solved
+Solver time :2.1808977127075195
+Init prob:  0.0036166448482196634
+Max vio : 0.44820302160105024
+p =  0.4517969767106994
+Solving...
+Gurobi reports: solved
+Solver time :1.5368268489837646
+Init prob:  0.0036894580231098817
+Max vio : 0.4481667297634607
+p =  0.45183327420500813
+Solving...
+Gurobi reports: solved
+Solver time :1.66391921043396
+Init prob:  0.0037624923684142146
+Max vio : 0.44813058924712057
+p =  0.45186940969668427
+Solving...
+Gurobi reports: solved
+Solver time :2.020592212677002
+Init prob:  0.003838557503145597
+Max vio : 0.44809333547877794
+p =  0.45190669009893
+Solving...
+Gurobi reports: solved
+Solver time :1.8804373741149902
+Init prob:  0.003916800797554019
+Max vio : 0.4480544767299325
+p =  0.4519455288035283
+Solving...
+Gurobi reports: solved
+Solver time :1.6031513214111328
+Init prob:  0.0039973472287868446
+Max vio : 0.4480147200386959
+p =  0.4519852830535444
+Solving...
+Gurobi reports: solved
+Solver time :2.4462053775787354
+Init prob:  0.0040807872769117685
+Max vio : 0.4479735800766887
+p =  0.4520264208973505
+Solving...
+Gurobi reports: solved
+Solver time :1.9823262691497803
+Init prob:  0.004166484783941798
+Max vio : 0.4479310517513442
+p =  0.45206894802293046
+Solving...
+Gurobi reports: solved
+Solver time :1.5998003482818604
+Init prob:  0.00425430251802975
+Max vio : 0.44788778920784666
+p =  0.4521122139102916
+Solving...
+Gurobi reports: solved
+Solver time :1.640026330947876
+Init prob:  0.004346087417505004
+Max vio : 0.44784242991551465
+p =  0.4521575706791295
+Solving...
+Gurobi reports: solved
+Solver time :2.3731889724731445
+Init prob:  0.004441106046573629
+Max vio : 0.4477957096070318
+p =  0.4522042952869747
+Solving...
+Gurobi reports: solved
+Solver time :1.5023865699768066
+Init prob:  0.004538186857599039
+Max vio : 0.44774728170080724
+p =  0.45225272289696117
+Solving...
+Gurobi reports: solved
+Solver time :1.8110573291778564
+Init prob:  0.004639668969665121
+Max vio : 0.44769753118103695
+p =  0.45230247163297943
+Solving...
+Gurobi reports: solved
+Solver time :2.2028844356536865
+Init prob:  0.004745268688589393
+Max vio : 0.4476455904966648
+p =  0.4523544131083435
+Solving...
+Gurobi reports: solved
+Solver time :1.7869045734405518
+Init prob:  0.004854453396041946
+Max vio : 0.4475916585035438
+p =  0.45240834283629455
+Solving...
+Gurobi reports: solved
+Solver time :1.8506801128387451
+Init prob:  0.004967871416044576
+Max vio : 0.44753555315816684
+p =  0.4524644664980879
+Solving...
+Gurobi reports: solved
+Solver time :1.631493091583252
+Init prob:  0.005085191313401456
+Max vio : 0.44747766095265024
+p =  0.4525223418237139
+Solving...
+Gurobi reports: solved
+Solver time :1.4225094318389893
+Init prob:  0.005205988453337678
+Max vio : 0.44741803549828735
+p =  0.45258196565700387
+Solving...
+Gurobi reports: solved
+Solver time :1.596423625946045
+Init prob:  0.005331658239872023
+Max vio : 0.44735614289652553
+p =  0.4526438655519866
+Solving...
+Gurobi reports: solved
+Solver time :1.3877465724945068
+Init prob:  0.005462140979822142
+Max vio : 0.4472916754129413
+p =  0.4527083266907316
+Solving...
+Gurobi reports: solved
+Solver time :2.30597186088562
+Init prob:  0.0055983360509745325
+Max vio : 0.447224794233549
+p =  0.45277520890862655
+Solving...
+Gurobi reports: solved
+Solver time :1.4441523551940918
+Init prob:  0.005739500478652016
+Max vio : 0.4471550950587175
+p =  0.4528449076695685
+Solving...
+Gurobi reports: solved
+Solver time :1.302278995513916
+Init prob:  0.005887000255015429
+Max vio : 0.4470825673512579
+p =  0.4529174419662509
+Solving...
+Gurobi reports: solved
+Solver time :1.5339241027832031
+Init prob:  0.0060406419458758995
+Max vio : 0.4470070461485765
+p =  0.4529929561700876
+Solving...
+Gurobi reports: solved
+Solver time :1.39113450050354
+Init prob:  0.006200193803137077
+Max vio : 0.4469282792288757
+p =  0.4530717218480861
+Solving...
+Gurobi reports: solved
+Solver time :1.425593614578247
+Init prob:  0.006366841606757632
+Max vio : 0.4468465285235672
+p =  0.45315347079895624
+Solving...
+Gurobi reports: solved
+Solver time :1.6934475898742676
+Init prob:  0.006540161150401102
+Max vio : 0.44676097403633686
+p =  0.45323902921233805
+Solving...
+Gurobi reports: solved
+Solver time :1.7906720638275146
+Init prob:  0.006713713516976032
+Max vio : 0.4466742512044035
+p =  0.45332575061168917
+Solving...
+Gurobi reports: solved
+Solver time :1.6931407451629639
+Init prob:  0.006895152860740858
+Max vio : 0.4465853131016074
+p =  0.4534146887794995
+Solving...
+Gurobi reports: solved
+Solver time :2.053246259689331
+Init prob:  0.007084716625392063
+Max vio : 0.44649224123842374
+p =  0.45350776244036684
+Solving...
+Gurobi reports: solved
+Solver time :1.829641580581665
+Init prob:  0.007281299158566034
+Max vio : 0.4463950498409317
+p =  0.45360495245110455
+Solving...
+Gurobi reports: solved
+Solver time :1.3967044353485107
+Init prob:  0.007485938976846866
+Max vio : 0.4462940157345832
+p =  0.45370598584132743
+Solving...
+Gurobi reports: solved
+Solver time :2.054253578186035
+Init prob:  0.007697911467107399
+Max vio : 0.44618914080495453
+p =  0.453810862521704
+Solving...
+Gurobi reports: solved
+Solver time :2.1893489360809326
+Init prob:  0.007920818636837553
+Max vio : 0.44607965545496375
+p =  0.4539203265403838
+Solving...
+Gurobi reports: solved
+Solver time :2.1975367069244385
+Init prob:  0.008148828076357353
+Max vio : 0.44596569438473077
+p =  0.45403430947657286
+Solving...
+Gurobi reports: solved
+Solver time :2.168792247772217
+Init prob:  0.008377228326580785
+Max vio : 0.44585107030004845
+p =  0.454148935943089
+Solving...
+Gurobi reports: solved
+Solver time :1.7547459602355957
+Init prob:  0.008616437905945292
+Max vio : 0.4457339743091423
+p =  0.45426603060175796
+Solving...
+Gurobi reports: solved
+Solver time :1.736802339553833
+Init prob:  0.008864703567509784
+Max vio : 0.44561136127717793
+p =  0.4543886391541065
+Solving...
+Gurobi reports: solved
+Solver time :1.718240737915039
+Init prob:  0.009124774607162702
+Max vio : 0.44548342161359067
+p =  0.45451658100510195
+Solving...
+Gurobi reports: solved
+Solver time :2.2928659915924072
+Init prob:  0.009397937583229592
+Max vio : 0.44534901853365866
+p =  0.4546509902340565
+Solving...
+Gurobi reports: solved
+Solver time :2.509103536605835
+Init prob:  0.00968376481544651
+Max vio : 0.44520913479137236
+p =  0.4547908683792173
+Solving...
+Gurobi reports: solved
+Solver time :2.287625789642334
+Init prob:  0.009983805972638123
+Max vio : 0.4450615487284531
+p =  0.4549384460748838
+Solving...
+Gurobi reports: solved
+Solver time :2.223642110824585
+Init prob:  0.0102982106604982
+Max vio : 0.4449076410278587
+p =  0.45509236878987464
+Solving...
+Gurobi reports: solved
+Solver time :2.087873935699463
+Init prob:  0.010629828704736879
+Max vio : 0.4447453012316921
+p =  0.4552547163522095
+Solving...
+Gurobi reports: solved
+Solver time :2.025899648666382
+Init prob:  0.010978695637771551
+Max vio : 0.4445740098749404
+p =  0.4554259922197215
+Solving...
+Gurobi reports: solved
+Solver time :1.5214953422546387
+Init prob:  0.011346320714074402
+Max vio : 0.4443927009971885
+p =  0.4556073024397166
+Solving...
+Gurobi reports: solved
+Solver time :1.83530592918396
+Init prob:  0.011733180732731075
+Max vio : 0.444203190825016
+p =  0.45579680255394905
+Solving...
+Gurobi reports: solved
+Solver time :2.125929832458496
+Init prob:  0.012141302969739313
+Max vio : 0.44400231574358373
+p =  0.4559976896127215
+Solving...
+Gurobi reports: solved
+Solver time :3.171673059463501
+Init prob:  0.012570872245023507
+Max vio : 0.44378763712019526
+p =  0.4562123679858289
+Solving...
+Gurobi reports: solved
+Solver time :1.708996057510376
+Init prob:  0.013022583448885466
+Max vio : 0.44355740872930854
+p =  0.45644259616858424
+Solving...
+Gurobi reports: solved
+Solver time :2.2441763877868652
+Init prob:  0.013499392980999596
+Max vio : 0.4433146118851531
+p =  0.4566853923232534
+Solving...
+Gurobi reports: solved
+Solver time :1.9810304641723633
+Init prob:  0.014001712211862373
+Max vio : 0.44305876366798
+p =  0.45694123884539123
+Solving...
+Gurobi reports: solved
+Solver time :2.464993715286255
+Init prob:  0.014533752425818003
+Max vio : 0.4427887178311461
+p =  0.45721128747744133
+Solving...
+Gurobi reports: solved
+Solver time :2.2204196453094482
+Init prob:  0.015096345476652659
+Max vio : 0.4425024967160002
+p =  0.45749749694824904
+Solving...
+Gurobi reports: solved
+Solver time :2.069709062576294
+Init prob:  0.015692212606328266
+Max vio : 0.4422000497214262
+p =  0.4577999451417248
+Solving...
+Gurobi reports: solved
+Solver time :2.2805044651031494
+Init prob:  0.01632366006384301
+Max vio : 0.44187991010467387
+p =  0.4581200956817035
+Solving...
+Gurobi reports: solved
+Solver time :2.9649465084075928
+Init prob:  0.01699424099418195
+Max vio : 0.4415382676714991
+p =  0.45846173696289283
+Solving...
+Gurobi reports: solved
+Solver time :2.213531494140625
+Init prob:  0.01770656807427134
+Max vio : 0.44117649872189324
+p =  0.45882350610261147
+Solving...
+Gurobi reports: solved
+Solver time :3.3639731407165527
+Init prob:  0.018464384414982826
+Max vio : 0.44079199741753006
+p =  0.4592080105592852
+Solving...
+Gurobi reports: solved
+Solver time :2.5062131881713867
+Init prob:  0.019272329723072575
+Max vio : 0.4403834558716926
+p =  0.45961654862656365
+Solving...
+Gurobi reports: solved
+Solver time :2.2202091217041016
+Init prob:  0.020133795592286802
+Max vio : 0.4399465915119576
+p =  0.46005340708592024
+Solving...
+Gurobi reports: solved
+Solver time :1.8648982048034668
+Init prob:  0.021055055663709396
+Max vio : 0.43948072973674535
+p =  0.46051926943647353
+Solving...
+Gurobi reports: solved
+Solver time :2.082875967025757
+Init prob:  0.022039493568999875
+Max vio : 0.43898282102322606
+p =  0.46101718590630175
+Solving...
+Gurobi reports: solved
+Solver time :1.6299915313720703
+Init prob:  0.023095541320528427
+Max vio : 0.4384504188926839
+p =  0.4615495842065104
+Solving...
+Gurobi reports: solved
+Solver time :1.7444782257080078
+Init prob:  0.024219454899704215
+Max vio : 0.4378796483590093
+p =  0.46212036221958525
+Solving...
+Gurobi reports: solved
+Solver time :1.1919364929199219
+Init prob:  0.025407013173603957
+Max vio : 0.4372720338699027
+p =  0.46272797012188727
+Solving...
+Gurobi reports: solved
+Solver time :1.6654994487762451
+Init prob:  0.02666402484968069
+Max vio : 0.4366289673475319
+p =  0.463371031801305
+Solving...
+Gurobi reports: solved
+Solver time :1.4752366542816162
+Init prob:  0.02799717096694729
+Max vio : 0.43594786276190384
+p =  0.46405213947656393
+Solving...
+Gurobi reports: solved
+Solver time :1.2578668594360352
+Init prob:  0.029416280718550857
+Max vio : 0.4352251264392838
+p =  0.46477487693525826
+Solving...
+Gurobi reports: solved
+Solver time :1.8126704692840576
+Init prob:  0.030927164480889287
+Max vio : 0.4344565096420484
+p =  0.4655434934555978
+Solving...
+Gurobi reports: solved
+Solver time :2.1355667114257812
+Init prob:  0.03255270210568197
+Max vio : 0.433633322253573
+p =  0.46636668321951313
+Solving...
+Gurobi reports: solved
+Solver time :2.750875473022461
+Init prob:  0.034248706269306504
+Max vio : 0.4327757165382892
+p =  0.467224339555679
+Solving...
+Gurobi reports: solved
+Solver time :3.5446650981903076
+Init prob:  0.03606943657490896
+Max vio : 0.4318631129065667
+p =  0.4681368913407979
+Solving...
+Gurobi reports: solved
+Solver time :1.9509730339050293
+Init prob:  0.03805297848525364
+Max vio : 0.43087366107489344
+p =  0.4691263387656144
+Solving...
+Gurobi reports: solved
+Solver time :1.464733362197876
+Init prob:  0.0402189836289454
+Max vio : 0.42979580241410237
+p =  0.4702041999354725
+Solving...
+Gurobi reports: solved
+Solver time :2.797300100326538
+Init prob:  0.042595609916419704
+Max vio : 0.4286177180382454
+p =  0.4713822913469956
+Solving...
+Gurobi reports: solved
+Solver time :2.030515670776367
+Init prob:  0.045206876896163935
+Max vio : 0.42732527244684815
+p =  0.4726747227375993
+Solving...
+Gurobi reports: solved
+Solver time :2.148883104324341
+Init prob:  0.04808361406990262
+Max vio : 0.42590500915656687
+p =  0.4740949915309194
+Solving...
+Gurobi reports: solved
+Solver time :1.2684729099273682
+Init prob:  0.05125533548897462
+Max vio : 0.4243402859070174
+p =  0.47565971768389304
+Solving...
+Gurobi reports: solved
+Solver time :1.365190029144287
+Init prob:  0.0547598511919498
+Max vio : 0.42261377482060364
+p =  0.4773862210594168
+Solving...
+Gurobi reports: solved
+Solver time :1.9750380516052246
+Init prob:  0.058675325362375456
+Max vio : 0.4207049566387238
+p =  0.47929504555769165
+Solving...
+Gurobi reports: solved
+Solver time :2.050614356994629
+Init prob:  0.06306151191977534
+Max vio : 0.41857247569409634
+p =  0.48142752464028327
+Solving...
+Gurobi reports: solved
+Solver time :1.1073105335235596
+Init prob:  0.06803370645590684
+Max vio : 0.41617013684823956
+p =  0.48382987109310205
+Solving...
+Gurobi reports: solved
+Solver time :1.2620270252227783
+Init prob:  0.07319645737905826
+Max vio : 0.4135956438928229
+p =  0.4864043582720201
+Solving...
+Gurobi reports: solved
+Solver time :1.3341989517211914
+Init prob:  0.07686114621274807
+Max vio : 0.4114697198679237
+p =  0.48853028818030236
+Solving...
+Gurobi reports: solved
+Solver time :1.5076937675476074
+Init prob:  0.08032897308615035
+Max vio : 0.40960439386198355
+p =  0.4903956084143217
+Solving...
+Gurobi reports: solved
+Solver time :1.2911159992218018
+Init prob:  0.08396805709382268
+Max vio : 0.4078548810491979
+p =  0.49214511964917274
+Solving...
+Gurobi reports: solved
+Solver time :1.500748634338379
+Init prob:  0.08783584309298081
+Max vio : 0.4060034325209806
+p =  0.4939965776461142
+Solving...
+Gurobi reports: solved
+Solver time :1.6802868843078613
+Init prob:  0.09196823987808304
+Max vio : 0.4040342450578224
+p =  0.49596577450100393
+Solving...
+Gurobi reports: solved
+Solver time :1.3518140316009521
+Init prob:  0.0963819034567836
+Max vio : 0.401931816609268
+p =  0.49806818559684307
+Solving...
+Gurobi reports: solved
+Solver time :2.0031769275665283
+Init prob:  0.10112595975476905
+Max vio : 0.3996884649436897
+p =  0.5003115383121486
+Solving...
+Gurobi reports: solved
+Solver time :1.6560389995574951
+Init prob:  0.10565039286493265
+Max vio : 0.39730015377316114
+p =  0.5026998466690565
+Solving...
+Gurobi reports: solved
+Solver time :1.6040465831756592
+Init prob:  0.11044286616379907
+Max vio : 0.3950045532698075
+p =  0.5049954494559162
+Solving...
+Gurobi reports: solved
+Solver time :1.575864315032959
+Init prob:  0.11557151408450768
+Max vio : 0.39257240109988095
+p =  0.507427599916924
+Solving...
+Gurobi reports: solved
+Solver time :1.2903766632080078
+Init prob:  0.12095922736222503
+Max vio : 0.389970577455338
+p =  0.5100294215932594
+Solving...
+Gurobi reports: solved
+Solver time :1.5695064067840576
+Init prob:  0.12648879389010237
+Max vio : 0.3872405056839226
+p =  0.5127594963300544
+Solving...
+Gurobi reports: solved
+Solver time :1.4598898887634277
+Init prob:  0.13246049001114443
+Max vio : 0.38443768016259383
+p =  0.5155623205043784
+Solving...
+Gurobi reports: solved
+Solver time :1.4077985286712646
+Init prob:  0.13888989671664184
+Max vio : 0.38145698011916773
+p =  0.5185430223605494
+Solving...
+Gurobi reports: solved
+Solver time :1.6166729927062988
+Init prob:  0.1455471841924821
+Max vio : 0.37820915480463024
+p =  0.5217908476447631
+Solving...
+Gurobi reports: solved
+Solver time :1.341951608657837
+Init prob:  0.1515117033282264
+Max vio : 0.37486497639280003
+p =  0.5251350249179402
+Solving...
+Gurobi reports: solved
+Solver time :1.0764009952545166
+Init prob:  0.15773870314140853
+Max vio : 0.3718496707397654
+p =  0.5281503285177397
+Solving...
+Gurobi reports: solved
+Solver time :1.5415592193603516
+Init prob:  0.16437325417835993
+Max vio : 0.3687006753344726
+p =  0.5312993231935184
+Solving...
+Gurobi reports: solved
+Solver time :1.3612291812896729
+Init prob:  0.1714378204563813
+Max vio : 0.36534544134157154
+p =  0.5346545578500457
+Solving...
+Gurobi reports: solved
+Solver time :1.4420146942138672
+Init prob:  0.17899749097464243
+Max vio : 0.3617742727254987
+p =  0.538225730891002
+Solving...
+Gurobi reports: solved
+Solver time :1.7508032321929932
+Init prob:  0.187201954280855
+Max vio : 0.3579522315741914
+p =  0.5420477694043382
+Solving...
+Gurobi reports: solved
+Solver time :2.0069262981414795
+Init prob:  0.19613865835676372
+Max vio : 0.3538042733034612
+p =  0.5461957273085354
+Solving...
+Gurobi reports: solved
+Solver time :1.0500824451446533
+Init prob:  0.20588978262460028
+Max vio : 0.3492864012456147
+p =  0.5507135979995387
+Solving...
+Gurobi reports: solved
+Solver time :1.6526472568511963
+Init prob:  0.21595052630294134
+Max vio : 0.3443867814814093
+p =  0.5556132190052487
+Solving...
+Gurobi reports: solved
+Solver time :1.1620440483093262
+Init prob:  0.22654491440755684
+Max vio : 0.33931375882418985
+p =  0.5606862428640875
+Solving...
+Gurobi reports: solved
+Solver time :1.1746490001678467
+Init prob:  0.2379340568371262
+Max vio : 0.3339682607742027
+p =  0.566031740824127
+Solving...
+Gurobi reports: solved
+Solver time :0.8487863540649414
+Init prob:  0.24806239984027903
+Max vio : 0.32823604637513215
+p =  0.5717639538579751
+Solving...
+Gurobi reports: solved
+Solver time :0.8919875621795654
+Init prob:  0.25748546974570574
+Max vio : 0.3231352663273943
+p =  0.5768647337074437
+Solving...
+Gurobi reports: solved
+Solver time :0.8425867557525635
+Init prob:  0.2675136840874484
+Max vio : 0.3183710467382019
+p =  0.581628953319478
+Solving...
+Gurobi reports: solved
+Solver time :0.8561916351318359
+Init prob:  0.27881361137586225
+Max vio : 0.31329228823201377
+p =  0.5867077128674267
+Solving...
+Gurobi reports: solved
+Solver time :0.9202055931091309
+Init prob:  0.2905278986550249
+Max vio : 0.30757049024847843
+p =  0.5924295098206016
+Solving...
+Gurobi reports: solved
+Solver time :0.7185056209564209
+Init prob:  0.301367455116897
+Max vio : 0.30167811829351404
+p =  0.598321881815871
+Solving...
+Gurobi reports: solved
+Solver time :0.8071510791778564
+Init prob:  0.312688927160643
+Max vio : 0.29625575049004077
+p =  0.6037442496538528
+Solving...
+Gurobi reports: solved
+Solver time :0.8796958923339844
+Init prob:  0.3242312279882435
+Max vio : 0.29049217910390235
+p =  0.6095078209287637
+Solving...
+Gurobi reports: solved
+Solver time :0.7222301959991455
+Init prob:  0.33342787889798886
+Max vio : 0.2846543462867777
+p =  0.6153456539444463
+Solving...
+Gurobi reports: solved
+Solver time :0.9065039157867432
+Init prob:  0.34259058590449687
+Max vio : 0.2799502611501527
+p =  0.6200497388928137
+Solving...
+Gurobi reports: solved
+Solver time :0.758795976638794
+Init prob:  0.35127520246571065
+Max vio : 0.2752930009181387
+p =  0.624706999321373
+Solving...
+Gurobi reports: solved
+Solver time :0.7208569049835205
+Init prob:  0.36075669676896127
+Max vio : 0.27081876148729855
+p =  0.6291812386916288
+Solving...
+Gurobi reports: solved
+Solver time :0.7617175579071045
+Init prob:  0.37106928779573506
+Max vio : 0.2659308478682929
+p =  0.6340691522257749
+Solving...
+Gurobi reports: solved
+Solver time :0.7384626865386963
+Init prob:  0.3822055449944584
+Max vio : 0.2606092629369525
+p =  0.6393907371490757
+Solving...
+Gurobi reports: solved
+Solver time :0.7879676818847656
+Init prob:  0.39423140905246357
+Max vio : 0.25485495107319556
+p =  0.6451450489462559
+Solving...
+Gurobi reports: solved
+Solver time :0.846163272857666
+Init prob:  0.4072086344770177
+Max vio : 0.24863307810702293
+p =  0.6513669219313616
+Solving...
+Gurobi reports: solved
+Solver time :0.8242716789245605
+Init prob:  0.4212289249850063
+Max vio : 0.2419087056162072
+p =  0.6580912944642573
+Solving...
+Gurobi reports: solved
+Solver time :0.8014936447143555
+Init prob:  0.43623630003672503
+Max vio : 0.2346332419012695
+p =  0.6653667581199155
+Solving...
+Gurobi reports: solved
+Solver time :0.8236544132232666
+Init prob:  0.4525640073060629
+Max vio : 0.22683077053100745
+p =  0.6731692290951625
+Solving...
+Gurobi reports: solved
+Solver time :0.7985546588897705
+Init prob:  0.47029551438208644
+Max vio : 0.21833063056165022
+p =  0.6816693694623122
+Solving...
+Gurobi reports: solved
+Solver time :0.802929162979126
+Init prob:  0.4895877038150689
+Max vio : 0.20908708324646605
+p =  0.6909129168112931
+Solving...
+Gurobi reports: solved
+Solver time :0.8333654403686523
+Init prob:  0.5106328083221648
+Max vio : 0.199017952713963
+p =  0.7009820473357801
+Solving...
+Gurobi reports: solved
+Solver time :0.8232614994049072
+Init prob:  0.5317444732291233
+Max vio : 0.18864915159022963
+p =  0.7113508485955801
+Solving...
+Gurobi reports: solved
+Solver time :0.8624420166015625
+Init prob:  0.5493162659718237
+Max vio : 0.17962898967395036
+p =  0.7203710104117186
+Solving...
+Gurobi reports: solved
+Solver time :0.7733590602874756
+Init prob:  0.5668836361694737
+Max vio : 0.1708687924588051
+p =  0.729131207714078
+Solving...
+Gurobi reports: solved
+Solver time :0.8771471977233887
+Init prob:  0.5849000380758386
+Max vio : 0.16210476634382898
+p =  0.7378952336899333
+Solving...
+Gurobi reports: solved
+Solver time :0.9157333374023438
+Init prob:  0.6028025271273006
+Max vio : 0.15310577456502925
+p =  0.746894225590647
+Solving...
+Gurobi reports: solved
+Solver time :0.9208879470825195
+Init prob:  0.6181047374809507
+Max vio : 0.1441463782997581
+p =  0.7558536217538132
+Solving...
+Gurobi reports: solved
+Solver time :0.9407165050506592
+Init prob:  0.6316118762727168
+Max vio : 0.13648273589201618
+p =  0.7635172641783724
+Solving...
+Gurobi reports: solved
+Solver time :0.9505901336669922
+Init prob:  0.6398039361888185
+Max vio : 0.12969344055562965
+p =  0.7703065596855447
+Solving...
+Gurobi reports: solved
+Solver time :0.9474484920501709
+Init prob:  0.6468548665661152
+Max vio : 0.12556828880606932
+p =  0.774431711185445
+Solving...
+Gurobi reports: solved
+Solver time :0.840338945388794
+Init prob:  0.6537217765995822
+Max vio : 0.12200336833211517
+p =  0.7779966317751001
+Solving...
+Gurobi reports: solved
+Solver time :0.8254446983337402
+Init prob:  0.6602714203806633
+Max vio : 0.11851369804557169
+p =  0.7814863020424734
+Solving...
+Gurobi reports: solved
+Solver time :0.860865592956543
+Init prob:  0.6668536523274243
+Max vio : 0.11516372093594443
+p =  0.7848362791226439
+Solving...
+Gurobi reports: solved
+Solver time :0.8179898262023926
+Init prob:  0.673178126152923
+Max vio : 0.1117744591644781
+p =  0.788225541018572
+Solving...
+Gurobi reports: solved
+Solver time :0.9337737560272217
+Init prob:  0.6795067943838702
+Max vio : 0.10848902081759823
+p =  0.7915109801115385
+Solving...
+Gurobi reports: solved
+Solver time :1.0708870887756348
+Init prob:  0.6849220680925338
+Max vio : 0.10564016000665322
+p =  0.794359839414686
+Solving...
+Gurobi reports: solved
+Solver time :1.0422694683074951
+Init prob:  0.6891978320185524
+Max vio : 0.10335466545000287
+p =  0.796645334474428
+Solving...
+Gurobi reports: solved
+Solver time :0.8591952323913574
+Init prob:  0.6932517414349993
+Max vio : 0.1012163715287214
+p =  0.7987836285544394
+Solving...
+Gurobi reports: solved
+Solver time :0.98111891746521
+Init prob:  0.6970538469307116
+Max vio : 0.099189524543678
+p =  0.8008104755475978
+Solving...
+Gurobi reports: solved
+Solver time :1.0593750476837158
+Init prob:  0.7005073871499108
+Max vio : 0.09729011384699664
+p =  0.8027098862846742
+Solving...
+Gurobi reports: solved
+Solver time :0.8816337585449219
+Init prob:  0.7037895407156785
+Max vio : 0.0955626852150484
+p =  0.8044373149705798
+Solving...
+Gurobi reports: solved
+Solver time :0.9895663261413574
+Init prob:  0.706908218858601
+Max vio : 0.09392098518197164
+p =  0.8060790148999648
+Solving...
+Gurobi reports: solved
+Solver time :1.0252821445465088
+Init prob:  0.7097821364033158
+Max vio : 0.09236266153368469
+p =  0.8076373384960227
+Solving...
+Gurobi reports: solved
+Solver time :0.837322473526001
+Init prob:  0.7124963216980686
+Max vio : 0.09092504655283903
+p =  0.8090749536440572
+Solving...
+Gurobi reports: solved
+Solver time :0.9099545478820801
+Init prob:  0.7149934221332974
+Max vio : 0.08956833790982953
+p =  0.8104316621808167
+Solving...
+Gurobi reports: solved
+Solver time :0.9345979690551758
+Init prob:  0.7172089402218468
+Max vio : 0.08832110336868187
+p =  0.8116788966749858
+Solving...
+Gurobi reports: solved
+Solver time :1.0230741500854492
+Init prob:  0.7192936859983436
+Max vio : 0.08721272872108055
+p =  0.8127872713754789
+Solving...
+Gurobi reports: solved
+Solver time :1.2837629318237305
+Init prob:  0.7212497086212047
+Max vio : 0.08616965793919935
+p =  0.8138303421844095
+Solving...
+Gurobi reports: solved
+Solver time :0.8443198204040527
+Init prob:  0.7228682313697764
+Max vio : 0.08521752532733175
+p =  0.8147824748519648
+Solving...
+Gurobi reports: solved
+Solver time :0.9644827842712402
+Init prob:  0.7243818665302898
+Max vio : 0.08441148092547118
+p =  0.8155885191223542
+Solving...
+Gurobi reports: solved
+Solver time :0.904472827911377
+Init prob:  0.7258167317923363
+Max vio : 0.08365272807418962
+p =  0.81634727217534
+Solving...
+Gurobi reports: solved
+Solver time :0.9636924266815186
+Init prob:  0.7271761122342543
+Max vio : 0.08293333307498024
+p =  0.817066667019962
+Solving...
+Gurobi reports: solved
+Solver time :1.115368127822876
+Init prob:  0.7284626909364568
+Max vio : 0.08225167902658172
+p =  0.8177483208055693
+Solving...
+Gurobi reports: solved
+Solver time :0.9188592433929443
+Init prob:  0.7296768137582066
+Max vio : 0.08160631868505686
+p =  0.8183936814167886
+Solving...
+Gurobi reports: solved
+Solver time :1.0337519645690918
+Init prob:  0.7308220902262419
+Max vio : 0.08099739155648318
+p =  0.8190026085652583
+Solving...
+Gurobi reports: solved
+Solver time :0.8570454120635986
+Init prob:  0.7319013017154914
+Max vio : 0.08042268971033226
+p =  0.819577310438146
+Solving...
+Gurobi reports: solved
+Solver time :0.9454972743988037
+Init prob:  0.7329170695036746
+Max vio : 0.0798810634187518
+p =  0.8201189367661303
+Solving...
+Gurobi reports: solved
+Solver time :0.8921003341674805
+Init prob:  0.7338692673529531
+Max vio : 0.07937109464359866
+p =  0.8206289055503942
+Solving...
+Gurobi reports: solved
+Solver time :0.9854073524475098
+Init prob:  0.7347608533518407
+Max vio : 0.07889299981182966
+p =  0.8211070002830453
+Solving...
+Gurobi reports: solved
+Solver time :0.8999834060668945
+Init prob:  0.7355951797154797
+Max vio : 0.07844523006183031
+p =  0.8215547701623197
+Solving...
+Gurobi reports: solved
+Solver time :1.0047554969787598
+Init prob:  0.73637317398961
+Max vio : 0.07802606283632885
+p =  0.8219739372980066
+Solving...
+Gurobi reports: solved
+Solver time :1.0803093910217285
+Init prob:  0.7370972759714572
+Max vio : 0.07763508291417179
+p =  0.822364917245433
+Solving...
+Gurobi reports: solved
+Solver time :1.030501127243042
+Time out has elapsed after 1200 seconds:
+Traceback (most recent call last):
+  File "parameter_synthesis.py", line 733, in <module>
+    state = parameter_synthesis.main(standalone_mode=False)[0]
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1699, in invoke
+    rv.append(sub_ctx.command.invoke(sub_ctx))
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "parameter_synthesis.py", line 384, in find_feasible_instantiation
+    result = checker.run(dir, upper_state_var_bounds=upper_state_bounds, lower_state_var_bounds=lower_state_bounds)
+  File "/home/gradandpostdoc/prophesy/prophesy/optimisation/qcqp.py", line 855, in run
+    sample, mc_res = self._evaluate_result(result.parameter_values)
+AttributeError: 'tuple' object has no attribute 'parameter_values'

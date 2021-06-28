@@ -1,0 +1,143 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/nmt$ python3 parameter_synthesis.py load-problem pomdp_prob_36_sat_065_dist_2_obs_diff_orb_len_40.drn satellite_props.pctl set-threshold 0.995 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above affine_scp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+pomdp_prob_36_sat_065_dist_2_obs_diff_orb_len_40.drn
+satellite_props.pctl
+set-threshold
+0.995
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+above
+affine_scp
+{}
+Assume input is direct encoded
+DTMC
+Searching for parameters parameters!
+Next line contains parameters!
+Number of parameters: 5337
+Parsing P=? [F "goal"]
+Parse formula P=? [F "goal"] without a program.
+Build model
+Built a model with 217561 states and 615433 transitions
+Bisimulation yields model with 217561 states, 217561 actions and 615433 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Solving...
+Gurobi reports: solved
+Solver time :84.82842183113098
+Init prob: 0.0
+Best found: 0.0
+Total time: 144.70768213272095
+Solver time: 85.93467354774475
+Encoding time: 58.773008584976196
+Max vio : 0.993449282225167
+p =  0.995000000002101
+Solving...
+Gurobi reports: solved
+Solver time :125.20642232894897
+Init prob: 0.0
+Best found: 0.0
+Total time: 314.95855617523193
+Solver time: 211.14109587669373
+Encoding time: 103.81746029853821
+Max vio : 0.9934492822100578
+p =  0.9950000000021009
+Solving...
+Gurobi reports: solved
+Solver time :126.788987159729
+Found better value
+Init prob: 9.347045359930917e-11
+Best found: 9.347045359930917e-11
+Total time: 489.9321551322937
+Solver time: 337.93008303642273
+Encoding time: 152.00207209587097
+Max vio : 0.9934492821949533
+p =  0.9950000000021009
+Solving...
+Gurobi reports: solved
+Solver time :132.19762706756592
+Init prob: 0.0
+Best found: 9.347045359930917e-11
+Total time: 668.7791283130646
+Solver time: 470.12771010398865
+Encoding time: 198.65141820907593
+Max vio : 0.993449299977235
+p =  0.9950000000025048
+Solving...
+Gurobi reports: solved
+Solver time :116.5340404510498
+Init prob: 0.0
+Best found: 9.347045359930917e-11
+Total time: 821.4073531627655
+Solver time: 586.6617505550385
+Encoding time: 234.74560260772705
+Max vio : 0.9934493016894567
+p =  0.9950000000022069
+Solving...
+Gurobi reports: solved
+Solver time :115.09898138046265
+Init prob: 0.0
+Best found: 9.347045359930917e-11
+Total time: 976.8189594745636
+Solver time: 701.7607319355011
+Encoding time: 275.0582275390625
+Max vio : 0.9934492999445502
+p =  0.9950000000025047
+Solving...
+Gurobi reports: solved
+Solver time :118.71561980247498
+Time out has elapsed after 1200 seconds:
+Init prob: 0.0
+Best found: 9.347045359930917e-11
+Total time: 1134.1033148765564
+Solver time: 820.4763517379761
+Encoding time: 313.6269631385803
+Max vio : 0.9934492999282242
+p =  0.9950000000025047
+Time out has elapsed after 1200 seconds:
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Scp: 9.347045359930917e-11: Mc: 9.347045359930917e-11
+iterations =6
+solver time=820.4763517379761
+encoding time=313.6269631385803
+iterate time=0.0
+inner part = 198.04955554008484s (0.26187573161667976)
+adding constraints = 198.04955554008484s
+Qcqp: 9.347045359930917e-11: Mc: 9.347045359930917e-11
+iterations =6
+solver time=820.4763517379761
+encoding time=313.6269631385803
+iterate time=0.0
+inner part = 51.86437225341797s (0.26187573161667976)
+adding constraints = 198.04955554008484s
+<prophesy.optimisation.affine_trust_region.AffineModelRepairTrustRegion object at 0x7ff14d123ef0>
+198.04955554008484
+Final result: 9.347045359930917e-11 (approx. 9.347045359930917e-11)
+Traceback (most recent call last):
+  File "parameter_synthesis.py", line 733, in <module>
+    state = parameter_synthesis.main(standalone_mode=False)[0]
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1699, in invoke
+    rv.append(sub_ctx.command.invoke(sub_ctx))
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/gradandpostdoc/stormenv/lib/python3.6/site-packages/click-8.0.1-py3.6.egg/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "parameter_synthesis.py", line 512, in find_feasible_instantiation
+    raise ValueError("Result does not match threshold")
+ValueError: Result does not match threshold

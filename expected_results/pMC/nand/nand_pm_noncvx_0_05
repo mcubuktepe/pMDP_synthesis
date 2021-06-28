@@ -1,0 +1,215 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/nand/nand.pm prism/nand/nand.prctl set-threshold 0.05 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below noncvx
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/nand/nand.pm
+prism/nand/nand.prctl
+set-threshold
+0.05
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+noncvx
+{}
+Assume input is a Prism File
+Parsing P=? [F "target" ]
+Load model from prism file
+Load formula P=? [F "target" ] with respect to program.
+Build model
+Built a model with 8112 states and 11577 transitions
+Bisimulation yields model with 8112 states, 8112 actions and 11577 transitions
+Perform bisimulation
+Bisimulation yields model with 5447 states, 5447 actions and 7374 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Parameter OutputFlag unchanged
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+   Value: 1  Min: 0  Max: 1  Default: 1
+Changed value of parameter BarHomogeneous to 1
+Changed value of parameter BarHomogeneous to 1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+   Prev: -1  Min: -1  Max: 1  Default: -1
+Changed value of parameter Method to 2
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Crossover to 0
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter CrossoverBasis to 1
+Changed value of parameter CrossoverBasis to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Changed value of parameter NonConvex to 2
+Changed value of parameter NonConvex to 2
+   Prev: -1  Min: -1  Max: 2  Default: -1
+   Prev: -1  Min: -1  Max: 2  Default: -1
+Changed value of parameter TimeLimit to 1200.0
+Changed value of parameter TimeLimit to 1200.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Solving...
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 7406 rows, 2811 columns and 7409 nonzeros
+Optimize a model with 7406 rows, 2811 columns and 7409 nonzeros
+Model fingerprint: 0x6d5d7b98
+Model fingerprint: 0x6d5d7b98
+Model has 1399 quadratic constraints
+Model has 1399 quadratic constraints
+Coefficient statistics:
+Coefficient statistics:
+  Matrix range     [2e-01, 1e+00]
+  Matrix range     [2e-01, 1e+00]
+  QMatrix range    [2e-01, 1e+00]
+  QMatrix range    [2e-01, 1e+00]
+  QLMatrix range   [2e-01, 1e+00]
+  QLMatrix range   [2e-01, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e-05, 1e+00]
+  Bounds range     [1e-05, 1e+00]
+  RHS range        [1e-06, 1e+00]
+  RHS range        [1e-06, 1e+00]
+Presolve removed 7404 rows and 1409 columns
+Presolve removed 7404 rows and 1409 columns
+
+
+Continuous model is non-convex -- solving as a MIP.
+Continuous model is non-convex -- solving as a MIP.
+
+
+Presolve removed 7404 rows and 1409 columns
+Presolve removed 7404 rows and 1409 columns
+Presolve time: 0.03s
+Presolve time: 0.03s
+Presolved: 5887 rows, 2795 columns, 18143 nonzeros
+Presolved: 5887 rows, 2795 columns, 18143 nonzeros
+Presolved model has 1411 bilinear constraint(s)
+Presolved model has 1411 bilinear constraint(s)
+Variable types: 2795 continuous, 0 integer (0 binary)
+Variable types: 2795 continuous, 0 integer (0 binary)
+Root barrier log...
+Root barrier log...
+
+
+Ordering time: 0.00s
+Ordering time: 0.00s
+
+
+Barrier statistics:
+Barrier statistics:
+ AA' NZ     : 1.483e+04
+ AA' NZ     : 1.483e+04
+ Factor NZ  : 4.840e+04 (roughly 5 MBytes of memory)
+ Factor NZ  : 4.840e+04 (roughly 5 MBytes of memory)
+ Factor Ops : 8.859e+05 (less than 1 second per iteration)
+ Factor Ops : 8.859e+05 (less than 1 second per iteration)
+ Threads    : 1
+ Threads    : 1
+
+
+                  Objective                Residual
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -3.92101346e+02 -0.00000000e+00  9.00e-01 2.87e-01  1.11e-01     0s
+   0  -3.92101346e+02 -0.00000000e+00  9.00e-01 2.87e-01  1.11e-01     0s
+   1  -4.20573658e+01 -0.00000000e+00  1.05e-01 8.73e-02  5.30e-03     0s
+   1  -4.20573658e+01 -0.00000000e+00  1.05e-01 8.73e-02  5.30e-03     0s
+   2  -3.05936374e+00 -0.00000000e+00  7.57e-03 2.14e-03  2.93e-04     0s
+   2  -3.05936374e+00 -0.00000000e+00  7.57e-03 2.14e-03  2.93e-04     0s
+   3  -9.08556041e-05 -0.00000000e+00  2.25e-07 0.00e+00  8.38e-09     0s
+   3  -9.08556041e-05 -0.00000000e+00  2.25e-07 0.00e+00  8.38e-09     0s
+   4  -9.07649161e-11 -0.00000000e+00  2.24e-13 0.00e+00  8.37e-15     0s
+   4  -9.07649161e-11 -0.00000000e+00  2.24e-13 0.00e+00  8.37e-15     0s
+
+
+Barrier solved model in 4 iterations and 0.07 seconds
+Barrier solved model in 4 iterations and 0.07 seconds
+Optimal objective -9.07649161e-11
+Optimal objective -9.07649161e-11
+
+
+
+
+Root relaxation: objective 0.000000e+00, 2750 iterations, 0.04 seconds
+Root relaxation: objective 0.000000e+00, 2750 iterations, 0.04 seconds
+
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+
+     0     0    0.00000    0 1168          -    0.00000      -     -    0s
+     0     0    0.00000    0 1168          -    0.00000      -     -    0s
+     0     0    0.00000    0 1170          -    0.00000      -     -    0s
+     0     0    0.00000    0 1170          -    0.00000      -     -    0s
+     0     0    0.00000    0 1166          -    0.00000      -     -    0s
+     0     0    0.00000    0 1166          -    0.00000      -     -    0s
+     0     2    0.00000    0 1166          -    0.00000      -     -    2s
+     0     2    0.00000    0 1166          -    0.00000      -     -    2s
+    94   121    0.00000    9 1170          -    0.00000      -   379    5s
+    94   121    0.00000    9 1170          -    0.00000      -   379    5s
+   497   951    0.00000   12 1332          -    0.00000      -   308   14s
+   497   951    0.00000   12 1332          -    0.00000      -   308   14s
+*  591   951              31       0.0000000    0.00000  0.00%   306   14s
+*  591   951              31       0.0000000    0.00000  0.00%   306   14s
+
+
+Cutting planes:
+Cutting planes:
+  RLT: 1133
+  RLT: 1133
+
+
+Explored 1390 nodes (263274 simplex iterations) in 14.16 seconds
+Explored 1390 nodes (263274 simplex iterations) in 14.16 seconds
+Thread count was 16 (of 16 available processors)
+Thread count was 16 (of 16 available processors)
+
+
+Solution count 1: 0 
+Solution count 1: 0 
+
+
+Optimal solution found (tolerance 1.00e-04)
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.6839e-06) exceeds tolerance
+Warning: max constraint violation (1.6839e-06) exceeds tolerance
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Gurobi reports: solved
+Solver time :14.161221742630005
+Init prob:  0.03925893843192374
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Gurobi: 0.05: Mc: 0.03925893843192374
+iterations =0
+solver time=14.161221742630005
+encoding time=0.38027262687683105
+iterate time=0.0
+inner part = 0.026642799377441406s (0.2662708076191747)
+adding constraints = 0.0s
+Final result: 0.03925893843192374 (approx. 0.03925893843192374)
+This procedure took 14.791531562805176s (from start: 14.79814600944519s)
+Ratio of solver time over procedure time 0.9573871158981163
+Ratio of model building time time over procedure time 0.012411214796604394
+Ratio of mc time time over procedure time 0.00018454169539804688
+Ratio of encoding time over procedure time 0.02570880677651161
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

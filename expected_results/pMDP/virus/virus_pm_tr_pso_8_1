@@ -1,0 +1,124 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/mdp/virus/virus.pm prism/mdp/virus/maxattacks.pctl set-threshold 8.1 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below pso
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/mdp/virus/virus.pm
+prism/mdp/virus/maxattacks.pctl
+set-threshold
+8.1
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+pso
+{}
+Assume input is a Prism File
+Parsing R{"attacks"}max=? [F s11=2 ]
+Load model from prism file
+Load formula Rmax=? [F s11=2 ] with respect to program.
+Call stormpy for constraints
+Build model
+Built a model with 761 states and 5009 transitions
+Bisimulation yields model with 761 states, 2606 actions and 5009 transitions
+Stormpy finished collecting constraints
+Push [1]
+Call Z3 cli tool with timeout 10.0
+SMT result:	unsat
+Load formula Rmax=? [F s11=2 ] with respect to program.
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 18.84086318397627 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 17.221617840709076 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 14.146034208017243 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 12.157457964441965 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 11.559448838553289 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 10.585163267587005 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 9.918428151612705 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 9.450395206342568 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 9.251052785091654 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.892990546186436 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.736089098535881 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.609301389199064 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.485814955869785 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.409343667022469 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.33342610301105 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.27392126681599 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.224404476596781 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.173157380503252 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.115925494507767 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.100655629453227 with 81/10
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Comparing 8.092712423578917 with 81/10
+Point found: {infect11:0.9992987297449302;infect12:0.99999;infect13:1e-05;infect21:0.99999;infect22:0.99999;infect23:0.9998158228903096;infect31:0.99999;infect32:0.99999;infect33:0.13266078433149328;detect11:1.0000000000000048e-05;detect12:1.00000000000002e-05;detect13:0.08399367834358745;detect21:1e-05;detect22:1.0000000000000084e-05;detect23:1e-05;detect31:1e-05;detect32:1e-05;detect33:0.5037394506807928}: 8.092712423578917 (approx. 8.092712423578917)
+This procedure took 15.900555849075317s (from start: 15.908721208572388s)
+Ratio of solver time over procedure time 0.004903693881845832
+Ratio of model building time time over procedure time 0.0032931352169192104
+Ratio of mc time time over procedure time 0.9380453043940282
+Ratio of encoding time over procedure time 0.0
+Ratio of adding cons time over procedure time 0.0
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>
+

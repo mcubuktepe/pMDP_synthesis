@@ -1,0 +1,80 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/crowds/crowds.pm prism/crowds/crowds.prctl set-threshold 0.1 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below affine_scp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/crowds/crowds.pm
+prism/crowds/crowds.prctl
+set-threshold
+0.1
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+affine_scp
+{}
+Assume input is a Prism File
+Parsing P=? [F "observe0Greater1" ]
+Load model from prism file
+Load formula P=? [F "observe0Greater1" ] with respect to program.
+Build model
+Built a model with 104512 states and 246082 transitions
+Bisimulation yields model with 104512 states, 104512 actions and 246082 transitions
+Perform bisimulation
+Bisimulation yields model with 80 states, 80 actions and 120 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Solving...
+Gurobi reports: solved
+Solver time :0.0012023448944091797
+Found better value
+Init prob: 0.3945396792009796
+Best found: 0.3945396792009796
+Total time: 0.010010004043579102
+Solver time: 0.0014863014221191406
+Encoding time: 0.008523702621459961
+Max vio : 0.5943924522732731
+p =  0.09999999999994086
+Solving...
+Gurobi reports: solved
+Solver time :0.0009200572967529297
+Found better value
+Init prob: 1.2052209785728962e-09
+Best found: 1.2052209785728962e-09
+Total time: 0.014525890350341797
+Solver time: 0.0024063587188720703
+Encoding time: 0.012119531631469727
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Scp: 0.09999999999919382: Mc: 1.2052209785728962e-09
+iterations =1
+solver time=0.0024063587188720703
+encoding time=0.012119531631469727
+iterate time=0.0
+inner part = 0.003984689712524414s (0.24005265362292827)
+adding constraints = 0.003984689712524414s
+Qcqp: 0.09999999999919382: Mc: 1.2052209785728962e-09
+iterations =1
+solver time=0.0024063587188720703
+encoding time=0.012119531631469727
+iterate time=0.0
+inner part = 0.0009565353393554688s (0.24005265362292827)
+adding constraints = 0.003984689712524414s
+<prophesy.optimisation.affine_trust_region.AffineModelRepairTrustRegion object at 0x7f6ad5c30a58>
+0.003984689712524414
+Final result: 1.2052209785728962e-09 (approx. 1.2052209785728962e-09)
+This procedure took 1.7761969661712646s (from start: 1.7881925201416016s)
+Ratio of solver time over procedure time 0.001362452073558103
+Ratio of model building time time over procedure time 0.9744419757809396
+Ratio of mc time time over procedure time 0.0002799688497532454
+Ratio of encoding time over procedure time 0.00686193661499842
+Ratio of adding cons time over procedure time 0.0022560845640916057
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

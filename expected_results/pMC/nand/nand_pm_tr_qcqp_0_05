@@ -1,0 +1,55 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/nand/nand.pm prism/nand/nand.prctl set-threshold 0.05 find-feasible-instantiation --qcqp-incremental --qcqp-mc full below qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/nand/nand.pm
+prism/nand/nand.prctl
+set-threshold
+0.05
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+below
+qcqp
+{}
+Assume input is a Prism File
+Parsing P=? [F "target" ]
+Load model from prism file
+Load formula P=? [F "target" ] with respect to program.
+Build model
+Built a model with 8112 states and 11577 transitions
+Bisimulation yields model with 8112 states, 8112 actions and 11577 transitions
+Perform bisimulation
+Bisimulation yields model with 5447 states, 5447 actions and 7374 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Gurobi reports: solved
+Solver time :0.12439751625061035
+Init prob:  0.0308691359482598
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Qcqp: 0.0: Mc: 0.03086913594825902
+iterations =0
+solver time=0.12439751625061035
+encoding time=0.47760844230651855
+iterate time=0.0
+inner part = 0.07043600082397461s (0.4640689403840354)
+adding constraints = 0.0s
+
+Point found: {perr:8951498522150777/18014398509481984;prob1:9006918848523105/18014398509481984}: 0.03086913594825902 (approx. 0.03086913594825902)
+This procedure took 0.8527843952178955s (from start: 0.8589742183685303s)
+Ratio of solver time over procedure time 0.1458721770100231
+Ratio of model building time time over procedure time 0.2143335019180354
+Ratio of mc time time over procedure time 0.002507522707912046
+Ratio of encoding time over procedure time 0.5600576710652456
+Ratio of adding cons time over procedure time 0.1779807131272686
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>

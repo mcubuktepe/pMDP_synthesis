@@ -1,0 +1,65 @@
+(stormenv) gradandpostdoc@asg-a32253:~/murat/qcqp/pomdp/results/models$ python3 parameter_synthesis.py load-problem prism/consensus/coin4.pm prism/consensus/coin4.prctl set-threshold 0.9 find-feasible-instantiation --qcqp-incremental --qcqp-mc full above qcqp
+Loading configuration
+Loaded configuration
+parameter_synthesis.py
+load-problem
+prism/consensus/coin4.pm
+prism/consensus/coin4.prctl
+set-threshold
+0.9
+find-feasible-instantiation
+--qcqp-incremental
+--qcqp-mc
+full
+above
+qcqp
+{}
+Assume input is a Prism File
+Parsing Pmin=? [ F "finished" & "all_coins_equal_1" ]
+Load model from prism file
+Load formula Pmin=? [ F "finished" & "all_coins_equal_1" ] with respect to program.
+Build model
+Built a model with 22656 states and 75232 transitions
+Bisimulation yields model with 22656 states, 60544 actions and 75232 transitions
+Compute prob01 states
+Academic license - for non-commercial use only - expires 2021-07-20
+Academic license - for non-commercial use only - expires 2021-07-20
+Using license file /home/gradandpostdoc/gurobi.lic
+Using license file /home/gradandpostdoc/gurobi.lic
+Solving...
+Gurobi reports: solved
+Solver time :3.055605888366699
+Init prob:  0.7066511544326536
+Max vio : 0.3458860881703573
+p =  1.000000000519758
+Solving...
+Gurobi reports: solved
+Solver time :14.54521131515503
+Init prob:  0.8682231023354559
+Max vio : 0.07363406226496874
+p =  0.8263659948485798
+Solving...
+Gurobi reports: solved
+Solver time :12.628696203231812
+Init prob:  0.9189410638431155
+Sampling assumes (without any checks) that the point is welldefined
+Call stormpy for sampling
+Sampling with stormpy successfully finished
+Qcqp: 0.8948514424218544: Mc: 0.9189410638431155
+iterations =2
+solver time=30.22951340675354
+encoding time=4.763750314712524
+iterate time=0.0
+inner part = 0.873643159866333s (0.42186904568652983)
+adding constraints = 0.0s
+
+Point found: {p1:107551288574305/281474976710656;p2:6883281266659097/18014398509481984;p3:1720819489109197/4503599627370496;p4:6883281268331571/18014398509481984}: 0.9189410638431155 (approx. 0.9189410638431155)
+This procedure took 36.29035019874573s (from start: 36.29650592803955s)
+Ratio of solver time over procedure time 0.8329904021647698
+Ratio of model building time time over procedure time 0.014482819873427038
+Ratio of mc time time over procedure time 0.0035689254726809666
+Ratio of encoding time over procedure time 0.1312676865509325
+Ratio of adding cons time over procedure time 0.057064400796198685
+Stop solver (definitive: True)
+Removing handler <FileHandler /home/gradandpostdoc/murat/qcqp/pomdp/results/models/prophesy.log (NOTSET)>
+Removing handler <StreamHandler <stderr> (DEBUG)>
