@@ -23,4 +23,4 @@ The algorithm and log files denoting "affine" corresponds to our SCP approach.
 The algorithm and log files denoting "qcqp" corresponds to our CCP approach.
 The algorithm and log files denoting "pso" corresponds to the PSO approach.
 The algorithm and log files denoting "noncvx" corresponds to solving the QCQP directly with Gurobi.
-The algorithm and log files denoting "affine_scp" corresponds the algorithm S$$l^1$$QP approach.
+The algorithm and log files denoting "affine_scp" corresponds the algorithm S<img src="https://render.githubusercontent.com/render/math?math=l^1">QP approach.
